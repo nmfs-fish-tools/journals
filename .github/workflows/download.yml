@@ -10,7 +10,6 @@ on:
 
 jobs:
   sync-commit:
-    name: sync files and commit
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}

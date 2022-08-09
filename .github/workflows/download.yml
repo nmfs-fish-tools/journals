@@ -1,0 +1,51 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/master/examples
+
+name: sync math.utah.edu fishery-journals
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * 1"
+
+jobs:
+  mirror-website:
+    name: mirrors the website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Get list of .bib files
+        run: |
+          wget -O fishery-journals.txt http://www.math.utah.edu/~beebe/.fishery-journals/fishery-journals.txt
+          mv fishery-journals.txt inst/bib/fishery-journals.txt
+      - name: Fetch .bib files
+        run: for f in ` cat inst/bib/fish*txt `; do rsync -av rsync://ftp.math.utah.edu/bib/$f ./inst/bib/$f; done
+      - name: Get last commit msg
+        id: commit-msg
+        run: |
+          git tag
+          last_commit_msg=$(git log -1 --pretty=%B)
+          echo "::set-output name=msg::${last_commit_msg}"
+      - name: Create Pull Request
+        if: ${{ !contains(steps.commit-msg.outputs.msg, 'run')}}
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'Updates fishery-journals via GitHub action'
+          branch: download
+          title: 'Updates fishery-journals via GitHub action'
+          body: |
+           Auto-generated pull request via GitHub action download.yml.
+           * Please rebase and merge, then
+           * Delete the download branch.
+
+# Notes ----
+
+# List of exit codes for wget:
+# 0       No problems occurred
+# 1       Generic error code
+# 2       Parse error — for instance, when parsing command-line options, the .wgetrc or .netrc…
+# 3       File I/O error
+# 4       Network failure
+# 5       SSL verification failure
+# 6       Username/password authentication failure
+# 7       Protocol errors
+# 8       Server issued an error response

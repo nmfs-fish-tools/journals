@@ -1,0 +1,4088 @@
+%%% -*-BibTeX-*-
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Nelson H. F. Beebe",
+%%%     version         = "1.00",
+%%%     date            = "25 November 2021",
+%%%     time            = "11:36:14 MST",
+%%%     filename        = "jfishresboardcan1940.bib",
+%%%     address         = "University of Utah
+%%%                        Department of Mathematics, 110 LCB
+%%%                        155 S 1400 E RM 233
+%%%                        Salt Lake City, UT 84112-0090
+%%%                        USA",
+%%%     telephone       = "+1 801 581 5254",
+%%%     FAX             = "+1 801 581 4148",
+%%%     URL             = "http://www.math.utah.edu/~beebe",
+%%%     checksum        = "50250 4088 16299 163492",
+%%%     email           = "beebe at math.utah.edu, beebe at acm.org,
+%%%                        beebe at computer.org (Internet)",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "bibliography; BiBTeX; Journal of the
+%%%                        Fisheries Research Board of Canada = Journal
+%%%                        de l'Office des recherches sur les
+%%%                        p{\^e}cheries du Canada",
+%%%     license         = "public domain",
+%%%     supported       = "yes",
+%%%     docstring       = "This is a COMPLETE bibliography of the
+%%%                        Journal of the Fisheries Research Board of
+%%%                        Canada = Journal de l'Office des recherches
+%%%                        sur les p{\^e}cheries du Canada (CODEN JFRBAK
+%%%                        ISSN 0015-296X), published by Canadian Science
+%%%                        Publishing monthly in annual volumes.
+%%%
+%%%                        This file covers the decade 1940--1949.
+%%%                        Companion files with decade-year suffixes
+%%%                        cover other decades.
+%%%
+%%%                        Publication began with volume 4a, number 1,
+%%%                        in January 1938, as a continuation of the
+%%%                        earlier journals
+%%%
+%%%                            Contributions to Canadian Biology and
+%%%                            Fisheries (1901--1933)
+%%%
+%%%                            Journal of the Biological Board of Canada
+%%%                            (1934--1937)
+%%%
+%%%                        There is no coverage yet of the predecessor
+%%%                        journals in these archives.
+%%%
+%%%                        In 1980, the journal was renamed
+%%%
+%%%                            Canadian Journal of Fisheries and Aquatic
+%%%                            Sciences = Journal canadien des sciences
+%%%                            halieutiques et aquatiques
+%%%                            (1980--date)
+%%%
+%%%                        That journal is covered in decade-specific
+%%%                        companion files canjfishaquatsci1980.bib,
+%%%                        canjfishaquatsci1990.bib, ...,
+%%%                        canjfishaquatsci2020.bib.
+%%%
+%%%                        The journal family has a Web site at
+%%%
+%%%                            https://cdnsciencepub.com/journal/cjfas
+%%%
+%%%                        but, as of late 2021, there is no coverage
+%%%                        (yet) of journal family issues before 1938.
+%%%
+%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        looked like this:
+%%%
+%%%                             1940 (  19)    1944 (  12)    1948 (  16)
+%%%                             1941 (  22)    1945 (  12)    1949 (  16)
+%%%                             1942 (  21)    1946 (  13)
+%%%                             1943 (  12)    1947 (  15)
+%%%
+%%%                             Article:        158
+%%%
+%%%                             Total entries:  158
+%%%
+%%%                        Data for this bibliography have been largely
+%%%                        derived from the publisher Web sites, with
+%%%                        additions from the BibNet Project and TeX
+%%%                        User Group bibliography archives.
+%%%
+%%%                        Numerous errors in the sources noted above
+%%%                        have been corrected.   Spelling has been
+%%%                        verified with the UNIX spell and GNU ispell
+%%%                        programs using the exception dictionary
+%%%                        stored in the companion file with extension
+%%%                        .sok.
+%%%
+%%%                        BibTeX citation tags are uniformly chosen
+%%%                        as name:year:abbrev, where name is the
+%%%                        family name of the first author or editor,
+%%%                        year is a 4-digit number, and abbrev is a
+%%%                        3-letter condensation of important title
+%%%                        words. Citation tags were automatically
+%%%                        generated by software developed for the
+%%%                        BibNet Project.
+%%%
+%%%                        In this bibliography, entries are sorted in
+%%%                        publication order within each journal,
+%%%                        using bibsort -byvolume.
+%%%
+%%%                        The checksum field above contains a CRC-16
+%%%                        checksum as the first value, followed by the
+%%%                        equivalent of the standard UNIX wc (word
+%%%                        count) utility output of lines, words, and
+%%%                        characters.  This is produced by Robert
+%%%                        Solovay's checksum utility.",
+%%%  }
+%%% ====================================================================
+
+@Preamble{"\input bibnames.sty" #
+    "\hyphenation{ }" #
+    "\ifx \undefined \bioname      \def \bioname   #1{{{\em #1\/}}}     \fi" #
+    "\ifx \undefined \booktitle    \def \booktitle #1{{{\em #1}}}       \fi" #
+    "\ifx \undefined \circled      \def \circled   #1{(#1)}             \fi" #
+    "\ifx \undefined \degree       \def \degree      {$^o$}             \fi" #
+    "\ifx \undefined \emph         \def \emph      #1{{{\em #1\/}}}     \fi" #
+    "\ifx \undefined \Eth          \def \Eth         {D}                \fi" #
+    "\ifx \undefined \eth          \def \eth         {d}                \fi" #
+    "\ifx \undefined \flqq         \def \flqq        {\ifmmode \ll \else \leavevmode \raise 0.2ex \hbox{$\scriptscriptstyle \ll $}\fi}\fi" #
+    "\ifx \undefined \frqq         \def \frqq        {\ifmmode \gg \else \leavevmode \raise 0.2ex \hbox{$\scriptscriptstyle \gg $}\fi}\fi" #
+    "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
+    "\ifx \undefined \k            \let \k = \c                         \fi" #
+    "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
+    "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
+    "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
+    "\ifx \undefined \pkg          \def \pkg       #1{{{\tt #1}}}       \fi" #
+    "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
+    "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
+    "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+}
+
+%%% ====================================================================
+%%% Acknowledgement abbreviations:
+
+@String{ack-nhfb = "Nelson H. F. Beebe,
+                    University of Utah,
+                    Department of Mathematics, 110 LCB,
+                    155 S 1400 E RM 233,
+                    Salt Lake City, UT 84112-0090, USA,
+                    Tel: +1 801 581 5254,
+                    FAX: +1 801 581 4148,
+                    e-mail: \path|beebe@math.utah.edu|,
+                            \path|beebe@acm.org|,
+                            \path|beebe@computer.org|(Internet),
+                    URL: \path|http://www.math.utah.edu/~beebe/|"}
+
+%%% ====================================================================
+%%% Journal abbreviations:
+
+@String{j-J-FISH-RES-BOARD-CAN  = "Journal of the Fisheries Research Board of
+                                  Canada = Journal de l'Office des recherches
+                                  sur les p{\^e}cheries du Canada"}
+
+%%% ====================================================================
+%%% Bibliography entries, sorted in publication order with ``bibsort
+%%% --byvolume'':
+
+@Article{Anonymous:1940:O,
+  author =       "Anonymous",
+  title =        "{OBITUARY}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-001",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-001",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Duff:1940:OVB,
+  author =       "D. C. B. Duff and M. Isobel MacArthur and Helen G.
+                 Thompson",
+  title =        "Observations on the Viability of \bioname{Bacterium
+                 salmonicida}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "1--7",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-002",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-002",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Needler:1940:GYS,
+  author =       "A. W. H. Needler and A. B. Needler",
+  title =        "Growth of Young Shipworms (\bioname{Teredo navalis})
+                 in {Malpeque Bay}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "8--10",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-003",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-003",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Gwyn:1940:DVC,
+  author =       "Agnes M. Gwyn",
+  title =        "The Development of the Vertebral Column of the
+                 {Pacific} Herring (\bioname{Clupea pallasii})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "11--22",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-004",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-004",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Kerswill:1940:DPW,
+  author =       "C. J. Kerswill",
+  title =        "The Distribution of Pteropods in the Waters of
+                 {Eastern Canada} and {Newfoundland}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "23--31",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-005",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-005",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Beatty:1940:SFS,
+  author =       "S. A. Beatty and V. K. Collins",
+  title =        "Studies of Fish Spoilage: {VII}. {Dimethylamine}
+                 Production in the Spoilage of Cod Muscle Press Juice",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "32--35",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-006",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-006",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1940:EIC,
+  author =       "H. L. A. Tarr and P. A. Sunderland",
+  title =        "Effectiveness of Ice containing Sodium Nitrite for
+                 Fish Preservation",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "36--42",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-007",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-007",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Ricker:1940:RCP,
+  author =       "W. E. Ricker",
+  title =        "Relation of ``{Catch per Unit Effort}'' to Abundance
+                 and Rate of Exploitation",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "43--70",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-008",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-008",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+  keywords =     "cpue (catch per unit effort)",
+}
+
+@Article{Templeman:1940:EDR,
+  author =       "W. Templeman",
+  title =        "Embryonic Developmental Rates and Egg-Laying of
+                 {Canadian} Lobsters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "71--83",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-009",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-009",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Smith:1940:FLD,
+  author =       "G. F. M. Smith",
+  title =        "Factors Limiting Distribution and Size in the
+                 Starfish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "1",
+  pages =        "84--103",
+  month =        jan,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-010",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-010",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{McKenzie:1940:NSA,
+  author =       "R. A. McKenzie",
+  title =        "{Nova Scotian} Autumn Cod Spawning",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "105--120",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-011",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-011",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Nadeau:1940:PFI,
+  author =       "Aristide Nadeau",
+  title =        "Le Poisson Frais: {II}. {Le} R{\^o}le du {pH} sur le
+                 D{\'e}veloppement des Bact{\'e}ries. ({French})
+                 [{Fresh} Fish: {II}. {The} Role of {pH} on the
+                 Development of Bacteria]",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "121--130",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-012",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-012",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+  language =     "French",
+}
+
+@Article{McHugh:1940:FRM,
+  author =       "J. L. McHugh",
+  title =        "Food of the {Rocky Mountain} Whitefish
+                 \bioname{Prosopium williamsoni} ({Girard})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "131--137",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-013",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-013",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Smith:1940:PNC,
+  author =       "M. W. Smith",
+  title =        "Periodicity in the Numbers of the Cladoceran
+                 \bioname{Scapholeberis mucronala}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "138--147",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-014",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-014",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1940:CVP,
+  author =       "H. L. A. Tarr and P. A. Sunderland",
+  title =        "The Comparative Value of Preservatives for Fresh
+                 Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "148--163",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-015",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-015",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Rogers:1940:ORP,
+  author =       "Harold M. Rogers",
+  title =        "Occurrence and Retention of Plankton Within the
+                 Estuary",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "164--171",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-016",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-016",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{White:1940:SLL,
+  author =       "H. C. White",
+  title =        "``{Sea} Lice'' (\bioname{Lepeophtheirus}) and Death of
+                 Salmon",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "172--175",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-017",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-017",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{White:1940:LHS,
+  author =       "H. C. White",
+  title =        "Life History of Sea-Running Brook Trout
+                 (\bioname{Salvelinus fontinalis}) of {Moser River,
+                 N.S.}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "176--186",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-018",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-018",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1940:ST,
+  author =       "H. L. A. Tarr",
+  title =        "Specificity of Triamineoxidease",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5a",
+  number =       "2",
+  pages =        "187--196",
+  month =        feb,
+  year =         "1940",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-019",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:23 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-019",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Collins:1941:SFSa,
+  author =       "V. K. Collins",
+  title =        "Studies of Fish Spoilage: {VIII}. {Volatile} Acid of
+                 Cod Muscle Press Juice",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "197--202",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-020",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-020",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Collins:1941:SFSb,
+  author =       "V. K. Collins and C. C. Kuchel and S. A. Beatty",
+  title =        "Studies of Fish Spoilage: {IX}. {Changes} in Buffering
+                 Capacity of Cod Muscle Press Juice",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "203--210",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-021",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-021",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1941:FTO,
+  author =       "H. L. A. Tarr",
+  title =        "The Fate of Trimethylamine Oxide and Trimethylamine in
+                 Man",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "211--216",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-022",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-022",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Johnston:1941:TEC,
+  author =       "W. W. Johnston",
+  title =        "Tryptic Enzymes from Certain Commercial Fishes",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "217--226",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-023",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-023",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1941:CAB,
+  author =       "A. G. Huntsman",
+  title =        "Cyclical Abundance and Birds versus Salmon",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "227--235",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-024",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-024",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Needler:1941:TSU,
+  author =       "A. W. H. Needler",
+  title =        "Temperatures and Salinities under the Ice in a Shallow
+                 Inlet",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "236--243",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-025",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-025",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1941:ISN,
+  author =       "H. L. A. Tarr and P. A. Sunderland",
+  title =        "Ices with Sodium Nitrite and Sodium Acid Phosphate for
+                 Fish Preservation",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "244--248",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-026",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-026",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Frank:1941:SSFa,
+  author =       "M. Frank and E. Hess",
+  title =        "Studies on Salt Fish: {IV}. {Survival} of
+                 \bioname{Eberthella typhosa} and \bioname{Escherichia
+                 coli} on Salt Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "249--252",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-027",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-027",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Medcof:1941:ITS,
+  author =       "J. C. Medcof and A. W. H. Needler",
+  title =        "The Influence of Temperature and Salinity on the
+                 Condition of Oysters (\bioname{Ostrea virginica})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "253--257",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-028",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-028",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{White:1941:MBS,
+  author =       "H. C. White",
+  title =        "Migrating Behaviour of Sea-Running \bioname{Salvelinus
+                 fontinalis}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "258--264",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-029",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-029",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1941:ANB,
+  author =       "H. L. A. Tarr",
+  title =        "The Action of Nitrites on Bacteria",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "265--275",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-030",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-030",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Frank:1941:SSFb,
+  author =       "M. Frank and E. Hess",
+  title =        "Studies on Salt Fish: {V}. {Studies} on
+                 \bioname{Sporendonema epizoum} from {``Dun''} Salt
+                 Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "276--286",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-031",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-031",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Frank:1941:SSFc,
+  author =       "M. Frank and E. Hess",
+  title =        "Studies on Salt Fish: {VI}. {Halophilic} Brown Molds
+                 of the Genus \bioname{Sporendonema {\rm emend}. Ciferri
+                 et Redaelli}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "287--292",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-032",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-032",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Ricker:1941:CYS,
+  author =       "W. E. Ricker",
+  title =        "The Consumption of Young Sockeye Salmon by Predaceous
+                 Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "3",
+  pages =        "293--313",
+  month =        mar,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-033",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-033",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Foerster:1941:ERP,
+  author =       "R. E. Foerster and W. E. Ricker",
+  title =        "The Effect of reduction of Predaceous Fish on survival
+                 of young Sockeye Salmon at {Cultus Lake}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "315--336",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-034",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-034",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{McHugh:1941:GRM,
+  author =       "T. L. McHugh",
+  title =        "Growth of the {Rocky Mountain} Whitefish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "337--343",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-035",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-035",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Pugsley:1941:NVM,
+  author =       "L. I. Pugsley",
+  title =        "The Nutritive Value of Marine Products: {XV}.
+                 {Proximate} Analyses of Canned {British Columbia}
+                 Crabs, Shrimps and Clams",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "344--346",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-036",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-036",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{McHugh:1941:VVC,
+  author =       "J. L. McHugh",
+  title =        "Variation of Vertebral Centra in Young {Pacific}
+                 Herring (\bioname{Clupea pallasii})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "347--360",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-037",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-037",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Needler:1941:SRI,
+  author =       "Alfreda Berkeley Needler",
+  title =        "Sex Reversal In Individual Oysters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "361--364",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-038",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-038",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Johnson:1941:ELC,
+  author =       "W. H. Johnson",
+  title =        "Effect of Light on Copepods as Food for
+                 {Passamaquoddy} Herring",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "365--376",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-039",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-039",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hachey:1941:WSS,
+  author =       "H. B. Hachey",
+  title =        "The Waters of the {Scotian Shelf}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "377--397",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-040",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-040",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tully:1941:SNT,
+  author =       "John P. Tully",
+  title =        "Surface non-tidal currents in the approaches to {Juan
+                 de Fuca Strait}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5b",
+  number =       "4",
+  pages =        "398--409",
+  month =        apr,
+  year =         "1941",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-041",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:24 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-041",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1942:EPN,
+  author =       "H. L. A. Tarr",
+  title =        "Effect of {pH} and {NaCl} on Swelling and Drip in Fish
+                 Muscle",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "411--427",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-042",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-042",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Pugsley:1942:VDP,
+  author =       "L. I. Pugsley",
+  title =        "Vitamin {A} and {D} Potencies of Oil from Body, Liver
+                 and Intestines of Pilchard, Herring, Salmon and
+                 Tullibee",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "428--437",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-043",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-043",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hess:1942:SSFa,
+  author =       "Ernest Hess",
+  title =        "Studies on Salt Fish: {VII}. {Red} Halophilic Bacteria
+                 in Seawater and Fish Slime and Intestines",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "438--439",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-044",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-044",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Blair:1942:RSA,
+  author =       "A. A. Blair",
+  title =        "Regeneration of the Scales of {Atlantic} Salmon",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "440--447",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-045",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-045",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Idyll:1942:FRC,
+  author =       "Clarence Idyll",
+  title =        "Food of Rainbow, Cutthroat and Brown Trout in the
+                 {Cowichan River System, B.C.}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "448--458",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-046",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-046",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Giltay:1942:NRP,
+  author =       "Louis Giltay",
+  title =        "New Records of Pycnogonida from the {Canadian Atlantic
+                 Coast}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "459--460",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-047",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-047",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Elson:1942:ETA,
+  author =       "Paul F. Elson",
+  title =        "Effect of Temperature on Activity of
+                 \bioname{Salvelinus fontinalis}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "461--470",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-048",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-048",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{White:1942:SLB,
+  author =       "H. C. White",
+  title =        "Sea Life of the Brook Trout (\bioname{Salvelinus
+                 fontinalis})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "471--473",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-049",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-049",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{McHugh:1942:VNY,
+  author =       "J. L. McHugh",
+  title =        "Vertebral Number of Young Herring in {Southern British
+                 Columbia}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "474--484",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-050",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-050",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1942:DST,
+  author =       "A. G. Huntsman",
+  title =        "Death of Salmon and Trout with High Temperature",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "5c",
+  number =       "5",
+  pages =        "485--501",
+  month =        may,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f40-051",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f40-051",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hess:1942:SSFb,
+  author =       "Ernest Hess",
+  title =        "Studies on Salt Fish: {VIII}. {Effects} of Various
+                 Salts on Preservation",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "1--9",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-001",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-001",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hess:1942:SSFc,
+  author =       "Ernest Hess",
+  title =        "Studies on Salt Fish: {IX}. {Effect} of Environment
+                 upon Growth of Red Halophilic Bacteria",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "10--16",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-002",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-002",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hess:1942:SSFd,
+  author =       "Ernest Hess and N. E. Gibbons",
+  title =        "Studies on Salt Fish: {X}. {Effect} of Disinfectants
+                 and Preservatives on Red Halophilic Bacteria",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "17--23",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-003",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-003",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{White:1942:LHL,
+  author =       "H. C. White",
+  title =        "Life History of \bioname{Lepeophtheirus salmonis}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "24--29",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-004",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-004",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hubbs:1942:PVA,
+  author =       "Carl L. Hubbs",
+  title =        "Peculiar Variants of the Agonid Fish
+                 \bioname{Odontopyxis trispinosus}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "30--36",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-005",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-005",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{White:1942:ASR,
+  author =       "H. C. White",
+  title =        "{Atlantic} Salmon Redds and Artificial Spawning Beds",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "37--44",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-006",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-006",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Sigurdsson:1942:GMB,
+  author =       "G. J. Sigurdsson and A. J. Wood",
+  title =        "Glucose Metabolism of Bacteria from Commercial Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "45--52",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-007",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-007",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Wood:1942:SCM,
+  author =       "A. J. Wood and G. J. Sigurdsson and W. J. Dyer",
+  title =        "The Surface Concept in Measurement of Fish Spoilage",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "53--62",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-008",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-008",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1942:ESN,
+  author =       "H. L. A. Tarr and N. M. Carter",
+  title =        "The Effect of Sodium Nitrite on Experimental Animals",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "63--73",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-009",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-009",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1942:ANB,
+  author =       "H. L. A. Tarr",
+  title =        "The Action of Nitrites on Bacteria: Further
+                 Experiments",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "74--89",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-010",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-010",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hoar:1942:DVF,
+  author =       "William S. Hoar",
+  title =        "Diurnal Variations in Feeding Activity of Young Salmon
+                 and Trout",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6a",
+  number =       "1",
+  pages =        "90--101",
+  month =        jan,
+  year =         "1942",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-011",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:25 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-011",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Bailey:1943:RAF,
+  author =       "B. E. Bailey",
+  title =        "Relative Activities of Free and Esterified Vitamin
+                 {D}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "103--108",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-012",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-012",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Bailey:1943:FOI,
+  author =       "B. E. Bailey",
+  title =        "Fish Oils: {IX}. {Certain} Fish Oils as Sources of
+                 Nutritionally Essential Fatty Acids",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "109--112",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-013",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-013",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Swain:1943:AVF,
+  author =       "Lyle A. Swain",
+  title =        "The Adsorption of Vitamin {A} from Fish Liver Oils",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "113--118",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-014",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-014",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1943:RFB,
+  author =       "H. L. A. Tarr",
+  title =        "Rise and Fall of Bacterial Populations in Fish
+                 Muscle",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "119--128",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-015",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-015",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Berkeley:1943:BOC,
+  author =       "E. Berkeley and C. Berkeley",
+  title =        "Biological and Oceanographical Conditions in {Hudson
+                 Bay}: 11. {Polychaeta} from {Hudson Bay}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "129--132",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-016",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-016",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Idyll:1943:BFP,
+  author =       "Clarence Purvis Idyll",
+  title =        "Bottom Fauna of Portions of the {Cowichan River,
+                 B.C.}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "133--139",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-017",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-017",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Quayle:1943:SGD,
+  author =       "D. B. Quayle",
+  title =        "Sex, Gonad Development and Seasonal Gonad Changes in
+                 \bioname{Paphia staminea} {Conrad}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "140--151",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-018",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-018",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hollett:1943:RBM,
+  author =       "Andrew Hollett",
+  title =        "Relation Between Moult Cycle and Phosphorus Content of
+                 Blood and Muscle in Lobster",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "152--157",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-019",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-019",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Neave:1943:DFU,
+  author =       "Ferris Neave",
+  title =        "Diurnal Fluctuations in the Upstream Migration of
+                 {Coho} and Spring Salmon",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "158--163",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-020",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-020",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hart:1943:TEB,
+  author =       "John Lawson Hart",
+  title =        "Tagging Experiments on {British Columbia} Pilchards",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "164--182",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-021",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-021",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hollett:1943:MAP,
+  author =       "Andrew Hollett",
+  title =        "Magnesium-Ammonium-Phosphate Crystal Formation in
+                 Canned Lobster",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "183--193",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-022",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-022",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Wood:1943:RTO,
+  author =       "A. J. Wood and Elizabeth A. Baird",
+  title =        "Reduction of Trimethylamine Oxide by Bacteria: 1.
+                 {The} {Enterobacteriaceae}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6b",
+  number =       "2",
+  pages =        "194--201",
+  month =        feb,
+  year =         "1943",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-023",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-023",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Anonymous:1944:O,
+  author =       "Anonymous",
+  title =        "Obituaries",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "203--208",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-024",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-024",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Medcof:1944:SDQ,
+  author =       "J. C. Medcof",
+  title =        "Structure, Deposition and Quality of Oyster Shell
+                 (\bioname{Ostrea virginica} {Gmelin})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "209--216",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-025",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-025",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Pritchard:1944:PCB,
+  author =       "A. L. Pritchard",
+  title =        "Physical Characteristics and Behaviour of Pink Salmon
+                 Fry at {McClinton Creek, B.C.}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "217--227",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-026",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-026",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Templeman:1944:SDL,
+  author =       "Wilfred Templeman",
+  title =        "Sexual Dimorphism in the Lobster (\bioname{Homarus
+                 americanus})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "228--232",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-027",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-027",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1944:ANN,
+  author =       "H. L. A. Tarr",
+  title =        "Action of Nitrates and Nitrites on Bacteria",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "233--242",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-028",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-028",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Baird:1944:RTO,
+  author =       "Elizabeth A. Baird and A. J. Wood",
+  title =        "Reduction of Trimethylamine Oxide by Bacteria:2. {The}
+                 Micrococcaceae",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "243--244",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-029",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-029",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Neave:1944:RCM,
+  author =       "Ferris Neave",
+  title =        "Racial Characteristics and Migratory Habits in
+                 \bioname{Salmo gairdneri}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "245--251",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-030",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-030",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Battle:1944:EDS,
+  author =       "Helen I. Battle",
+  title =        "Effects of Dropping on the Subsequent Hatching of
+                 Teleostean Ova",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "252--256",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-031",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-031",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1944:CIG,
+  author =       "H. L. A. Tarr",
+  title =        "Chemical Inhibition of Growth of Fish Spoilage
+                 Bacteria",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "257--266",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-032",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-032",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Foerster:1944:RLP,
+  author =       "R. E. Foerster",
+  title =        "The Relation of Lake Population Density to Size of
+                 Young Sockeye Salmon (\bioname{Oncorhynchus nerka})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "267--280",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-033",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-033",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Templeman:1944:AWS,
+  author =       "Wilfred Templeman",
+  title =        "Abdominal Width and Sexual Maturity of Female Lobsters
+                 on {Canadian Atlantic Coast}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "281--290",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-034",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-034",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Smith:1944:CL,
+  author =       "G. F. M. Smith",
+  title =        "The Catchability of Lobsters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6c",
+  number =       "3",
+  pages =        "291--301",
+  month =        mar,
+  year =         "1944",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-035",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:26 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-035",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1945:WMV,
+  author =       "H. L. A. Tarr",
+  title =        "Water, Microorganisms and Volatile Bases in Dehydrated
+                 Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "4",
+  pages =        "303--310",
+  month =        mar,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-036",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-036",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1945:VSM,
+  author =       "A. G. Huntsman",
+  title =        "Variable Seaward Migration of Salmon",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "4",
+  pages =        "311--325",
+  month =        mar,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-037",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-037",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Swain:1945:GYD,
+  author =       "Lyle A. Swain and B. H. Morton",
+  title =        "Glycerol Yield from Dogfish Liver Oil",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "4",
+  pages =        "326--333",
+  month =        mar,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-038",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-038",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Miller:1945:ETG,
+  author =       "Richard B. Miller",
+  title =        "Effect of \bioname{Triaenophorus} on Growth of two
+                 Fishes",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "4",
+  pages =        "334--337",
+  month =        mar,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-039",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-039",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Linton:1945:FAD,
+  author =       "E. P. Linton and H. V. French",
+  title =        "Factors Affecting Deposition of Smoke Constituents on
+                 Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "4",
+  pages =        "338--348",
+  month =        mar,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-040",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-040",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1945:BAH,
+  author =       "H. L. A. Tarr",
+  title =        "Bacteriostatic Action of Hydroxylamine",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "4",
+  pages =        "349--350",
+  month =        mar,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-041",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-041",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1945:AFMa,
+  author =       "W. J. Dyer",
+  title =        "Amines in Fish Muscle: {I}. {Colorimetric}
+                 Determination of Trimethylamine as the Picrate Salt",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "5",
+  pages =        "351--358",
+  month =        may,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-042",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-042",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1945:AFMb,
+  author =       "W. J. Dyer and Yvonne A. Mounsey",
+  title =        "Amines in Fish Muscle: {II}. {Development} of
+                 Trimethylamine and Other Amines",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "5",
+  pages =        "359--367",
+  month =        may,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-043",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-043",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Neilands:1945:FAT,
+  author =       "J. B. Neilands",
+  title =        "Factors Affecting Triamineoxidease: {I}. {Inhibition}
+                 of the Enzyme",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "5",
+  pages =        "368--379",
+  month =        may,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-044",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-044",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Linton:1945:DHS,
+  author =       "E. P. Linton and A. L. Wood",
+  title =        "Drying of Heavily Salted Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "5",
+  pages =        "380--391",
+  month =        may,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-045",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-045",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Pritchard:1945:CGR,
+  author =       "A. L. Pritchard",
+  title =        "Counts of Gill Rakers and Pyloric Caeca in Pink
+                 Salmon",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "5",
+  pages =        "392--398",
+  month =        may,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-046",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-046",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1945:MSP,
+  author =       "A. G. Huntsman",
+  title =        "Migration of Salmon {Parr}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6d",
+  number =       "5",
+  pages =        "399--402",
+  month =        may,
+  year =         "1945",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-047",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:27 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-047",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1946:AFM,
+  author =       "W. J. Dyer and F. E. Dyer and M. Snow",
+  title =        "Amines in Fish Muscle: {III}. {Spoilage} of Iced
+                 Eviscerated Cod",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "6",
+  pages =        "403--413",
+  month =        jun,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-048",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-048",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1946:CND,
+  author =       "W. J. Dyer",
+  title =        "Colorimetric Nitrite Determination",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "6",
+  pages =        "414--418",
+  month =        jun,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-049",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-049",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dunbar:1946:TLB,
+  author =       "M. J. Dunbar",
+  title =        "On \bioname{Themisto libellula} in {Baffin Island}
+                 Coastal Waters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "6",
+  pages =        "419--434",
+  month =        jun,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-050",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-050",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Kelley:1946:EAC,
+  author =       "Alice M. Kelley",
+  title =        "Effect of Abnormal {CO$_2$} Tension on Development of
+                 Herring Eggs",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "6",
+  pages =        "435--440",
+  month =        jun,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-051",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-051",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Fougere:1946:LPG,
+  author =       "Henri Foug{\`e}re",
+  title =        "L'Iodate de Potassium et le Glucose Comme Agents
+                 Inhibiteurs de la D{\'e}composition du Poisson.
+                 ({French}) [{Potassium} Iodate and Glucose As Fish
+                 Breakdown Inhibiting Agents]",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "6",
+  pages =        "441--448",
+  month =        jun,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-052",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-052",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+  language =     "French",
+}
+
+@Article{Medcof:1946:ERT,
+  author =       "J. C. Medcof",
+  title =        "Effect of Relaying and Transferring on Fatness of
+                 Oysters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "6",
+  pages =        "449--455",
+  month =        jun,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-053",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-053",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Anonymous:1946:O,
+  author =       "Anonymous",
+  title =        "{OBITUARY}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "457--459",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-054",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-054",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dunbar:1946:SWG,
+  author =       "M. J. Dunbar",
+  title =        "The State of the {West Greenland Current} up to 1944",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "460--471",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-055",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-055",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Baillie:1946:PBF,
+  author =       "W. H. T. Baillie",
+  title =        "Polychaeta from the {Bay of Fundy} 1911--1912",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "472--475",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-056",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-056",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1946:HSC,
+  author =       "A. G. Huntsman",
+  title =        "Heat Stroke in {Canadian Maritime} Stream Fishes",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "476--482",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-057",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-057",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Foerster:1946:RDS,
+  author =       "R. E. Foerster",
+  title =        "Restocking Depleted Sockeye Salmon Areas by Transfer
+                 of Eggs",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "483--490",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-058",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-058",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1946:ETO,
+  author =       "Chas. H. Castell",
+  title =        "Effect of Trimethylamine Oxide on the Growth of
+                 Bacteria",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "491--497",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-059",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-059",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Medcof:1946:MBW,
+  author =       "J. C. Medcof",
+  title =        "The Mud-Blister Worm, Polydora, in {Canadian}
+                 Oysters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "6e",
+  number =       "7",
+  pages =        "498--505",
+  month =        jul,
+  year =         "1946",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f42-060",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f42-060",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hachey:1947:WTC,
+  author =       "H. B. Hachey",
+  title =        "Water Transports and Current Patterns for the {Scotian
+                 Shelf}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "1",
+  pages =        "1--16",
+  month =        jan,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-001",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-001",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1947:AEC,
+  author =       "Frances E. Dyer and A. J. Wood",
+  title =        "Action of {Enterobacteriaceae} on Choline and Related
+                 Compounds",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "1",
+  pages =        "17--21",
+  month =        jan,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-002",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-002",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Smith:1947:FKW,
+  author =       "M. W. Smith",
+  title =        "Food of Killifish and White Perch in Relation to
+                 Supply",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "1",
+  pages =        "22--34",
+  month =        jan,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-003",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-003",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Beveridge:1947:NVMa,
+  author =       "J. M. R. Beveridge",
+  title =        "The Nutritive Value of Marine Products: {XVI}. {The}
+                 Biological Value of Fish Flesh Proteins",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "1",
+  pages =        "35--49",
+  month =        jan,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-004",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:28 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-004",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Beveridge:1947:SDF,
+  author =       "J. M. R. Beveridge",
+  title =        "Sulphur Distribution in Fish Flesh Proteins",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "51--54",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-005",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-005",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1947:SES,
+  author =       "C. H. Castell and D. G. Ellis and G. W. Anderson",
+  title =        "Silver Electrodes for Sterilizing Sea-water",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "55--61",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-006",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-006",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1947:GCS,
+  author =       "Chas. H. Castell",
+  title =        "Growth of \bioname{Clostridium} in Seaweeds and Marine
+                 Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "62--69",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-007",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-007",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1947:ESS,
+  author =       "C. H. Castell and G. W. Anderson",
+  title =        "Effect of Salting and Smoking on Survival and Growth
+                 of \bioname{Clostridium} in Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "70--73",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-008",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-008",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Beveridge:1947:NVMb,
+  author =       "J. M. R. Beveridge",
+  title =        "The Nutritive Value of Marine Products: {XVII}.
+                 {Value} of {B}-Vitamins in Fish Flesh for Growth of
+                 Young Rats",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "74--87",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-009",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-009",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Foerster:1947:EDS,
+  author =       "R. E. Foerster",
+  title =        "Experiment to Develop sea-run from land-locked Sockeye
+                 Salmon (\bioname{Oncorhynchus nerka kennerlyi})",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "88--93",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-010",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-010",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Neilands:1947:TAA,
+  author =       "J. B. Neilands",
+  title =        "Thiaminase in Aquatic Animals of {Nova Scotia}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "2",
+  pages =        "94--99",
+  month =        feb,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-011",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-011",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1947:CDC,
+  author =       "H. L. A. Tarr",
+  title =        "Chemical Disinfection and Corrosion Prevention",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "3",
+  pages =        "101--115",
+  month =        mar,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-012",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-012",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Hollett:1947:ECC,
+  author =       "Andrew Hollett",
+  title =        "Estimation of Corrosion in Canned Herring",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "3",
+  pages =        "116--127",
+  month =        mar,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-013",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-013",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1947:MAC,
+  author =       "Frances E. Dyer",
+  title =        "Microorganisms From {Atlantic} Cod",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "3",
+  pages =        "128--136",
+  month =        mar,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-014",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-014",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1947:CRF,
+  author =       "H. L. A. Tarr",
+  title =        "Control of Rancidity in Fish Flesh: {I}. {Chemical}
+                 Antioxidants",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7a",
+  number =       "3",
+  pages =        "137--154",
+  month =        mar,
+  year =         "1947",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-015",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:29 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-015",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1948:CVG,
+  author =       "H. L. A. Tarr",
+  title =        "Comparative Value of Germicidal Ices for Fish
+                 Preservation",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "4",
+  pages =        "155--161",
+  month =        apr,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-016",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-016",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1948:DMN,
+  author =       "C. H. Castell",
+  title =        "Differentiation of Marine and Non-Marine Cultures of
+                 {Pseudomonas}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "4",
+  pages =        "162--168",
+  month =        apr,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-017",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-017",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Fry:1948:CSG,
+  author =       "F. E. J. Fry and J. S. Hart",
+  title =        "Cruising Speed of Goldfish in Relation to Water
+                 Temperature",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "4",
+  pages =        "169--175",
+  month =        apr,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-018",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-018",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Miller:1948:OLT,
+  author =       "R. B. Miller and W. A. Kennedy",
+  title =        "Observations on the Lake Trout of {Great Bear Lake}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "4",
+  pages =        "176--189",
+  month =        apr,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-019",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-019",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Miller:1948:PEL,
+  author =       "R. B. Miller and W. A. Kennedy",
+  title =        "Pike (\bioname{Esox lucius}) from Four {Northern
+                 Canadian} Lakes",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "4",
+  pages =        "190--199",
+  month =        apr,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-020",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-020",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Fougere:1948:SAD,
+  author =       "H. Foug{\`e}re",
+  title =        "Le S{\'e}chage Artificiel du Capelan Frais. ({French})
+                 [{The} Artificial Drying of Fresh Capelin]",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "4",
+  pages =        "200--211",
+  month =        apr,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-021",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-021",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+  language =     "French",
+}
+
+@Article{Medcof:1948:SCS,
+  author =       "J. C. Medcof",
+  title =        "A Snail Commensal with the Soft-shell Clam",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "5",
+  pages =        "219--220",
+  month =        may,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-022",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-022",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1948:ASC,
+  author =       "H. L. A. Tarr and Catherine P. Deas",
+  title =        "Action of Sulpha Compounds, Antibiotics and Nitrite on
+                 Growth of Bacteria in Fish Flesh",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "5",
+  pages =        "221--223",
+  month =        may,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-023",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-023",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Pritchard:1948:ENP,
+  author =       "A. L. Pritchard",
+  title =        "Efficiency of Natural Propagation of the Pink Salmon
+                 (\bioname{Oncorhynchus gorbuscha}) in {McClinton Creek,
+                 Masset Inlet, B.C.}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "5",
+  pages =        "224--236",
+  month =        may,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-024",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-024",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1948:CRF,
+  author =       "H. L. A. Tarr",
+  title =        "Control of Rancidity in Fish Flesh: {II}. {Physical}
+                 and Chemical Methods",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "5",
+  pages =        "237--247",
+  month =        may,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-025",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-025",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1948:FFS,
+  author =       "A. G. Huntsman",
+  title =        "Fertility and Fertilization of Streams",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "5",
+  pages =        "248--253",
+  month =        may,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-026",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:30 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-026",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+%%% Check:  Page gap at publisher site: v7bn5/v7bn6 pp 254--354
+
+@Article{Hachey:1948:TCS,
+  author =       "H. B. Hachey and H. J. McLellan",
+  title =        "Trends and Cycles in Surface Temperatures of the
+                 {Canadian Atlantic}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "6",
+  pages =        "355--362",
+  month =        jun,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-027",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-027",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Huntsman:1948:OBL,
+  author =       "A. G. Huntsman",
+  title =        "\bioname{Odontosyllis} at {Bermuda} and Lunar
+                 Periodicity",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "6",
+  pages =        "363--369",
+  month =        jun,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-028",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-028",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1948:BAS,
+  author =       "C. H. Castell and G. W. Anderson",
+  title =        "Bacteria Associated with Spoilage of Cod Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "6",
+  pages =        "370--377",
+  month =        jun,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-029",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-029",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1948:RBC,
+  author =       "C. H. Castell and G. W. Anderson and Hilliard
+                 Pivnick",
+  title =        "Relation of Bacterial Counts to Quality of Cod
+                 Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "6",
+  pages =        "378--388",
+  month =        jun,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-030",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-030",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Swain:1948:CAU,
+  author =       "Lyle A. Swain",
+  title =        "Chromatographic Analysis of the Unsaponifiable Matter
+                 of Marine Animal Oils",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7b",
+  number =       "6",
+  pages =        "389--402",
+  month =        jun,
+  year =         "1948",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-031",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-031",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tester:1949:PHA,
+  author =       "Albert L. Tester",
+  title =        "Populations of Herring along the {West Coast of
+                 Vancouver Island} on the Basis of Mean Vertebral
+                 Number, with a Critique of the Method",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "7",
+  pages =        "403--420",
+  month =        jul,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-032",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-032",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1949:ENR,
+  author =       "C. H. Castell",
+  title =        "Effect of Nitrite on Reduction of Trimethylamine Oxide
+                 in Cod Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "7",
+  pages =        "421--429",
+  month =        jul,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-033",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-033",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1949:PPC,
+  author =       "C. H. Castell and J. F. Richards and Isobel Wilmot",
+  title =        "\bioname{Pseudomonas putrefaciens} from Cod Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "7",
+  pages =        "430--431",
+  month =        jul,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-034",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-034",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Davidson:1949:SEM,
+  author =       "Viola M. Davidson",
+  title =        "Salmon and Eel Movement in Constant Circular Current",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "7",
+  pages =        "432--448",
+  month =        jul,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-035",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:31 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-035",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1949:CPC,
+  author =       "F. E. Dyer and W. J. Dyer",
+  title =        "Changes in the Palatability of Cod Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "8",
+  pages =        "449--460",
+  month =        aug,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-036",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-036",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1949:BRS,
+  author =       "W. J. Dyer",
+  title =        "Bacterial Reduction of Sodium Nitrite and Formation of
+                 Trimethylamine in Fish",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "8",
+  pages =        "461--470",
+  month =        aug,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-037",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-037",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dugal:1949:EPL,
+  author =       "L.-C. Dugal and A. Cardin",
+  title =        "{{\'E}}tude sur la Purification de l'Huile de
+                 Loup-Marin. ({French}) [{Study} on the Purification of
+                 Seal Oil]",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "8",
+  pages =        "471--489",
+  month =        aug,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-038",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-038",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+  language =     "French",
+}
+
+@Article{Needler:1949:PSP,
+  author =       "Alfreda Berkeley Needler",
+  title =        "Paralytic Shellfish Poisoning and \bioname{Goniaulax
+                 tamarensis}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "8",
+  pages =        "490--504",
+  month =        aug,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-039",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-039",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{PhD:1949:OSC,
+  author =       "E. Kuitunen-Ekbaum Ph.D.",
+  title =        "The Occurrence of Sarcotaces in {Canada}",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "505--512",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-040",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-040",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Deas:1949:AAC,
+  author =       "Catherine P. Deas and H. L. A. Tarr",
+  title =        "Amino Acid Composition of Fishery Products",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "513--521",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-041",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-041",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1949:CRF,
+  author =       "H. L. A. Tarr and N. E. Cooke",
+  title =        "Control of Rancidity in Fish Flesh: {III}. {Carbonyl}
+                 Enediols as Antioxidants",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "522--527",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-042",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-042",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1949:NRB,
+  author =       "C. H. Castell",
+  title =        "Nitrite-Reducing Bacteria on Cod Fillets",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "528--535",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-043",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-043",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Dyer:1949:FSB,
+  author =       "W. J. Dyer and C. H. Castell",
+  title =        "Further Studies on the Bacteriological Reduction of
+                 Nitrite in Fish During Spoilage",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "536--544",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-044",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-044",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Kerswill:1949:EWC,
+  author =       "C. J. Kerswill",
+  title =        "Effects of Water Circulation on the Growth of Quahaugs
+                 and Oysters",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "545--551",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-045",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-045",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Tarr:1949:BPF,
+  author =       "H. L. A. Tarr and Catherine P. Deas",
+  title =        "Bacteriological Peptones from Fish Flesh",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "552--560",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-046",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-046",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}
+
+@Article{Castell:1949:EPE,
+  author =       "C. H. Castell and J. M. Snow",
+  title =        "The Effect of {pH} on the Enzymatic Reduction of
+                 Trimethylamine oxide",
+  journal =      j-J-FISH-RES-BOARD-CAN,
+  volume =       "7c",
+  number =       "9",
+  pages =        "561--562",
+  month =        sep,
+  year =         "1949",
+  CODEN =        "JFRBAK",
+  DOI =          "https://doi.org/10.1139/f47-047",
+  ISSN =         "0015-296X",
+  ISSN-L =       "0015-296X",
+  bibdate =      "Thu Nov 25 11:48:32 MST 2021",
+  bibsource =    "http://www.math.utah.edu/pub/tex/bib/jfishresboardcan1940.bib",
+  URL =          "https://cdnsciencepub.com/doi/full/10.1139/f47-047",
+  acknowledgement = ack-nhfb,
+  ajournal =     "J. Fish. Res. Board Can.",
+  fjournal =     "Journal of the Fisheries Research Board of Canada =
+                 Journal de l'Office des recherches sur les
+                 p{\^e}cheries du Canada",
+  journal-URL =  "https://cdnsciencepub.com/journal/cjfas",
+}

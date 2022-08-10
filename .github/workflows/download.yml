@@ -1,22 +1,17 @@
 # Workflow derived from https://github.com/r-lib/actions/tree/master/examples
 
 name: sync math.utah.edu fishery-journals
-
 on:
+  [push]:
   workflow_dispatch:
   schedule:
     - cron: "0 13 * * 1"
 
 jobs:
-  build:
+  download-via-wget:
     runs-on: ubuntu-latest
     steps:
-    - name: wget
-      uses: wei/wget@v1
-      uses: actions/setup-node@v1
-      uses: actions/checkout@v2
-      with:
-        args: -O inst/math.utah.edu/fishery-journals.txt http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
+      - run: wget -O inst/math.utah.edu/fishery-journals.txt http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
       # - name: get last commit msg
       #   id: commit-msg
       #   run: |

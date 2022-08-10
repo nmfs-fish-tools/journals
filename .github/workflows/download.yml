@@ -17,7 +17,8 @@ jobs:
     - name: wget
       uses: wei/wget@v1
       with:
-        args: -O fishery-journals.txt -P ./inst/math.utah.edu/ http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
+        # args: -O fishery-journals.txt -P ./inst/math.utah.edu/ http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
+        args: http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
       # - name: get last commit msg
       #   id: commit-msg
       #   run: |

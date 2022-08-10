@@ -10,20 +10,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Pull files
     steps:
-      # - uses: actions/setup-node@v1
-      # - uses: actions/checkout@v2
-
+    - name: wget
+      uses: wei/wget@v1
+      uses: actions/setup-node@v1
+      uses: actions/checkout@v2
+      with:
+        args: -O inst/math.utah.edu/fishery-journals.txt http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
       # - name: get last commit msg
       #   id: commit-msg
       #   run: |
       #     git tag
       #     last_commit_msg=$(git log -1 --pretty=%B)
       #     echo "::set-output name=msg::${last_commit_msg}"
-          
-      - name: Fetch list of journals
-        run: wget http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
       # -name: Move list of journals to inst/math.utah.edu
       #   run: mv fishery-journal.txt inst/math.utah.edu/fishery-journals.txt
       # - name: Fetch files

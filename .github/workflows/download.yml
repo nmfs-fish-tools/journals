@@ -17,7 +17,7 @@ jobs:
       # uses: wei/wget@v1
       # with:
         # args: -O fishery-journals.txt -P ./inst/math.utah.edu/ http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
-        run: wget -d --no-check-certificate -O fishery-journals.txt http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
+        run: wget -d -O fishery-journals.txt -P /inst/math.utah.edu/ http://www.math.utah.edu/~beebe/.fishery-journals/fishery-journals.txt
       # - name: get last commit msg
       #   id: commit-msg
       #   run: |

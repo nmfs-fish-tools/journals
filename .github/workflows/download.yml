@@ -13,8 +13,7 @@ jobs:
     steps:
     # - name: Checkout Code
     #   uses: actions/checkout@v2
-
-    - name: wget
+      - name: wget
       # uses: wei/wget@v1
       # with:
         # args: -O fishery-journals.txt -P ./inst/math.utah.edu/ http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt

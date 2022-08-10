@@ -3,9 +3,9 @@
 name: sync math.utah.edu fishery-journals
 on:
   [push]:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 13 * * 1"
+  # workflow_dispatch:
+  # schedule:
+  #   - cron: "0 13 * * 1"
 
 jobs:
   download-via-wget:

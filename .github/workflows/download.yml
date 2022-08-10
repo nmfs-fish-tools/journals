@@ -7,10 +7,17 @@ on: [push]
   #   - cron: "0 13 * * 1"
 
 jobs:
-  download-via-wget:
+  mirror-website:
+    name: mirrors the website
     runs-on: ubuntu-latest
     steps:
-      - run: wget -O ./inst/math.utah.edu/fishery-journals.txt http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: wget
+      uses: wei/wget@v1
+      with:
+        args: -O fishery-journals.txt -P ./inst/math.utah.edu/ http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
       # - name: get last commit msg
       #   id: commit-msg
       #   run: |

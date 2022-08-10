@@ -11,14 +11,14 @@ jobs:
     name: mirrors the website
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v2
+    # - name: Checkout Code
+    #   uses: actions/checkout@v2
 
     - name: wget
-      uses: wei/wget@v1
-      with:
+      # uses: wei/wget@v1
+      # with:
         # args: -O fishery-journals.txt -P ./inst/math.utah.edu/ http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
-        args: http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
+        run: wget -O fishery-journals.txt http://www.math.edu/~beebe/.fishery-journals/fishery-journals.txt
       # - name: get last commit msg
       #   id: commit-msg
       #   run: |

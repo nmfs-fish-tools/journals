@@ -1,0 +1,41 @@
+name: Journal request
+description: Request that a new .bib file be added to the repository.
+title: "Journal request"
+labels: ["topic: journal request"]
+assignees:
+  - kellijohnson-NOAA
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to request that a new journal be added!
+  - type: input
+    id: contact
+    attributes:
+      label: Requested by
+      description: How can we get in touch with you if we need more info?
+      placeholder: email@example.com or @githubname
+    validations:
+      required: false
+  - type: textarea
+    id: journal-titles
+    attributes:
+      label: Journal titles
+      description: |
+        Please list all journal titles that you would like added, where
+        the journal title should be inside the second set of square brackets and
+        URLs can be placed in the round brackets.
+      placeholder: |
+        - [ ] []()
+        - [ ] [Marine Ecology Progress Series](https://www.jstor.org/journal/mariecolprogseri)
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        Providing context regarding your request helps us prioritize it among existing requests.
+      placeholder: I have a large report due on YYYY-MM-DD that cites articles in the journal XXXX.
+    validations:
+      required: false

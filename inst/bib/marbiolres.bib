@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.02",
-%%%     date            = "11 June 2022",
-%%%     time            = "07:01:01 MDT",
+%%%     version         = "1.03",
+%%%     date            = "09 September 2022",
+%%%     time            = "15:38:31 MDT",
 %%%     filename        = "marbiolres.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "53967 30697 120404 1298153",
+%%%     checksum        = "44210 30699 120422 1298357",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -35,7 +35,7 @@
 %%%
 %%%                            https://www.tandfonline.com/loi/smar20
 %%%
-%%%                        At version 1.02, the COMPLETE year coverage
+%%%                        At version 1.03, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2005 (  38)    2011 (  88)    2017 ( 103)
@@ -94,6 +94,7 @@
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}     \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
@@ -101,7 +102,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -3117,8 +3119,8 @@
 @Article{Gebruk:2008:HHE,
   author =       "Andrey V. Gebruk",
   title =        "{Holothurians} ({Holothuroidea, Echinodermata}) of the
-                 northern {Mid-Atlantic Ridge} collected by the \emph{G.
-                 O. Sars MAR-ECO} expedition with descriptions of four
+                 northern {Mid-Atlantic Ridge} collected by the \vessel{G.
+                 O. Sars} {MAR-ECO} expedition with descriptions of four
                  new species",
   journal =      j-MAR-BIOL-RES,
   volume =       "4",
@@ -7083,7 +7085,7 @@
 }
 
 @Article{Kedra:2011:DSN,
-  author =       "Monika Kedra and Mark A. Shields",
+  author =       "Monika K{\k{e}}dra and Mark A. Shields",
   title =        "On the deep-sea \bioname{Nephasoma} species in the
                  {Eastern North Atlantic} --- a taxonomic guide",
   journal =      j-MAR-BIOL-RES,
@@ -15517,7 +15519,7 @@
   author =       "Mohamed I. Abdullah and Stein Fredriksen",
   title =        "The exudation of nitrate by the kelp
                  \bioname{Laminaria hyperborea}, an observation during
-                 \emph{in situ} incubation experiments",
+                 \latinname{in situ} incubation experiments",
   journal =      j-MAR-BIOL-RES,
   volume =       "10",
   number =       "7",
@@ -15825,9 +15827,9 @@
 
 @Article{Ng:2014:RJC,
   author =       "Chin Soon Lionel Ng and Loke Ming Chou",
-  title =        "Rearing juvenile `corals of opportunity' in \emph{in
-                 situ} nurseries --- a reef rehabilitation approach for
-                 sediment-impacted environments",
+  title =        "Rearing juvenile `corals of opportunity' in
+                 \latinname{in situ} nurseries --- a reef rehabilitation
+                 approach for sediment-impacted environments",
   journal =      j-MAR-BIOL-RES,
   volume =       "10",
   number =       "8",
@@ -20130,7 +20132,7 @@
                  Sant'Anna} and Daniel Gorman and Claudio {Campi De
                  Castro} and Andr{\'e} Paulo Tschiptschin and Alexander
                  Turra",
-  title =        "What makes a good home for hermits? Assessing
+  title =        "What makes a good home for hermits? {Assessing}
                  gastropod shell density and relative strength",
   journal =      j-MAR-BIOL-RES,
   volume =       "12",
@@ -23761,7 +23763,7 @@
                  and Tai Chong Toh and Kok Ben Toh and Chin Soon Lionel
                  Ng and Patrick {Caranzo Cabaitan} and Loke Ming Chou
                  and Tiancheng Song",
-  title =        "\emph{in situ} nurseries enhance coral transplant
+  title =        "\latinname{In situ} nurseries enhance coral transplant
                  growth in sedimented waters",
   journal =      j-MAR-BIOL-RES,
   volume =       "13",
@@ -24521,7 +24523,7 @@
 @Article{Asanopoulos:2018:ESV,
   author =       "Christina H. Asanopoulos and Adrian J. Linnane and
                  Matthew Hoare and Charlie Huveneers",
-  title =        "\emph{in situ} video monitoring of by-catch
+  title =        "\latinname{In situ} video monitoring of by-catch
                  interactions within commercial rock lobster
                  (\bioname{Jasus edwardsii}) fishing traps",
   journal =      j-MAR-BIOL-RES,
@@ -25424,7 +25426,7 @@
                  Reuchlin-Hugenholtz and H. Sas and A. Smaal and K. A.
                  van den Wijngaard and T. M. van der Have",
   title =        "Return of the native facilitated by the invasive?
-                 Population composition, substrate preferences and
+                 {Population} composition, substrate preferences and
                  epibenthic species richness of a recently discovered
                  shellfish reef with native {European} flat oysters
                  (\bioname{Ostrea edulis}) in the {North Sea}",
@@ -29909,7 +29911,7 @@
                  Camey",
   title =        "Bioluminescence of green \bioname{Noctiluca
                  scintillans} from the coastal waters of {Kochi}
-                 (southwest coast of {India}) and \bioname{in vivo}
+                 (southwest coast of {India}) and \latinname{in vivo}
                  experiments on bioluminescence in response to
                  mechanical stimuli and its diurnal variations",
   journal =      j-MAR-BIOL-RES,
@@ -30077,8 +30079,8 @@
 
 @Article{Ringvold:2021:FES,
   author =       "Halldis Ringvold and Eero J. Vesterinen",
-  title =        "First \emph{in situ} observations of the free-floating
-                 gelatinous matrix of blackbelly rosefish
+  title =        "First \latinname{in situ} observations of the
+                 free-floating gelatinous matrix of blackbelly rosefish
                  \bioname{Helicolenus dactylopterus} ({Delaroche},
                  1809)",
   journal =      j-MAR-BIOL-RES,

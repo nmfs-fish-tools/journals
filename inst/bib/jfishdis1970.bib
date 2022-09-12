@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.00",
-%%%     date            = "04 December 2021",
-%%%     time            = "07:43:28 MDT",
+%%%     version         = "1.01",
+%%%     date            = "09 September 2022",
+%%%     time            = "15:37:00 MDT",
 %%%     filename        = "jfishdis1970.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "21716 2806 11039 110126",
+%%%     checksum        = "46389 2808 11047 110229",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -40,7 +40,7 @@
 %%%
 %%%                            https://onlinelibrary.wiley.com/journal/13652761
 %%%
-%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        At version 1.01, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1978 (  44)    1979 (  68)
@@ -93,6 +93,7 @@
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
+    "\ifx \undefined \latinname      \def \latinname #1{{{\em #1\/}}}   \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
@@ -2140,7 +2141,8 @@
   author =       "H. Katae and K. Kouno and Y. Takase and H. Miyazaki
                  and M. Hashimoto and M. Shimizu",
   title =        "The evaluation of piromidic acid as an antibiotic in
-                 fish: an {\em in vitro\/} and \bioname{in vivo} study",
+                 fish: an \latinname{in vitro} and \latinname{in vivo}
+                 study",
   journal =      j-J-FISH-DIS,
   volume =       "2",
   number =       "4",

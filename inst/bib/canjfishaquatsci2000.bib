@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:26:10 MST",
+%%%     version         = "1.02",
+%%%     date            = "09 September 2022",
+%%%     time            = "17:02:48 MDT",
 %%%     filename        = "canjfishaquatsci2000.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "58494 57494 238023 2459529",
+%%%     checksum        = "49816 57495 238032 2459611",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -56,7 +56,7 @@
 %%%
 %%%                            https://cdnsciencepub.com/journal/cjfas
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2000 ( 255)    2004 ( 225)    2008 ( 241)
@@ -122,7 +122,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -13510,7 +13511,7 @@
 @Article{Carls:2002:STI,
   author =       "M. G. Carls and G. D. Marty and J. E. Hose",
   title =        "Synthesis of the toxicological impacts of the
-                 \emph{Exxon Valdez} oil spill on {Pacific} herring
+                 \vessel{Exxon Valdez} oil spill on {Pacific} herring
                  (\bioname{Clupea pallasi}) in {Prince William Sound,
                  Alaska, U.S.A.}",
   journal =      j-CAN-J-FISH-AQUAT-SCI,

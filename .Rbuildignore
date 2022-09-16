@@ -1,0 +1,5 @@
+^LICENSE\.md$
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$
+inst/bib

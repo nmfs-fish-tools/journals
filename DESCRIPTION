@@ -1,0 +1,22 @@
+Package: journals
+Title: Stores .bib Files
+Version: 0.0.0.9000
+Authors@R: c(
+    person(c("Kelli", "F."), "Johnson", 
+      email = "kelli.johnson@noaa.gov",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-5149-451X")
+    )
+    )
+Description: The GitHub repository that stores the source code for this package
+    also stores .bib files with complete coverage of several journals that are
+    pertinant to the field of fisheries research. This package facilitates the
+    use of those .bib files, with the hopes of freeing up scientists time
+    through the use of universally formatted reference files.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Language: en-US
+Imports:
+    purrr

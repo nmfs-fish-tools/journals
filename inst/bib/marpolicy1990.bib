@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "15 January 2022",
-%%%     time            = "05:45:12 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "13:08:17 MDT",
 %%%     filename        = "marpolicy1990.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "54843 16223 56883 627741",
+%%%     checksum        = "58588 16224 56889 627826",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/marine-policy/
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1990 ( 112)    2001 (   0)    2012 (   0)
@@ -107,7 +107,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -428,8 +429,8 @@
 
 @Article{Phillips:1990:IWC,
   author =       "Cassandra Phillips",
-  title =        "International {Whaling Commission} 41st annual
-                 meeting: {San Diego, CA, 12--16 June 1989}",
+  title =        "{International Whaling Commission 41st annual
+                 meeting: San Diego, CA, 12--16 June 1989}",
   journal =      j-MAR-POLICY,
   volume =       "14",
   number =       "1",
@@ -7793,7 +7794,7 @@
 
 @Article{Ritchie:1993:EIB,
   author =       "William Ritchie",
-  title =        "Environmental impacts of the {{\em Braer\/}} oil spill
+  title =        "Environmental impacts of the \vessel{Braer} oil spill
                  and development of a strategy for the monitoring of
                  change and recovery",
   journal =      j-MAR-POLICY,
@@ -7818,11 +7819,11 @@
 @Article{Anonymous:1993:BRI,
   author =       "Anonymous",
   title =        "Book Review: {{\booktitle{Interim report of the marine
-                 monitoring programme on the Braer oil-spill}}: Marine
-                 Laboratory Aberdeen, from a report compiled by J. M.
-                 Davies, I. M. Davies, A. D. Hawkins, R. Johnstone, A.
-                 McVicar, A. McLay, G. Topping (all MLA) and K. Whittle
-                 (Torry Research Laboratory)}",
+                 monitoring programme on the \vessel{Braer} oil-spill}}:
+                 Marine Laboratory Aberdeen, from a report compiled by
+                 J. M. Davies, I. M. Davies, A. D. Hawkins,
+                 R. Johnstone, A. McVicar, A. McLay, G. Topping (all
+                 MLA) and K. Whittle (Torry Research Laboratory)}",
   journal =      j-MAR-POLICY,
   volume =       "17",
   number =       "5",
@@ -7891,7 +7892,7 @@
 @Article{Leinster:1993:AHE,
   author =       "Paul Leinster",
   title =        "Assessing human exposures to environmental pollution
-                 arising from the {{\em Braer\/}} incident",
+                 arising from the \vessel{Braer} incident",
   journal =      j-MAR-POLICY,
   volume =       "17",
   number =       "5",
@@ -7981,7 +7982,7 @@
 
 @Article{Larminie:1993:BIW,
   author =       "F. G. Larminie",
-  title =        "The {{\em Braer\/}} incident: workshop presentation",
+  title =        "The \vessel{Braer} incident: workshop presentation",
   journal =      j-MAR-POLICY,
   volume =       "17",
   number =       "5",

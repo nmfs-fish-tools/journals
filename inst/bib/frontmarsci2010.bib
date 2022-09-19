@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.00",
-%%%     date            = "22 December 2021",
-%%%     time            = "06:12:34 MDT",
+%%%     version         = "1.01",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:30:22 MDT",
 %%%     filename        = "frontmarsci2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "08306 50778 210997 2141143",
+%%%     checksum        = "61776 50781 211007 2141272",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -86,7 +86,7 @@
 %%%                        in URL form at the publisher site, and none
 %%%                        has been found.
 %%%
-%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        At version 1.01, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2014 (  76)    2017 ( 441)    2020 (   7)
@@ -145,7 +145,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -867,7 +868,7 @@
 }
 
 @Article{Lindemann:2014:SDP,
-  author =       "Christian Lindemann and Michael A. {St.John}",
+  author =       "Christian Lindemann and Michael A. {St. John}",
   title =        "A seasonal diary of phytoplankton in the {North
                  Atlantic}",
   journal =      j-FRONTIERS-MAR-SCI,
@@ -1284,8 +1285,9 @@
   author =       "Luis A. Soto and Alfonso V. Botello and Sergio
                  Licea-Dur{\'a}n and Marcial L. Liz{\'a}rraga-Partida
                  and Alejandro Y{\'a}{\~n}ez-Arancibia",
-  title =        "The environmental legacy of the {Ixtoc-I} oil spill in
-                 {Campeche Sound, southwestern Gulf of Mexico}",
+  title =        "The environmental legacy of the \vessel{Ixtoc-I} oil
+                 spill in {Campeche Sound, southwestern Gulf of
+                 Mexico}",
   journal =      j-FRONTIERS-MAR-SCI,
   volume =       "1",
   month =        nov,
@@ -5150,7 +5152,7 @@
 }
 
 @Article{StJohn:2016:DHO,
-  author =       "Michael A. {St.John} and Angel Borja and Guillem Chust
+  author =       "Michael A. {St. John} and Angel Borja and Guillem Chust
                  and Michael Heath and Ivo Grigorov and Patrizio Mariani
                  and Adrian P. Martin and Ricardo S. Santos",
   title =        "A Dark Hole in Our Understanding of Marine Ecosystems
@@ -7204,7 +7206,7 @@
 
 @Article{Krekoukiotis:2016:ARE,
   author =       "Dionysis Krekoukiotis and Artur Piotr Palacz and
-                 Michael A. {St.John}",
+                 Michael A. {St. John}",
   title =        "Assessing the Role of Environmental Factors on
                  {Baltic} Cod Recruitment, a Complex Adaptive System
                  Emergent Property",
@@ -14733,7 +14735,7 @@
   ISSN-L =       "2296-7745",
   bibdate =      "Wed Dec 22 06:45:41 2021",
   bibsource =    "http://www.math.utah.edu/pub/tex/bib/frontmarsci2010.bib",
-  note =         "See \cite{DeBakker:2016:LTSa}.",
+  note =         "See \cite{DeBakker:2016:LTS}.",
   acknowledgement = ack-nhfb,
   ajournal =     "Front. Mar. Sci.",
   fjournal =     "Frontiers in Marine Science",
@@ -15921,7 +15923,7 @@
   ISSN-L =       "2296-7745",
   bibdate =      "Wed Dec 22 06:45:41 2021",
   bibsource =    "http://www.math.utah.edu/pub/tex/bib/frontmarsci2010.bib",
-  note =         "See \cite{Chan:2016:FCMa}.",
+  note =         "See \cite{Chan:2016:FCM}.",
   acknowledgement = ack-nhfb,
   ajournal =     "Front. Mar. Sci.",
   fjournal =     "Frontiers in Marine Science",
@@ -31531,7 +31533,8 @@
   author =       "Travis W. Washburn and David W. Yoskowitz and Paul A.
                  Montagna",
   title =        "Valuing Nature Waste Removal in the Offshore
-                 Environment Following the Deepwater Horizon Oil Spill",
+                 Environment Following the \vessel{Deepwater Horizon}
+                 Oil Spill",
   journal =      j-FRONTIERS-MAR-SCI,
   volume =       "5",
   month =        dec,
@@ -33963,7 +33966,7 @@
                  Salerno and Melanie Damour and Robert A. Church and
                  Jason S. Lee and Leila J. Hamdan",
   title =        "Deep-Sea Biofilms, Historic Shipwreck Preservation and
-                 the {{\em Deepwater Horizon\/}} Spill",
+                 the \vessel{Deepwater Horizon} Spill",
   journal =      j-FRONTIERS-MAR-SCI,
   volume =       "6",
   month =        feb,
@@ -48411,7 +48414,7 @@
   title =        "Population Structure of the Red Macroalga
                  \bioname{Botryocladia occidentalis} ({B{\o}rgesen})
                  {Kylin} ({Rhodymeniaceae, Rhodymeniales}) in the {Gulf
-                 of Mexico} Before the {{\em Deepwater Horizon\/}} Oil
+                 of Mexico} Before the \vessel{Deepwater Horizon} Oil
                  Spill",
   journal =      j-FRONTIERS-MAR-SCI,
   volume =       "6",

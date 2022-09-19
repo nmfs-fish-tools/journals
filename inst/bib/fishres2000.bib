@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:33:04 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "14:33:30 MDT",
 %%%     filename        = "fishres2000.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "65240 52377 196474 2140334",
+%%%     checksum        = "49113 52377 196478 2140410",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -38,7 +38,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/fisheries-research
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1999 (   1)    2005 ( 219)    2011 (   0)
@@ -103,7 +103,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -486,7 +487,7 @@
   author =       "Jukka Horppila",
   title =        "The effect of length frequency ranges on the
                  back-calculated lengths of roach, \bioname{Rutilus
-                 rutilus} ({L}.)",
+                 rutilus} ({L.})",
   journal =      j-FISH-RES,
   volume =       "45",
   number =       "1",
@@ -747,7 +748,7 @@
   author =       "Teemu S. M{\"a}kinen and Eero Niemel{\"a} and Kjell
                  Moen and Reijo Lindstr{\"o}m",
   title =        "Behaviour of gill-net and rod-captured {Atlantic}
-                 salmon (\bioname{Salmo salar} {L}.) during upstream
+                 salmon (\bioname{Salmo salar} {L.}) during upstream
                  migration and following radio tagging",
   journal =      j-FISH-RES,
   volume =       "45",
@@ -1487,7 +1488,7 @@
   author =       "Arild Folkvord and Geir Blom and Arne Johannessen and
                  Erlend Moksness",
   title =        "Growth-dependent age estimation in herring
-                 (\bioname{Clupea harengus} {L}.) larvae",
+                 (\bioname{Clupea harengus} {L.}) larvae",
   journal =      j-FISH-RES,
   volume =       "46",
   number =       "1--3",
@@ -2844,7 +2845,7 @@
                  and Kathrine Michalsen and Geir Ottersen and Michael
                  Pennington",
   title =        "An evaluation of recruitment indices for
-                 Arcto-{Norwegian} cod (\bioname{Gadus morhua} {L}.)",
+                 Arcto-{Norwegian} cod (\bioname{Gadus morhua} {L.})",
   journal =      j-FISH-RES,
   volume =       "48",
   number =       "1",
@@ -2868,7 +2869,7 @@
   author =       "Jakov Dul{\v{c}}i{\'c} and Miro Kraljevi{\'c} and
                  Branka Grbec and Perica Cetini{\'c}",
   title =        "Age, growth and mortality of blotched picarel
-                 \bioname{Spicara maena} {L}. ({Pisces:
+                 \bioname{Spicara maena} {L.} ({Pisces:
                  Centracanthidae}) in the eastern central {Adriatic}",
   journal =      j-FISH-RES,
   volume =       "48",
@@ -3040,7 +3041,7 @@
   author =       "J. M. Bellido and G. J. Pierce and J. L. Romero and M.
                  Mill{\'a}n",
   title =        "Use of frequency analysis methods to estimate growth
-                 of anchovy (\bioname{Engraulis encrasicolus} {L}. 1758)
+                 of anchovy (\bioname{Engraulis encrasicolus} {L.} 1758)
                  in the {Gulf of C{\'a}diz (SW Spain)}",
   journal =      j-FISH-RES,
   volume =       "48",
@@ -3777,7 +3778,7 @@
 @Article{Lawson:2000:SDM,
   author =       "Gareth L. Lawson and George A. Rose",
   title =        "Seasonal distribution and movements of coastal cod
-                 (\bioname{Gadus morhua} {L}.) in {Placentia Bay,
+                 (\bioname{Gadus morhua} {L.}) in {Placentia Bay,
                  Newfoundland}",
   journal =      j-FISH-RES,
   volume =       "49",
@@ -4418,9 +4419,9 @@
   author =       "J. M. Fives and S. Acevedo and M. Lloves and A.
                  Whitaker and M. Robinson and P. A. King",
   title =        "The distribution and abundance of larval mackerel,
-                 \bioname{Scomber scombrus} {L}., horse mackerel,
-                 \bioname{Trachurus trachurus} ({L}.), hake,
-                 \bioname{Merluccius merluccius} ({L}.), and blue
+                 \bioname{Scomber scombrus} {L.}, horse mackerel,
+                 \bioname{Trachurus trachurus} ({L.}), hake,
+                 \bioname{Merluccius merluccius} ({L.}), and blue
                  whiting, \bioname{Micromesistius poutassou} ({Risso},
                  1826) in the {Celtic Sea} and west of {Ireland} during
                  the years 1986, 1989 and 1992",
@@ -4447,8 +4448,8 @@
   author =       "S. H. Coombs and D. Morgans and N. C. Halliday",
   title =        "Seasonal and ontogenetic changes in the vertical
                  distribution of eggs and larvae of mackerel
-                 (\bioname{Scomber scombrus} {L}.) and horse mackerel
-                 (\bioname{Trachurus trachurus} {L}.)",
+                 (\bioname{Scomber scombrus} {L.}) and horse mackerel
+                 (\bioname{Trachurus trachurus} {L.})",
   journal =      j-FISH-RES,
   volume =       "50",
   number =       "1--2",
@@ -4570,7 +4571,7 @@
   author =       "Paula Alvarez and Lorenzo Motos and Adolfo Uriarte and
                  Joseba Ega{\~n}a",
   title =        "Spatial and temporal distribution of {European} hake,
-                 \bioname{Merluccius merluccius} ({L}.), eggs and larvae
+                 \bioname{Merluccius merluccius} ({L.}), eggs and larvae
                  in relation to hydrographical conditions in the {Bay of
                  Biscay}",
   journal =      j-FISH-RES,
@@ -5552,7 +5553,7 @@
 @Article{Katsarou:2001:PGS,
   author =       "Euthemia Katsarou and Gunnar N{\ae}vdal",
   title =        "Population genetic studies of the roughhead grenadier,
-                 \bioname{Macrourus berglax} {L}., in the {North
+                 \bioname{Macrourus berglax} {L.}, in the {North
                  Atlantic Ocean}",
   journal =      j-FISH-RES,
   volume =       "51",
@@ -6476,7 +6477,7 @@
   author =       "Jan A. Jacobsen and Roar A. Lund and Lars P. Hansen
                  and Niall O'Maoileidigh",
   title =        "Seasonal differences in the origin of {Atlantic}
-                 salmon (\bioname{Salmo salar} {L}.) in the {Norwegian
+                 salmon (\bioname{Salmo salar} {L.}) in the {Norwegian
                  Sea} based on estimates from age structures and tag
                  recaptures",
   journal =      j-FISH-RES,
@@ -6501,7 +6502,7 @@
 @Article{Berg:2001:VRG,
   author =       "Erik Berg and Torstein Pedersen",
   title =        "Variability in recruitment, growth and sexual maturity
-                 of coastal cod (\bioname{Gadus morhua} {L}.) in a fjord
+                 of coastal cod (\bioname{Gadus morhua} {L.}) in a fjord
                  system in northern {Norway}",
   journal =      j-FISH-RES,
   volume =       "52",
@@ -6777,7 +6778,7 @@
 @Article{Hjerne:2001:CCC,
   author =       "Olle Hjerne and Sture Hansson",
   title =        "Constant catch or constant harvest rate?: the {Baltic
-                 Sea} cod (\bioname{Gadus morhua} {L}.) fishery as a
+                 Sea} cod (\bioname{Gadus morhua} {L.}) fishery as a
                  modelling example",
   journal =      j-FISH-RES,
   volume =       "53",
@@ -7110,7 +7111,7 @@
   author =       "Luis Ch{\i}{\'c}haro and M. Alexandra
                  Ch{\i}{\'c}haro",
   title =        "A juvenile recruitment prediction model for
-                 \bioname{Ruditapes decussatus} ({L}.) ({Bivalvia:
+                 \bioname{Ruditapes decussatus} ({L.}) ({Bivalvia:
                  Mollusca})",
   journal =      j-FISH-RES,
   volume =       "53",
@@ -8094,9 +8095,9 @@
   author =       "G. Fabi and M. Sbrana and F. Biagi and F. Grati and I.
                  Leonori and P. Sartor",
   title =        "Trammel net and gill net selectivity for
-                 \bioname{Lithognathus mormyrus} ({L}., 1758),
-                 \bioname{Diplodus annularis} ({L}., 1758) and
-                 \bioname{Mullus barbatus} ({L}., 1758) in the
+                 \bioname{Lithognathus mormyrus} ({L.}, 1758),
+                 \bioname{Diplodus annularis} ({L.}, 1758) and
+                 \bioname{Mullus barbatus} ({L.}, 1758) in the
                  {Adriatic} and {Ligurian} seas",
   journal =      j-FISH-RES,
   volume =       "54",
@@ -8838,7 +8839,7 @@
 @Article{Yilmaz:2002:RBT,
   author =       "Fevzi Yilmaz",
   title =        "Reproductive biology of the tench \bioname{Tinca
-                 tinca} ({L}., 1758) inhabiting {Porsuk Dam Lake
+                 tinca} ({L.}, 1758) inhabiting {Porsuk Dam Lake
                  (Kutahya, Turkey)}",
   journal =      j-FISH-RES,
   volume =       "55",
@@ -9124,7 +9125,7 @@
   author =       "Per {\O}ystein Feet and Karl Inne Ugland and Erlend
                  Moksness",
   title =        "Accuracy of age estimates in spring spawning herring
-                 (\bioname{Clupea harengus} {L}.) reared under different
+                 (\bioname{Clupea harengus} {L.}) reared under different
                  prey densities",
   journal =      j-FISH-RES,
   volume =       "56",
@@ -10755,7 +10756,7 @@
 @Article{Jokikokko:2002:MWR,
   author =       "Erkki Jokikokko",
   title =        "Migration of wild and reared {Atlantic} salmon
-                 (\bioname{Salmo salar} {L}.) in the river {Simojoki},
+                 (\bioname{Salmo salar} {L.}) in the river {Simojoki},
                  northern {Finland}",
   journal =      j-FISH-RES,
   volume =       "58",
@@ -12214,7 +12215,7 @@
   author =       "W. W. Crozier and G. J. A. Kennedy",
   title =        "Impact of tagging with coded wire tags on marine
                  survival of wild {Atlantic} salmon (\bioname{Salmo
-                 salar} {L}.) migrating from the {R. Bush, Northern
+                 salar} {L.}) migrating from the {R. Bush, Northern
                  Ireland}",
   journal =      j-FISH-RES,
   volume =       "59",
@@ -13055,7 +13056,7 @@
 @Article{Maynou:2003:SSV,
   author =       "F. Maynou and J. Lleonart and J. E. Cartes",
   title =        "Seasonal and spatial variability of hake
-                 (\bioname{Merluccius merluccius} {L}.) recruitment in
+                 (\bioname{Merluccius merluccius} {L.}) recruitment in
                  the {NW} {Mediterranean}",
   journal =      j-FISH-RES,
   volume =       "60",
@@ -13251,7 +13252,7 @@
 @Article{Ismen:2003:AGR,
   author =       "Ali Ismen",
   title =        "Age, growth, reproduction and food of common stingray
-                 (\bioname{Dasyatis pastinaca} {L}., 1758) in
+                 (\bioname{Dasyatis pastinaca} {L.}, 1758) in
                  {{\.I}skenderun Bay}, the eastern {Mediterranean}",
   journal =      j-FISH-RES,
   volume =       "60",
@@ -13661,7 +13662,7 @@
   author =       "Eero Jutila and Erkki Jokikokko and Irma Kallio-Nyberg
                  and Irma Saloniemi and Pentti Pasanen",
   title =        "Differences in sea migration between wild and reared
-                 {Atlantic} salmon (\bioname{Salmo salar} {L}.) in the
+                 {Atlantic} salmon (\bioname{Salmo salar} {L.}) in the
                  {Baltic Sea}",
   journal =      j-FISH-RES,
   volume =       "60",
@@ -14142,8 +14143,8 @@
                  Pebody and James Perrett and Mark Squires and Douglas
                  G. Bone and Gwyn Griffiths",
   title =        "An investigation of avoidance by {Antarctic} krill of
-                 {RRS James Clark Ross} using the {{\em Autosub-2}}
-                 autonomous underwater vehicle",
+                 {RRS} \vessel{James Clark Ross} using the
+                 \vessel{Autosub-2} autonomous underwater vehicle",
   journal =      j-FISH-RES,
   volume =       "60",
   number =       "2--3",
@@ -14325,7 +14326,7 @@
 @Article{Arlinghaus:2003:SEC,
   author =       "Robert Arlinghaus and Thomas Mehner",
   title =        "Socio-economic characterisation of specialised common
-                 carp (\bioname{Cyprinus carpio} {L}.) anglers in
+                 carp (\bioname{Cyprinus carpio} {L.}) anglers in
                  {Germany}, and implications for inland fisheries
                  management and eutrophication control",
   journal =      j-FISH-RES,
@@ -15481,7 +15482,7 @@
 @Article{Pedersen:2003:SMM,
   author =       "Torstein Pedersen and John G. Pope",
   title =        "Sampling and a mortality model of a {Norwegian} fjord
-                 cod (\bioname{Gadus morhua} {L}.) population",
+                 cod (\bioname{Gadus morhua} {L.}) population",
   journal =      j-FISH-RES,
   volume =       "63",
   number =       "1",
@@ -16409,7 +16410,7 @@
   author =       "Gregory T. Ruggerone and Donald E. Rogers",
   title =        "Multi-year effects of high densities of sockeye salmon
                  spawners on juvenile salmon growth and survival: a case
-                 study from the {{\rm Exxon Valdez\/}} oil spill",
+                 study from the \vessel{Exxon Valdez} oil spill",
   journal =      j-FISH-RES,
   volume =       "63",
   number =       "3",
@@ -16761,7 +16762,7 @@
   author =       "S. O'Sullivan and C. Moriarty and R. D. FitzGerald and
                  J. Davenport and M. F. Mulcahy",
   title =        "Age, growth and reproductive status of the {European}
-                 conger eel, \bioname{Conger conger} ({L}.) in {Irish}
+                 conger eel, \bioname{Conger conger} ({L.}) in {Irish}
                  coastal waters",
   journal =      j-FISH-RES,
   volume =       "64",
@@ -17101,7 +17102,7 @@
 @Article{Santos:2003:HMM,
   author =       "M. N. Santos and H. J. Saldanha and M. B. Gaspar and
                  C. C. Monteiro",
-  title =        "Hake (\bioname{Merluccius merluccius} {L}., 1758)
+  title =        "Hake (\bioname{Merluccius merluccius} {L.}, 1758)
                  ghost fishing by gill nets off the {Algarve (southern
                  Portugal)}",
   journal =      j-FISH-RES,
@@ -18476,7 +18477,7 @@
   author =       "C. J. Byrne and R. Poole and M. Dillane and G. Rogan
                  and K. F. Whelan",
   title =        "Temporal and environmental influences on the variation
-                 in sea trout (\bioname{Salmo trutta} {L}.) smolt
+                 in sea trout (\bioname{Salmo trutta} {L.}) smolt
                  migration in the {Burrishoole} system in the west of
                  {Ireland} from 1971 to 2000",
   journal =      j-FISH-RES,
@@ -19042,7 +19043,7 @@
   author =       "Ronald J. Maliao and Edward L. Webb and Kathe R.
                  Jensen",
   title =        "A survey of stock of the donkey's ear abalone,
-                 \bioname{Haliotis asinina} {L}. in the {Sagay Marine
+                 \bioname{Haliotis asinina} {L.} in the {Sagay Marine
                  Reserve, Philippines}: evaluating the effectiveness of
                  marine protected area enforcement",
   journal =      j-FISH-RES,
@@ -19400,7 +19401,7 @@
   author =       "M. Palmer and G. X. Pons and M. Linde",
   title =        "Discriminating between geographical groups of a
                  {Mediterranean} commercial clam (\bioname{Chamelea
-                 gallina} ({L}.): Veneridae) by shape analysis",
+                 gallina} ({L.}): Veneridae) by shape analysis",
   journal =      j-FISH-RES,
   volume =       "67",
   number =       "1",
@@ -20150,7 +20151,7 @@
 @Article{Eero:2004:CMP,
   author =       "Margit Eero",
   title =        "Consequences of management of pikeperch
-                 (\bioname{Stizostedion lucioperca} {L}.) stock in
+                 (\bioname{Stizostedion lucioperca} {L.}) stock in
                  {P{\"a}rnu Bay (Baltic Sea)} under two different
                  economic regimes, 1960--1999",
   journal =      j-FISH-RES,
@@ -20708,7 +20709,7 @@
 @Article{Morel:2004:AWB,
   author =       "G. M. Morel and S. F. Bossy",
   title =        "Assessment of the whelk (\bioname{Buccinum undatum}
-                 {L}.) population around the {Island of Jersey, Channel
+                 {L.}) population around the {Island of Jersey, Channel
                  Isles}",
   journal =      j-FISH-RES,
   volume =       "68",
@@ -20805,7 +20806,7 @@
 @Article{Pickett:2004:PRS,
   author =       "G. D. Pickett and D. F. Kelley and M. G. Pawson",
   title =        "The patterns of recruitment of sea bass,
-                 \bioname{Dicentrarchus labrax} {L}. from nursery areas
+                 \bioname{Dicentrarchus labrax} {L.} from nursery areas
                  in {England} and {Wales} and implications for fisheries
                  management",
   journal =      j-FISH-RES,
@@ -21464,7 +21465,7 @@
   author =       "Antonio Punz{\'o}n and Bego{\~n}a Villamor and Izaskun
                  Preciado",
   title =        "Analysis of the handline fishery targeting mackerel
-                 (\bioname{Scomber scombrus}, {L}.) in the {North of
+                 (\bioname{Scomber scombrus}, {L.}) in the {North of
                  Spain} ({ICES Division VIIIbc})",
   journal =      j-FISH-RES,
   volume =       "69",
@@ -22186,7 +22187,7 @@
                  Tosuno{\u{g}}lu and Hakan Kayka{\c{c}} and Celalettin
                  Ayd{\i}n",
   title =        "Survival of red mullet (\bioname{Mullus barbatus}
-                 {L}., 1758) after escape from a trawl codend in the
+                 {L.}, 1758) after escape from a trawl codend in the
                  {Aegean Sea}",
   journal =      j-FISH-RES,
   volume =       "70",
@@ -24489,7 +24490,7 @@
 @Article{Power:2005:PIP,
   author =       "A. M. Power and J. A. Balbuena and J. A. Raga",
   title =        "Parasite infracommunities as predictors of harvest
-                 location of bogue (\bioname{Boops boops} {L}.): a pilot
+                 location of bogue (\bioname{Boops boops} {L.}): a pilot
                  study using statistical classifiers",
   journal =      j-FISH-RES,
   volume =       "72",
@@ -26081,7 +26082,7 @@
 @Article{Mello:2005:SVA,
   author =       "L. G. S. Mello and G. A. Rose",
   title =        "Seasonal variation in abundance and stock composition
-                 of {Atlantic} cod (\bioname{Gadus morhua} {L}.) in
+                 of {Atlantic} cod (\bioname{Gadus morhua} {L.}) in
                  {Placentia Bay, Newfoundland}, in relation to
                  fisheries",
   journal =      j-FISH-RES,
@@ -26804,7 +26805,7 @@
                  Yiannis Rogdakis and Thanasis Lachanas and Evagelos
                  Dimitriou and Kosmas Vidalis",
   title =        "A model to estimate the annual production of roes
-                 ({\em avgotaracho}) of flathead mullet (\bioname{Mugil
+                 ({\em avgotaracho\/}) of flathead mullet (\bioname{Mugil
                  cephalus}) based on the spawning migration of species",
   journal =      j-FISH-RES,
   volume =       "75",
@@ -26823,8 +26824,7 @@
   ajournal =     "Fish. Res.",
   fjournal =     "Fisheries Research",
   journal-URL =  "https://www.sciencedirect.com/journal/fisheries-research",
-  keywords =     "{\em avgotaracho} (dried, salted and waxed ripe
-                 ovaries)",
+  keywords =     "avgotaracho (dried, salted and waxed ripe ovaries)",
 }
 
 @Article{Puga:2005:BMR,
@@ -27945,7 +27945,7 @@
   author =       "Paula Alvarez and Unai Cotano",
   title =        "Growth, mortality and hatch-date distributions of
                  {European} hake larvae, \bioname{Merluccius merluccius}
-                 ({L}.), in the {Bay of Biscay}",
+                 ({L.}), in the {Bay of Biscay}",
   journal =      j-FISH-RES,
   volume =       "76",
   number =       "3",
@@ -28455,8 +28455,8 @@
 @Article{Gerritsen:2006:VAM,
   author =       "H. D. Gerritsen and D. McGrath",
   title =        "Variability in the assignment of maturity stages of
-                 plaice (\bioname{Pleuronectes platessa} {L}.) and
-                 whiting (\bioname{Merlangius merlangus} {L}.) using
+                 plaice (\bioname{Pleuronectes platessa} {L.}) and
+                 whiting (\bioname{Merlangius merlangus} {L.}) using
                  macroscopic maturity criteria",
   journal =      j-FISH-RES,
   volume =       "77",
@@ -29972,7 +29972,7 @@
 @Article{Belcari:2006:ADG,
   author =       "P. Belcari and A. Ligas and C. Viva",
   title =        "Age determination and growth of juveniles of the
-                 {European} hake, \bioname{Merluccius merluccius} ({L}.,
+                 {European} hake, \bioname{Merluccius merluccius} ({L.},
                  1758), in the northern {Tyrrhenian Sea (NW
                  Mediterranean)}",
   journal =      j-FISH-RES,
@@ -32119,7 +32119,7 @@
   author =       "Groa Petursdottir and Gavin A. Begg and Gudrun
                  Marteinsdottir",
   title =        "Discrimination between {Icelandic} cod (\bioname{Gadus
-                 morhua} {L}.) populations from adjacent spawning areas
+                 morhua} {L.}) populations from adjacent spawning areas
                  based on otolith growth and shape",
   journal =      j-FISH-RES,
   volume =       "80",
@@ -32142,8 +32142,8 @@
 
 @Article{Peltonen:2006:HST,
   author =       "Heikki Peltonen and Tommi Malinen and Antti Tuomaala",
-  title =        "Hydroacoustic {\em in situ} target strength of smelt
-                 (\bioname{Osmerus eperlanus} ({L}.))",
+  title =        "Hydroacoustic \latinname{in situ} target strength of smelt
+                 (\bioname{Osmerus eperlanus} ({L.}))",
   journal =      j-FISH-RES,
   volume =       "80",
   number =       "2--3",
@@ -32312,7 +32312,7 @@
                  Lancioni and Lilia Gigliarelli and Mauro Natali and
                  Fausto Panara",
   title =        "Microsatellite polymorphism in {Italian} populations
-                 of northern pike (\bioname{Esox lucius} {L}.)",
+                 of northern pike (\bioname{Esox lucius} {L.})",
   journal =      j-FISH-RES,
   volume =       "80",
   number =       "2--3",
@@ -32848,7 +32848,7 @@
 @Article{McQuaid:2006:ESO,
   author =       "N. McQuaid and R. P. Briggs and D. Roberts",
   title =        "Estimation of the size of onset of sexual maturity in
-                 \bioname{Nephrops norvegicus} ({L}.)",
+                 \bioname{Nephrops norvegicus} ({L.})",
   journal =      j-FISH-RES,
   volume =       "81",
   number =       "1",
@@ -34290,7 +34290,7 @@
 @Article{Schmidt:2006:ISD,
   author =       "Marc Bodo Schmidt and Hubert Gassner",
   title =        "Influence of scuba divers on the avoidance reaction of
-                 a dense vendace (\bioname{Coregonus albula} {L}.)
+                 a dense vendace (\bioname{Coregonus albula} {L.})
                  population monitored by hydroacoustics",
   journal =      j-FISH-RES,
   volume =       "82",
@@ -35124,7 +35124,7 @@
   author =       "M. Fritsch and Y. Morizur and E. Lambert and F.
                  Bonhomme and B. Guinand",
   title =        "Assessment of sea bass (\bioname{Dicentrarchus
-                 labrax}, {L}.) stock delimitation in the {Bay of
+                 labrax}, {L.}) stock delimitation in the {Bay of
                  Biscay} and the {English Channel} based on
                  mark-recapture and genetic data",
   journal =      j-FISH-RES,
@@ -36866,7 +36866,7 @@
   author =       "Anette Ungfors and Hans Hallb{\"a}ck and Per G.
                  Nilsson",
   title =        "Movement of adult edible crab (\bioname{Cancer
-                 pagurus} {L}.) at the {Swedish West Coast} by
+                 pagurus} {L.}) at the {Swedish West Coast} by
                  mark-recapture and acoustic tracking",
   journal =      j-FISH-RES,
   volume =       "84",
@@ -37326,8 +37326,8 @@
   title =        "Significant differences in the length--weight
                  relationships of neighbouring stocks can result in
                  biased biomass estimates: Examples of haddock
-                 (\bioname{Melanogrammus aeglefinus}, {L}.) and whiting
-                 (\bioname{Merlangius merlangus}, {L}.)",
+                 (\bioname{Melanogrammus aeglefinus}, {L.}) and whiting
+                 (\bioname{Merlangius merlangus}, {L.})",
   journal =      j-FISH-RES,
   volume =       "85",
   number =       "1--2",
@@ -37623,7 +37623,7 @@
 @Article{Demirhan:2007:LHS,
   author =       "Sefa Ayhan Demirhan and Kadir Seyhan",
   title =        "Life history of spiny dogfish, \bioname{Squalus
-                 acanthias} ({L}. 1758), in the southern {Black Sea}",
+                 acanthias} ({L.} 1758), in the southern {Black Sea}",
   journal =      j-FISH-RES,
   volume =       "85",
   number =       "1--2",
@@ -37980,7 +37980,7 @@
 
 @Article{Westgaard:2007:ACG,
   author =       "Jon-Ivar Westgaard and Svein-Erik Fevolden",
-  title =        "{Atlantic} cod (\bioname{Gadus morhua} {L}.) in inner
+  title =        "{Atlantic} cod (\bioname{Gadus morhua} {L.}) in inner
                  and outer coastal zones of northern {Norway} display
                  divergent genetic signature at non-neutral loci",
   journal =      j-FISH-RES,
@@ -40163,7 +40163,7 @@
   author =       "Carmen Pi{\~n}eiro and Javier Rey and Helene de
                  Pontual and Raquel Go{\~n}i",
   title =        "Tag and recapture of {European} hake
-                 (\bioname{Merluccius merluccius} {L}.) off the
+                 (\bioname{Merluccius merluccius} {L.}) off the
                  {Northwest Iberian Peninsula}: First results support
                  fast growth hypothesis",
   journal =      j-FISH-RES,
@@ -41461,7 +41461,7 @@
   author =       "F. Vitale and P. B{\"o}rjesson and H. Sved{\"a}ng and
                  M. Casini",
   title =        "The spatial distribution of cod (\bioname{Gadus
-                 morhua} {L}.) spawning grounds in the {Kattegat},
+                 morhua} {L.}) spawning grounds in the {Kattegat},
                  eastern {North Sea}",
   journal =      j-FISH-RES,
   volume =       "90",
@@ -41704,7 +41704,7 @@
   author =       "M. C. Bell and J. M. Elson and J. T. Addison and A. S.
                  Revill and D. Bevan",
   title =        "Trawl catch composition in relation to {Norway}
-                 lobster (\bioname{Nephrops norvegicus} {L}.) abundance
+                 lobster (\bioname{Nephrops norvegicus} {L.}) abundance
                  on the Farn Deeps grounds, {NE England}",
   journal =      j-FISH-RES,
   volume =       "90",
@@ -42802,7 +42802,7 @@
 @Article{Kristoffersen:2008:PSA,
   author =       "Jon Bent Kristoffersen and Antonios Magoulas",
   title =        "Population structure of anchovy \bioname{Engraulis
-                 encrasicolus} {L}. in the {Mediterranean Sea} inferred
+                 encrasicolus} {L.} in the {Mediterranean Sea} inferred
                  from multiple methods",
   journal =      j-FISH-RES,
   volume =       "91",
@@ -43080,7 +43080,7 @@
   title =        "Discrete spatial dynamics in a marine broadcast
                  spawner: Re-evaluating scales of connectivity and
                  habitat associations in {Atlantic} cod (\bioname{Gadus
-                 morhua} {L}.) in coastal {Newfoundland}",
+                 morhua} {L.}) in coastal {Newfoundland}",
   journal =      j-FISH-RES,
   volume =       "91",
   number =       "2--3",
@@ -43856,7 +43856,7 @@
                  Ivan Locci and Rita Cannas and Stefano Corrias and
                  Angelo Cau",
   title =        "Effects of local scale perturbations in the {Atlantic}
-                 bluefin tuna (\bioname{Thunnus thynnus} {L}.) trap
+                 bluefin tuna (\bioname{Thunnus thynnus} {L.}) trap
                  fishery of {Sardinia (W. Mediterranean)}",
   journal =      j-FISH-RES,
   volume =       "92",
@@ -44603,8 +44603,8 @@
   author =       "Lorenzo Vilizzi and Shaun N. Meredith and Clayton P.
                  Sharpe and Rohan Rehwinkel",
   title =        "Evaluating light trap efficiency by application of
-                 mesh to prevent inter- and intra-specific {\em in situ}
-                 predation on fish larvae and juveniles",
+                 mesh to prevent inter- and intra-specific \latinname{in
+                 situ} predation on fish larvae and juveniles",
   journal =      j-FISH-RES,
   volume =       "93",
   number =       "1--2",
@@ -45086,7 +45086,7 @@
                  Murgu{\'\i}a and D. L. Herrero",
   title =        "Validation of daily increments deposition in the
                  otoliths of {European} anchovy larvae
-                 (\bioname{Engraulis encrasicolus} {L}.) reared under
+                 (\bioname{Engraulis encrasicolus} {L.}) reared under
                  different temperature conditions",
   journal =      j-FISH-RES,
   volume =       "93",
@@ -45675,7 +45675,7 @@
                  Arlinghaus",
   title =        "Exploitation of specialised fisheries resources: the
                  importance of hook size in recreational angling for
-                 large common carp (\bioname{Cyprinus carpio} {L}.)",
+                 large common carp (\bioname{Cyprinus carpio} {L.})",
   journal =      j-FISH-RES,
   volume =       "94",
   number =       "1",
@@ -48439,8 +48439,8 @@
                  Burridge and Cathy M. Dichmont and Shijie Zhou and
                  William N. Venables and Robert C. Pendrey and Anthea
                  Donovan",
-  title =        "Spatio-temporal modelling of prawns in {Albatross
-                 Bay}, {Karumba} and {Mornington Island}",
+  title =        "Spatio-temporal modelling of prawns in {Albatross Bay,
+                 Karumba and Mornington Island}",
   journal =      j-FISH-RES,
   volume =       "96",
   number =       "2--3",
@@ -49724,7 +49724,7 @@
                  Cooke and Andrew Gingerich and Cory Suski",
   title =        "Physiological and behavioural consequences of
                  catch-and-release angling on northern pike
-                 (\bioname{Esox lucius} {L}.)",
+                 (\bioname{Esox lucius} {L.})",
   journal =      j-FISH-RES,
   volume =       "97",
   number =       "3",
@@ -51131,7 +51131,7 @@
   author =       "Ignacio Serrano and Stefan Larsson and Lars-Ove
                  Eriksson",
   title =        "Migration performance of wild and hatchery sea trout
-                 (\bioname{Salmo trutta} {L}.) smolts --- Implications
+                 (\bioname{Salmo trutta} {L.}) smolts --- Implications
                  for compensatory hatchery programs",
   journal =      j-FISH-RES,
   volume =       "99",

@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.03",
-%%%     date            = "10 September 2022",
-%%%     time            = "06:58:42 MDT",
+%%%     version         = "1.04",
+%%%     date            = "16 September 2022",
+%%%     time            = "13:27:27 MDT",
 %%%     filename        = "revfishsciaquac.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "35751 14367 57680 607792",
+%%%     checksum        = "40493 14367 57687 607854",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.tandfonline.com/loi/brfs21
 %%%
-%%%                        At version 1.03, the COMPLETE year coverage
+%%%                        At version 1.04, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1993 (  18)    2003 (  13)    2013 (  32)
@@ -109,7 +109,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -1216,7 +1217,7 @@
   author =       "J. Richard Dunn",
   title =        "{Charles Henry Gilbert} (1859--1928): an early fishery
                  biologist and his contributions to knowledge of
-                 {Pacific} salmon ({\em oncorhynchus\/} spp.)",
+                 {Pacific} salmon (\bioname{Oncorhynchus} spp.)",
   journal =      j-REV-FISH-SCI,
   volume =       "4",
   number =       "2",
@@ -1343,8 +1344,8 @@
 
 @Article{Brannon:1996:EVO,
   author =       "E. L. Brannon and A. W. Maki",
-  title =        "The {Exxon Valdez} oil spill: Analysis of impacts on
-                 the {Prince William Sound} pink salmon",
+  title =        "The \vessel{Exxon Valdez} oil spill: Analysis of
+                 impacts on the {Prince William Sound} pink salmon",
   journal =      j-REV-FISH-SCI,
   volume =       "4",
   number =       "4",
@@ -2660,9 +2661,9 @@
   author =       "Stanley D. Rice and Robert E. Thomas and Mark G. Carls
                  and Ronald A. Heintz and Alex C. Wertheimer and Michael
                  L. Murphy and Jeffrey W. Short and Adam Moles",
-  title =        "Impacts to Pink Salmon Following the {Exxon Valdez}
-                 Oil Spill: Persistence, Toxicity, Sensitivity, and
-                 Controversy",
+  title =        "Impacts to Pink Salmon Following the \vessel{Exxon
+                 Valdez} Oil Spill: Persistence, Toxicity, Sensitivity,
+                 and Controversy",
   journal =      j-REV-FISH-SCI,
   volume =       "9",
   number =       "3",
@@ -5142,7 +5143,7 @@
 
 @Article{Hamasaki:2008:PSE,
   author =       "Katsuyuki Hamasaki and Shuichi Kitada",
-  title =        "Potential of Stock Enhancement for {Decapod}
+  title =        "Potential of Stock Enhancement for Decapod
                  Crustaceans",
   journal =      j-REV-FISH-SCI,
   volume =       "16",
@@ -7949,9 +7950,8 @@
 @Article{Brannon:2012:REV,
   author =       "E. L. Brannon and K. Collins and M. A. Cronin and L.
                  L. Moulton and A. L. Maki and K. R. Parker",
-  title =        "Review of the \bioname{Exxon} {Valdez} Oil Spill
-                 Effects on Pink Salmon in {Prince} {William} Sound,
-                 {Alaska}",
+  title =        "Review of the \vessel{Exxon Valdez} Oil Spill Effects
+                 on Pink Salmon in {Prince William Sound, Alaska}",
   journal =      j-REV-FISH-SCI,
   volume =       "20",
   number =       "1",
@@ -8154,8 +8154,8 @@
   journal-URL =  "https://www.tandfonline.com/loi/brfs21",
 }
 
-@Article{PhD:2012:RDF,
-  author =       "John G. Nickum PhD",
+@Article{Nickum:2012:RDF,
+  author =       "John G. Nickum",
   title =        "A Review of {``Do} Fish Feel Pain?''",
   journal =      j-REV-FISH-SCI,
   volume =       "20",
@@ -8307,7 +8307,7 @@
 @Article{Romano:2013:TEA,
   author =       "Nicholas Romano and Chaoshu Zeng",
   title =        "Toxic Effects of Ammonia, Nitrite, and Nitrate to
-                 {Decapod} Crustaceans: a Review on Factors Influencing
+                 Decapod Crustaceans: a Review on Factors Influencing
                  their Toxicity, Physiological Consequences, and Coping
                  Mechanisms",
   journal =      j-REV-FISH-SCI,
@@ -10471,7 +10471,7 @@
 
 @Article{Romano:2017:CDC,
   author =       "Nicholas Romano and Chaoshu Zeng",
-  title =        "Cannibalism of {Decapod} Crustaceans and Implications
+  title =        "Cannibalism of Decapod Crustaceans and Implications
                  for Their Aquaculture: a Review of its Prevalence,
                  Influencing Factors, and Mitigating Methods",
   journal =      j-REV-FISH-SCI-AQUAC,
@@ -14298,7 +14298,7 @@
 @Article{Frischer:2022:BGM,
   author =       "Marc E. Frischer and Stephen C. Landers and Anna N.
                  Walker and Shirley A. Powell and Richard F. Lee",
-  title =        "Black Gill in Marine {Decapod} Crustaceans: a Review",
+  title =        "Black Gill in Marine Decapod Crustaceans: a Review",
   journal =      j-REV-FISH-SCI-AQUAC,
   volume =       "30",
   number =       "4",

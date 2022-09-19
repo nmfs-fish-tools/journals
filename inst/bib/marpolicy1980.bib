@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "13470 18016 63828 701546",
+%%%     checksum        = "56744 18017 63837 701639",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/marine-policy/
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1980 (  80)    1984 (  72)    1988 (  77)
@@ -101,7 +101,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -194,7 +195,7 @@
 
 @Article{Nagelmackers:1980:AAC,
   author =       "Henri-G. Nagelmackers",
-  title =        "Aftermath of the {Amoco Cadiz}: {Why} must the
+  title =        "Aftermath of the \vessel{Amoco Cadiz}: {Why} must the
                  {European} community act?",
   journal =      j-MAR-POLICY,
   volume =       "4",
@@ -10772,8 +10773,8 @@
 @Article{Kbaier:1985:NTC,
   author =       "Rouchdy Kbaier and Viktor Sebek",
   title =        "New trends in compensation for oil pollution damage:
-                 {Amoco Cadiz} legal proceedings and the 1984 diplomatic
-                 conference on liability and compensation",
+                 \vessel{Amoco Cadiz} legal proceedings and the 1984
+                 diplomatic conference on liability and compensation",
   journal =      j-MAR-POLICY,
   volume =       "9",
   number =       "4",

@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.00",
-%%%     date            = "25 November 2021",
-%%%     time            = "11:36:14 MST",
+%%%     version         = "1.01",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:56:25 MDT",
 %%%     filename        = "jfishresboardcan1960.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "18662 40518 162516 1636809",
+%%%     checksum        = "31064 40519 162523 1636893",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -67,7 +67,7 @@
 %%%                        but, as of late 2021, there is no coverage
 %%%                        (yet) of journal family issues before 1938.
 %%%
-%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        At version 1.01, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1960 (  76)    1964 ( 138)    1968 ( 255)
@@ -133,7 +133,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -1312,7 +1313,7 @@
 
 @Article{Tomlinson:1960:SFR,
   author =       "Neil Tomlinson and Vera M. Creelman",
-  title =        "On the Source of Free Ribose formed \bioname{post
+  title =        "On the Source of Free Ribose formed \latinname{post
                  mortem} in the Muscle of Lingcod (\bioname{Ophiodon
                  elongatus})",
   journal =      j-J-FISH-RES-BOARD-CAN,
@@ -2808,7 +2809,7 @@
   author =       "N. Tomlinson and E. S. Arnold and Eve Roberts and S.
                  E. Geiger",
   title =        "Observations on Post mortem Biochemical Changes in
-                 Fish Muscle in Relation to {{\em Rigor Mortis}}",
+                 Fish Muscle in Relation to \latinname{Rigor Mortis}",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "18",
   number =       "3",
@@ -4377,7 +4378,7 @@
   author =       "G. Morris Southward",
   title =        "A Method of Calculating Body Lengths from Otolith
                  Measurements for {Pacific} Halibut and its Application
-                 to Portlock-Albatross Grounds Data between 1935 and
+                 to {Portlock--Albatross} Grounds Data between 1935 and
                  1957",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "19",
@@ -17037,7 +17038,7 @@
 @Article{Harling:1966:DGT,
   author =       "W. R. Harling and S. J. Westrheim",
   title =        "Description of Groundfish Trawl Developed for the
-                 Side-Trawl Research Vessel {{\em G. B. Reed}}",
+                 Side-Trawl Research Vessel \vessel{G. B. Reed}",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "23",
   number =       "4",
@@ -21523,7 +21524,7 @@
 
 @Article{Ackman:1967:FAC,
   author =       "R. G. Ackman and C. A. Eaton",
-  title =        "Fatty Acid Composition of the {Decapod} Shrimp,
+  title =        "Fatty Acid Composition of the Decapod Shrimp,
                  \bioname{Pandalus borealis}, in Relation to that of the
                  Euphausid, \bioname{Meganyctiphanes norvegica}",
   journal =      j-J-FISH-RES-BOARD-CAN,
@@ -24429,7 +24430,7 @@
 
 @Article{Squires:1967:DCC,
   author =       "H. J. Squires",
-  title =        "{Decapod} Crustacea from {Calanus} Collections in
+  title =        "Decapod Crustacea from {Calanus} Collections in
                  {Hudson Bay} in 1953, 1954, and 1958--61",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "24",
@@ -36822,7 +36823,7 @@
 
 @Article{Squires:1969:DCB,
   author =       "H. J. Squires",
-  title =        "{Decapod} Crustacea of the {Beaufort Sea} and {Arctic}
+  title =        "Decapod Crustacea of the {Beaufort Sea} and {Arctic}
                  Waters Eastward to {Cambridge Bay}, 1960--65",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "26",

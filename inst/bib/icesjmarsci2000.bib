@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:35:32 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:40:05 MDT",
 %%%     filename        = "icesjmarsci2000.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "34034 43299 168895 1774897",
+%%%     checksum        = "30855 43305 168884 1775219",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -43,7 +43,7 @@
 %%%
 %%%                            https://academic.oup.com/icesjms
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2000 ( 192)    2004 ( 155)    2008 ( 202)
@@ -99,6 +99,7 @@
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}     \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
@@ -106,7 +107,8 @@
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
     "\ifx \undefined \TH           \def \TH          {Th}               \fi" #
-    "\ifx \undefined \TM           \def \TM          {${}^{\sc TM}$}    \fi"
+    "\ifx \undefined \TM           \def \TM          {${}^{\sc TM}$}    \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -2223,7 +2225,7 @@
 
 @Article{Josse:2000:SAT,
   author =       "Erwan Josse and Arnaud Bertrand",
-  title =        "{{\em In situ\/}} acoustic target strength
+  title =        "\latinname{In situ} acoustic target strength
                  measurements of tuna associated with a fish aggregating
                  device",
   journal =      j-ICES-J-MAR-SCI,
@@ -4265,9 +4267,9 @@
 
 @Article{Campbell:2000:VCF,
   author =       "R. W. Campbell and E. J. H. Head",
-  title =        "Viability of \bioname{Calanus finmarchicus} eggs {\em
-                 in situ\/}: does the presence of intact phytoplankton
-                 reduce hatching success?",
+  title =        "Viability of \bioname{Calanus finmarchicus} eggs
+                 \latinname{in situ}: does the presence of intact
+                 phytoplankton reduce hatching success?",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "57",
   number =       "6",
@@ -4806,7 +4808,7 @@
 
 @Article{Jech:2001:EST,
   author =       "J. Michael Jech and John K. Horne",
-  title =        "Effects of {\em in situ\/} target spatial
+  title =        "Effects of \latinname{in situ} target spatial
                  distributions on acoustic density estimates",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "58",
@@ -5176,8 +5178,8 @@
 
 @Article{Vinther:2001:AHM,
   author =       "Morten Vinther",
-  title =        "{{\em Ad hoc\/}} multispecies {VPA} tuning applied for
-                 the {Baltic} and {North Sea} fish stocks",
+  title =        "\latinname{Ad hoc} multispecies {VPA} tuning applied
+                 for the {Baltic} and {North Sea} fish stocks",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "58",
   number =       "1",
@@ -5244,8 +5246,8 @@
 
 @Article{ODriscoll:2001:SAT,
   author =       "Richard L. O'Driscoll and George A. Rose",
-  title =        "{{\em In situ\/}} acoustic target strength of juvenile
-                 capelin",
+  title =        "\latinname{In situ} acoustic target strength of
+                 juvenile capelin",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "58",
   number =       "1",
@@ -5266,7 +5268,7 @@
 
 @Article{Torgersen:2001:SSB,
   author =       "T. Torgersen and S. Kaartvedt",
-  title =        "{{\em In situ\/}} swimming behaviour of individual
+  title =        "\latinname{In situ} swimming behaviour of individual
                  mesopelagic fish studied by split-beam echo target
                  tracking",
   journal =      j-ICES-J-MAR-SCI,
@@ -6379,7 +6381,7 @@
 
 @Article{Warren:2001:SMA,
   author =       "J. Warren",
-  title =        "{{\em In situ\/}} measurements of acoustic target
+  title =        "\latinname{In situ} measurements of acoustic target
                  strengths of gas-bearing siphonophores",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "58",
@@ -9383,7 +9385,7 @@
 
 @Article{Gauthier:2002:STS,
   author =       "St{\'e}phane Gauthier and George A. Rose",
-  title =        "{{\em In situ\/}} target strength studies on
+  title =        "\latinname{In situ} target strength studies on
                  {Atlantic} redfish (\bioname{Sebastes} spp.)",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "59",
@@ -13083,7 +13085,7 @@
   author =       "L. G. Rudstam and S. L. Parker and D. W. Einhouse and
                  L. D. Witzel and D. M. Warner and J. L. Stritzel and D.
                  L. Parrish and P. J. Sullivan",
-  title =        "Application of {\em in situ\/} target-strength
+  title =        "Application of \latinname{in situ} target-strength
                  estimations in lakes: examples from rainbow-smelt
                  surveys in {Lakes Erie and Champlain}",
   journal =      j-ICES-J-MAR-SCI,
@@ -13200,7 +13202,7 @@
 
 @Article{Kang:2003:EST,
   author =       "Donhyug Kang and Doojin Hwang",
-  title =        "{\em {Ex} situ\/} target strength of rockfish
+  title =        "\latinname{Ex situ} target strength of rockfish
                  (\bioname{Sebastes schlegeli}) and red sea bream
                  (\bioname{Pagrus major}) in the {Northwest Pacific}",
   journal =      j-ICES-J-MAR-SCI,
@@ -13224,7 +13226,8 @@
 @Article{Ermolchev:2003:REV,
   author =       "Viatcheslav A. Ermolchev and Michael L. Zaferman",
   title =        "Results of experiments on the video-acoustic
-                 estimation of fish target strength {\em in situ\/}",
+                 estimation of fish target strength \latinname{in
+                 situ}",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "60",
   number =       "3",
@@ -16060,7 +16063,7 @@
 @Article{Nero:2004:SAE,
   author =       "Redwood W. Nero and Charles H. Thompson and J. Michael
                  Jech",
-  title =        "{{\em In situ\/}} acoustic estimates of the
+  title =        "\latinname{In situ} acoustic estimates of the
                  swimbladder volume of {Atlantic} herring
                  (\bioname{Clupea harengus})",
   journal =      j-ICES-J-MAR-SCI,
@@ -16152,8 +16155,8 @@
 
 @Article{Didrikas:2004:STS,
   author =       "Tomas Didrikas and Sture Hansson",
-  title =        "{{\em In situ\/}} target strength of the {Baltic Sea}
-                 herring and sprat",
+  title =        "\latinname{In situ} target strength of the {Baltic
+                 Sea} herring and sprat",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "61",
   number =       "3",
@@ -21381,8 +21384,8 @@
                  and Yannick Chancerelle",
   title =        "The remarkable population size of the endangered clam
                  \bioname{Tridacna maxima} assessed in {Fangatau Atoll
-                 (Eastern Tuamotu, French Polynesia)} using {\em in
-                 situ\/} and remote sensing data",
+                 (Eastern Tuamotu, French Polynesia)} using
+                 \latinname{in situ} and remote sensing data",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "62",
   number =       "6",
@@ -22725,7 +22728,7 @@
   author =       "St{\'e}phane G. Conti and David A. Demer and Michael
                  A. Soule and Jean H. E. Conti",
   title =        "An improved multiple-frequency method for measuring
-                 {\em in situ\/} target strengths",
+                 \latinname{in situ} target strengths",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "62",
   number =       "8",
@@ -22917,8 +22920,8 @@
 
 @Article{Xia:2005:ESC,
   author =       "Junhong Xia and Jinsong Zheng and Ding Wang",
-  title =        "{\em {Ex} situ\/} conservation status of an endangered
-                 {Yangtze} finless porpoise population
+  title =        "\latinname{Ex situ} conservation status of an
+                 endangered {Yangtze} finless porpoise population
                  (\bioname{Neophocaena phocaenoides asiaeorientalis}) as
                  measured from microsatellites and {mtDNA} diversity",
   journal =      j-ICES-J-MAR-SCI,
@@ -23056,9 +23059,9 @@
 
 @Article{Zhao:2006:STS,
   author =       "Xianyong Zhao",
-  title =        "{{\em In situ\/}} target-strength measurement of young
-                 hairtail (\bioname{Trichiurus haumela}) in the {Yellow
-                 Sea}",
+  title =        "\latinname{In situ} target-strength measurement of
+                 young hairtail (\bioname{Trichiurus haumela}) in the
+                 {Yellow Sea}",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "63",
   number =       "1",
@@ -24319,7 +24322,7 @@
 @Article{Sigurdsson:2006:STD,
   author =       "Thorsteinn Sigurdsson and Vilhjalmur Thorsteinsson and
                  Leifur G{\'u}stafsson",
-  title =        "{{\em In situ\/}} tagging of deep-sea redfish:
+  title =        "\latinname{In situ} tagging of deep-sea redfish:
                  application of an underwater, fish-tagging system",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "63",
@@ -25437,7 +25440,7 @@
                  Ux{\'\i}o Labarta and Mar{\'\i}a Jos{\'e}
                  Fern{\'a}ndez-Reiriz",
   title =        "Growth of \bioname{Mytilus galloprovincialis} after
-                 the {{\em Prestige\/}} oil spill",
+                 the \vessel{Prestige} oil spill",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "63",
   number =       "6",
@@ -27150,7 +27153,7 @@
 
 @Article{Klevjer:2006:STS,
   author =       "Thor A. Klevjer and Stein Kaartvedt",
-  title =        "{{\em In situ\/}} target strength and behaviour of
+  title =        "\latinname{In situ} target strength and behaviour of
                  northern krill (\bioname{Meganyctiphanes norvegica})",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "63",
@@ -30568,7 +30571,7 @@
 
 @Article{Coombs:2007:SMO,
   author =       "Roger F. Coombs and Richard Barr",
-  title =        "{{\em In situ\/}} measurements of orange roughy
+  title =        "\latinname{In situ} measurements of orange roughy
                  (\bioname{Hoplostethus atlanticus}) target strength",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "64",
@@ -32357,8 +32360,8 @@
 
 @Article{Thorne:2008:HEV,
   author =       "Richard E. Thorne and Gary L. Thomas",
-  title =        "Herring and the ``{Exxon Valdez}'' oil spill: an
-                 investigation into historical data conflicts",
+  title =        "Herring and the ``\vessel{Exxon Valdez}'' oil spill:
+                 an investigation into historical data conflicts",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "65",
   number =       "1",
@@ -33490,8 +33493,8 @@
   author =       "Laura G. Peteiro and Ram{\'o}n Filgueira and Ux{\'\i}o
                  Labarta and Mar{\'\i}a Jos{\'e} Fern{\'a}ndez-Reiriz",
   title =        "Growth and biochemical responses of the offspring of
-                 mussels directly affected by the {``Prestige''} oil
-                 spill",
+                 mussels directly affected by the
+                 {``\vessel{Prestige}''} oil spill",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "65",
   number =       "4",
@@ -33678,7 +33681,7 @@
 
 @Article{Pena:2008:STS,
   author =       "Hector Pe{\~n}a",
-  title =        "{{\em In situ\/}} target-strength measurements of
+  title =        "\latinname{In situ} target-strength measurements of
                  {Chilean} jack mackerel (\bioname{Trachurus symmetricus
                  murphyi}) collected with a scientific echosounder
                  installed on a fishing vessel",
@@ -34503,8 +34506,8 @@
 @Article{Zhao:2008:DDT,
   author =       "Xianyong Zhao and Yong Wang and Fangqun Dai",
   title =        "Depth-dependent target strength of anchovy
-                 (\bioname{Engraulis japonicus}) measured {\em in
-                 situ\/}",
+                 (\bioname{Engraulis japonicus}) measured \latinname{in
+                 situ}",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "65",
   number =       "6",
@@ -34879,7 +34882,7 @@
   title =        "Side-aspect target-strength measurements of bay
                  anchovy (\bioname{Anchoa mitchilli}) and {Gulf}
                  menhaden (\bioname{Brevoortia patronus}) derived from
-                 \bioname{ex situ} experiments",
+                 \latinname{ex situ} experiments",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "65",
   number =       "6",
@@ -37684,7 +37687,7 @@
 
 @Article{Guttormsen:2009:SMC,
   author =       "Michael A. Guttormsen and Christopher D. Wilson",
-  title =        "{{\em In situ\/}} measurements of capelin
+  title =        "\latinname{In situ} measurements of capelin
                  (\bioname{Mallotus villosus}) target strength in the
                  {North Pacific Ocean}",
   journal =      j-ICES-J-MAR-SCI,
@@ -40078,8 +40081,9 @@
 
 @Article{Pedersen:2009:LAT,
   author =       "Geir Pedersen and Nils Olav Handegard and Egil Ona",
-  title =        "Lateral-aspect, target-strength measurements of {\em
-                 in situ\/} herring (\bioname{Clupea harengus})",
+  title =        "Lateral-aspect, target-strength measurements of
+                 \latinname{in situ} herring (\bioname{Clupea
+                 harengus})",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "66",
   number =       "6",
@@ -40170,7 +40174,7 @@
 @Article{Kang:2009:EST,
   author =       "Donhyug Kang and Sungho Cho and Changwon Lee and
                  Jung-Goo Myoung and Jungyul Na",
-  title =        "{\em {Ex} situ\/} target-strength measurements of
+  title =        "\latinname{Ex situ} target-strength measurements of
                  {Japanese} anchovy (\bioname{Engraulis japonicus}) in
                  the coastal {Northwest Pacific}",
   journal =      j-ICES-J-MAR-SCI,
@@ -40193,9 +40197,10 @@
 
 @Article{Ermolchev:2009:MRS,
   author =       "Viacheslav A. Ermolchev",
-  title =        "Methods and results of {\em in situ\/} target-strength
-                 measurements of {Atlantic} cod (\bioname{Gadus morhua})
-                 during combined trawl-acoustic surveys",
+  title =        "Methods and results of \latinname{in situ}
+                 target-strength measurements of {Atlantic} cod
+                 (\bioname{Gadus morhua}) during combined trawl-acoustic
+                 surveys",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "66",
   number =       "6",
@@ -41004,7 +41009,7 @@
                  Colbourne and Vladimir Ozhigin and H{\'e}{\eth}inn
                  Valdimarsson and Svein {\O}sterhus and Karen
                  Wiltshire",
-  title =        "Comparison of {\em in situ\/} time-series of
+  title =        "Comparison of \latinname{in situ} time-series of
                  temperature with gridded sea surface temperature
                  datasets in the {North Atlantic}",
   journal =      j-ICES-J-MAR-SCI,
@@ -42388,9 +42393,10 @@
 
 @Article{Oosthuizen:2009:BTS,
   author =       "An{\`e} Oosthuizen and Mike J. Roberts",
-  title =        "Bottom temperature and {\em in situ\/} development of
-                 chokka squid eggs (\bioname{Loligo vulgaris reynaudii})
-                 on mid-shelf spawning grounds, {South Africa}",
+  title =        "Bottom temperature and \latinname{in situ} development
+                 of chokka squid eggs (\bioname{Loligo vulgaris
+                 reynaudii}) on mid-shelf spawning grounds, {South
+                 Africa}",
   journal =      j-ICES-J-MAR-SCI,
   volume =       "66",
   number =       "9",

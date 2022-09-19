@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:26:33 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:06:47 MDT",
 %%%     filename        = "canjfishaquatsci2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "20879 49723 209496 2169852",
+%%%     checksum        = "22330 49724 209504 2169930",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -56,7 +56,7 @@
 %%%
 %%%                            https://cdnsciencepub.com/journal/cjfas
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2005 (   1)    2010 ( 172)    2015 ( 170)
@@ -123,7 +123,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -10648,7 +10649,7 @@
                  Kleisner and Vicky Lam and Ashley McCrea-Strub and Wilf
                  Swartz and Reg Watson and Dirk Zeller and Daniel
                  Pauly",
-  title =        "Impact of the {{\em Deepwater Horizon\/}} well blowout
+  title =        "Impact of the \vessel{Deepwater Horizon} well blowout
                  on the economics of {US Gulf} fisheries",
   journal =      j-CAN-J-FISH-AQUAT-SCI,
   volume =       "69",
@@ -10917,8 +10918,8 @@
   author =       "Rodrigo M. Montes and R. Ian Perry and Evgeny A.
                  Pakhomov and Andrew M. Edwards and James A.
                  Boutillier",
-  title =        "Erratum: Multifractal patterns in the daily catch time
-                 series of smooth pink shrimp (\bioname{Pandalus
+  title =        "Erratum: {Multifractal} patterns in the daily catch
+                 time series of smooth pink shrimp (\bioname{Pandalus
                  jordani}) from the west coast of {Vancouver Island,
                  Canada}",
   journal =      j-CAN-J-FISH-AQUAT-SCI,
@@ -38262,8 +38263,8 @@
   author =       "Giulia Cambi{\`e} and Julia R. Pantin and Harriet
                  Lincoln and Jan G. Hiddink and Gwladys T. Lambert and
                  Michel J. Kaiser",
-  title =        "Diversity of fishing \bioname{m{\'e}tier} use can
-                 affect incomes and costs in small-scale fisheries",
+  title =        "Diversity of fishing \emph{m{\'e}tier} use can affect
+                 incomes and costs in small-scale fisheries",
   journal =      j-CAN-J-FISH-AQUAT-SCI,
   volume =       "74",
   number =       "12",

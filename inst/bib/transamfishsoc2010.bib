@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:50:16 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "14:40:47 MDT",
 %%%     filename        = "transamfishsoc2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "58490 31435 133041 1309115",
+%%%     checksum        = "13662 31436 133050 1309213",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%
 %%%                            https://afspubs.onlinelibrary.wiley.com/journal/15488659
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2010 ( 150)    2014 ( 141)    2018 ( 101)
@@ -103,7 +103,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -17328,7 +17329,7 @@
                  Peebles and Luiz Barbeiri",
   title =        "Prevalence of External Skin Lesions and Polycyclic
                  Aromatic Hydrocarbon Concentrations in {Gulf of Mexico}
-                 Fishes, Post-Deepwater Horizon",
+                 Fishes, Post-\vessel{Deepwater Horizon}",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "143",
   number =       "4",
@@ -21484,8 +21485,8 @@
 @Article{Schaefer:2016:DNC,
   author =       "Jacob Schaefer and Nkrumah Frazier and Jonathan Barr",
   title =        "Dynamics of Near-Coastal Fish Assemblages following
-                 the Deepwater Horizon Oil Spill in the {Northern Gulf
-                 of Mexico}",
+                 the \vessel{Deepwater Horizon} Oil Spill in the
+                 {Northern Gulf of Mexico}",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "145",
   number =       "1",

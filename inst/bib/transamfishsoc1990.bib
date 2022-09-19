@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.00",
-%%%     date            = "30 November 2021",
-%%%     time            = "06:25:41 MDT",
+%%%     version         = "1.01",
+%%%     date            = "16 September 2022",
+%%%     time            = "13:28:53 MDT",
 %%%     filename        = "transamfishsoc1990.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "60005 24689 101354 1036556",
+%%%     checksum        = "57535 24689 101360 1036618",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%
 %%%                            https://afspubs.onlinelibrary.wiley.com/journal/15488659
 %%%
-%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        At version 1.01, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1990 ( 106)    1994 ( 108)    1998 ( 100)
@@ -103,7 +103,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -13164,7 +13165,7 @@
 @Article{Barber:1995:EEV,
   author =       "Willard E. Barber and Lyman L. McDonald and Wallace P.
                  Erickson and Mark Vallarino",
-  title =        "Effect of the {{\em Exxon Valdez\/}} Oil Spill on
+  title =        "Effect of the \vessel{Exxon Valdez} Oil Spill on
                  Intertidal Fish: a Field Study",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "124",
@@ -14348,8 +14349,8 @@
 
 @Article{Herdendorf:1995:GSW,
   author =       "Charles E. Herdendorf and Tim M. Berra",
-  title =        "A {Greenland} Shark from the Wreck of the {{\em SS
-                 Central America}} at 2,200 Meters",
+  title =        "A {Greenland} Shark from the Wreck of the \vessel{SS
+                 Central America} at 2,200 Meters",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "124",
   number =       "6",
@@ -19678,8 +19679,7 @@
   author =       "Brian G. Bue and Samuel Sharr and James E. Seeb",
   title =        "Evidence of Damage to Pink Salmon Populations
                  Inhabiting {Prince William Sound, Alaska}, Two
-                 Generations after the {{\em Exxon Valdez\/}} Oil
-                 Spill",
+                 Generations after the \vessel{Exxon Valdez} Oil Spill",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "127",
   number =       "1",

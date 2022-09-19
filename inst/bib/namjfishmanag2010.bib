@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "10 February 2022",
-%%%     time            = "07:44:53 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "14:39:02 MDT",
 %%%     filename        = "namjfishmanag2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "33959 31764 135275 1316349",
+%%%     checksum        = "12901 31765 135284 1316438",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%
 %%%                            https://onlinelibrary.wiley.com/journal/15488675/
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2010 ( 145)    2014 ( 119)    2018 ( 132)
@@ -103,7 +103,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -14145,9 +14146,9 @@
 @Article{Szedlmayer:2014:IAC,
   author =       "Stephen T. Szedlmayer and Peter A. Mudrak",
   title =        "Influence of Age-1 Conspecifics, Sediment Type,
-                 Dissolved Oxygen, and the Deepwater Horizon Oil Spill
-                 on Recruitment of Age-0 Red Snapper in the {Northeast
-                 Gulf of Mexico} during 2010 and 2011",
+                 Dissolved Oxygen, and the \vessel{Deepwater Horizon}
+                 Oil Spill on Recruitment of Age-0 Red Snapper in the
+                 {Northeast Gulf of Mexico} during 2010 and 2011",
   journal =      j-N-AM-J-FISH-MANAG,
   volume =       "34",
   number =       "2",

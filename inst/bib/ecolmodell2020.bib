@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.09",
-%%%     date            = "07 September 2022",
-%%%     time            = "06:30:02 MDT",
+%%%     version         = "1.11",
+%%%     date            = "19 September 2022",
+%%%     time            = "07:40:57 MDT",
 %%%     filename        = "ecolmodell2020.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "10139 21905 87274 941596",
+%%%     checksum        = "61726 21904 87280 941607",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/ecological-modelling
 %%%
-%%%                        At version 1.09, the COMPLETE year coverage
+%%%                        At version 1.11, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2020 ( 337)    2021 ( 278)    2022 ( 222)
@@ -89,6 +89,7 @@
     "\ifx \undefined \degree       \def \degree   {$^o$}             \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}    \fi" #
     "\ifx \undefined \k            \let \k = \c                      \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}  \fi" #
     "\ifx \undefined \mathbb       \def \mathbb #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc  #1{{\accent'27#1}}   \fi" #
@@ -4451,7 +4452,7 @@
                  Mackay and J. R. Pleban and C. R. McClung and C. Weinig
                  and D. R. Wang and B. E. Ewers",
   title =        "Use of transcriptomic data to inform biophysical
-                 models {\em via\/} {Bayesian} networks",
+                 models \latinname{via} {Bayesian} networks",
   journal =      j-ECOL-MODELL,
   volume =       "429",
   number =       "??",
@@ -7061,7 +7062,7 @@
 @Article{Pak:2020:PSO,
   author =       "S. Ya. Pak and A. I. Abakumov",
   title =        "Phytoplankton in the {Sea of Okhotsk} along {Western
-                 Kamchatka}: warm {\em vs\/} cold years",
+                 Kamchatka}: warm \latinname{vs} cold years",
   journal =      j-ECOL-MODELL,
   volume =       "433",
   number =       "??",
@@ -7765,7 +7766,7 @@
   author =       "Eliza S. Deutsch and Ibrahim Alameddine and Song S.
                  Qian",
   title =        "Using structural equation modeling to better
-                 understand \bioname{microcystis} biovolume dynamics in
+                 understand \bioname{Microcystis} biovolume dynamics in
                  a {Mediterranean} hypereutrophic reservoir",
   journal =      j-ECOL-MODELL,
   volume =       "435",
@@ -9515,7 +9516,7 @@
                  Manuel Plantegenest and Ronan Le Cointe and Yoann
                  Bourhis",
   title =        "Dynamic role of grasslands as sources of soil-dwelling
-                 insect pests: New insights from {\em in silico\/}
+                 insect pests: New insights from \latinname{in silico}
                  experiments for pest management strategies",
   journal =      j-ECOL-MODELL,
   volume =       "440",
@@ -10823,8 +10824,8 @@
                  Jansons and Gediminas Brazaitis",
   title =        "Simulating the effects of thinning and species mixing
                  on stands of oak (\bioname{Quercus petraea} ({Matt}.)
-                 {Liebl.\slash Quercus} robur {L}.) and pine
-                 (\bioname{Pinus sylvestris} {L}.) across {Europe}",
+                 {Liebl.\slash Quercus} robur {L.}) and pine
+                 (\bioname{Pinus sylvestris} {L.}) across {Europe}",
   journal =      j-ECOL-MODELL,
   volume =       "442",
   number =       "??",
@@ -13829,7 +13830,7 @@
                  and Seyed Jalil Alavi and Asadollah Mataji and Farid
                  Kazemnezhad",
   title =        "Potential elevation shift of oriental beech
-                 (\bioname{Fagus orientalis} {L}.) in {Hyrcanian} mixed
+                 (\bioname{Fagus orientalis} {L.}) in {Hyrcanian} mixed
                  forest ecoregion under future global warming",
   journal =      j-ECOL-MODELL,
   volume =       "455",
@@ -16920,8 +16921,8 @@
                  and Seyed Jalil Alavi and Asadollah Mataji and Farid
                  Kazemnezhad",
   title =        "Corrigendum to {{\booktitle{Potential elevation shift
-                 of oriental beech (\bioname{Fagus orientalis} L.) in
-                 Hyrcanian mixed forest ecoregion under future global
+                 of oriental beech (\bioname{Fagus orientalis} {L.}) in
+                 {Hyrcanian} mixed forest ecoregion under future global
                  warming}}}",
   journal =      j-ECOL-MODELL,
   volume =       "464",
@@ -19564,7 +19565,7 @@
   author =       "Laura R. Gonz{\'a}lez-Ram{\'\i}rez and Deniz
                  Ala{\c{c}}am and Aysegul Akpinar",
   title =        "A mathematical model of \bioname{Chenopodium album}
-                 {L}. dynamics under copper-induced stress",
+                 {L.} dynamics under copper-induced stress",
   journal =      j-ECOL-MODELL,
   volume =       "469",
   number =       "??",
@@ -19810,11 +19811,10 @@
 }
 
 @Article{Barber-OMalley:2022:HHS,
-  author =       "Betsy Barber-O{\textquotesingle}Malley and
-                 G{\'e}raldine Lassalle and Guillem Chust and Estibaliz
-                 Diaz and Andrew O{\textquotesingle}Malley and C{\'e}sar
-                 Paradinas Bl{\'a}zquez and Javier P{\'o}rtoles Marquina
-                 and Patrick Lambert",
+  author =       "Betsy Barber-O'Malley and G{\'e}raldine Lassalle and
+                 Guillem Chust and Estibaliz Diaz and Andrew O'Malley
+                 and C{\'e}sar Paradinas Bl{\'a}zquez and Javier
+                 P{\'o}rtoles Marquina and Patrick Lambert",
   title =        "{HyDiaD}: a hybrid species distribution model
                  combining dispersal, multi-habitat suitability, and
                  population dynamics for diadromous species under
@@ -20303,9 +20303,8 @@
 }
 
 @Article{Caill-Milly:2022:ADS,
-  author =       "N. Caill-Milly and J. Bald Garmendia and F.
-                 D{\textquotesingle}Amico and O. Guyader and C. Dang and
-                 N. Bru",
+  author =       "N. Caill-Milly and J. Bald Garmendia and F. D'Amico
+                 and O. Guyader and C. Dang and N. Bru",
   title =        "Adapting a dynamic system model using life traits and
                  local fishery knowledge --- Application to a population
                  of exploited marine bivalves (\bioname{Ruditapes
@@ -21496,7 +21495,7 @@
                  Esfandiar Hassani Moghadam and Ebrahim Kakolvand and
                  Daniel E. Campbell",
   title =        "Investigating the need to replace the conventional
-                 method of sugar beet production in {Lorestan province,
+                 method of sugar beet production in {Lorestan Province,
                  Iran} based on the arguments obtained from emergy
                  calculations",
   journal =      j-ECOL-MODELL,
@@ -21546,7 +21545,7 @@
 @Article{Zeng:2022:EIP,
   author =       "Yong Zeng and Wei Yang and Yanwei Zhao",
   title =        "Ecological impact of polycyclic aromatic hydrocarbons
-                 on Baiyangdian Lake based on an ecosystem model",
+                 on {Baiyangdian Lake} based on an ecosystem model",
   journal =      j-ECOL-MODELL,
   volume =       "472",
   number =       "??",
@@ -21726,7 +21725,7 @@
                  Naghmeh Mobarghaee Dinan",
   title =        "Modelling ecological scarcity considering the
                  long-term interaction between human and nature in dry
-                 agricultural landscapes. Application in {Qazvin
+                 agricultural landscapes. {Application} in {Qazvin
                  (Iran)}",
   journal =      j-ECOL-MODELL,
   volume =       "472",

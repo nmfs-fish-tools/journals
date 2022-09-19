@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.02",
-%%%     date            = "15 January 2022",
-%%%     time            = "05:45:36 MST",
+%%%     version         = "1.03",
+%%%     date            = "16 September 2022",
+%%%     time            = "13:24:29 MDT",
 %%%     filename        = "marpolicy2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "16473 68464 259887 2797226",
+%%%     checksum        = "65319 68470 259901 2797491",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/marine-policy/
 %%%
-%%%                        At version 1.02, the COMPLETE year coverage
+%%%                        At version 1.03, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2010 ( 185)    2014 ( 264)    2018 ( 413)
@@ -94,6 +94,7 @@
     "\ifx \undefined \Eth          \def \Eth         {D}                \fi" #
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}     \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
@@ -101,7 +102,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -26980,7 +26982,7 @@
                  Fern{\'a}ndez-Gonz{\'a}lez",
   title =        "Institutional analysis, allocation of liabilities and
                  third-party enforcement via courts: the case of the
-                 {{\em Prestige\/}} oil spill",
+                 \vessel{Prestige} oil spill",
   journal =      j-MAR-POLICY,
   volume =       "55",
   number =       "??",
@@ -27316,9 +27318,10 @@
 @Article{Martin:2015:AES,
   author =       "Carol L. Martin and Salim Momtaz and Alan Jordan and
                  Natalie A. Moltschaniwskyj",
-  title =        "An assessment of the effectiveness of {\em in-situ`\/}
-                 signage in multiple-use marine protected areas in
-                 providing information to different recreational users",
+  title =        "An assessment of the effectiveness of
+                 \latinname{in-situ} signage in multiple-use marine
+                 protected areas in providing information to different
+                 recreational users",
   journal =      j-MAR-POLICY,
   volume =       "56",
   number =       "??",
@@ -31088,8 +31091,8 @@
 
 @Article{Faure:2015:CVE,
   author =       "Michael Faure and Hui Wang",
-  title =        "Compensating victims of a {European Deepwater Horizon}
-                 accident: {OPOL} revisited",
+  title =        "Compensating victims of a {European} \vessel{Deepwater
+                 Horizon} accident: {OPOL} revisited",
   journal =      j-MAR-POLICY,
   volume =       "62",
   number =       "??",
@@ -37281,10 +37284,10 @@
   author =       "Leo X. C. Dutra and Catherine M. Dichmont and Ingrid
                  E. van Putten and Olivier Th{\'e}baud and Roy A. Deng
                  and Ricardo Pascual and Randall Owens and Eddie Jebreen
-                 and Carolyn Thompson and M. St.J Warne and R. Quinn and
-                 J. Bennett and M. Read and D. Wachenfeld and Catherine
-                 Collier and Michelle Waycott and J. Davies and A.
-                 Garland and M. Dunning and J. Playford",
+                 and Carolyn Thompson and M. St. J. Warne and R. Quinn
+                 and J. Bennett and M. Read and D. Wachenfeld and
+                 Catherine Collier and Michelle Waycott and J. Davies
+                 and A. Garland and M. Dunning and J. Playford",
   title =        "How important is the coast? {A} survey of coastal
                  objectives in an {Australian} regional city",
   journal =      j-MAR-POLICY,
@@ -47364,7 +47367,7 @@
 @Article{Caballero:2017:ECJ,
   author =       "Gonzalo Caballero and David Soto-O{\~n}ate",
   title =        "Environmental crime and judicial rectification of the
-                 {{\em Prestige\/}} oil spill: the polluter pays",
+                 \vessel{Prestige} oil spill: the polluter pays",
   journal =      j-MAR-POLICY,
   volume =       "84",
   number =       "??",
@@ -48808,7 +48811,7 @@
   author =       "B. Konar and L. Frisch and S. B. Moran",
   title =        "Development of best practices for scientific research
                  vessel operations in a changing {Arctic}: a case study
-                 for {{\em R/V Sikuliaq}}",
+                 for \vessel{R/V Sikuliaq}",
   journal =      j-MAR-POLICY,
   volume =       "86",
   number =       "??",
@@ -49203,12 +49206,14 @@
 }
 
 @Article{Greening:2018:LIN,
-  author =       "Holly Greening and Roberta Swann and Kerry {St.P{\'e}}
-                 and Susan Testroet-Bergeron and Ray Allen and Mark
-                 Alderson and Jennifer Hecker and Sarah P. Bernhardt",
+  author =       "Holly Greening and Roberta Swann and Kerry {St.
+                 P{\'e}} and Susan Testroet-Bergeron and Ray Allen and
+                 Mark Alderson and Jennifer Hecker and Sarah
+                 P. Bernhardt",
   title =        "Local implementation of a national program: the
                  {National Estuary Program} response following the
-                 {Deepwater Horizon} oil spill in the {Gulf of Mexico}",
+                 \vessel{Deepwater Horizon} oil spill in the {Gulf of
+                 Mexico}",
   journal =      j-MAR-POLICY,
   volume =       "87",
   number =       "??",
@@ -59874,7 +59879,7 @@
 @Article{Dubik:2019:GFF,
   author =       "Bradford A. Dubik and Elizabeth C. Clark and Talia
                  Young and Sarah Bess {Jones Zigler} and Mikaela M.
-                 Provost and Malin L. Pinsky and Kevin {St.Martin}",
+                 Provost and Malin L. Pinsky and Kevin {St. Martin}",
   title =        "Governing fisheries in the face of change: {Social}
                  responses to long-term geographic shifts in a {U.S.}
                  fishery",
@@ -62764,9 +62769,9 @@
 @Article{Parappurathu:2019:FVI,
   author =       "Shinoj Parappurathu and C. Ramachandran and K. K.
                  Baiju and Antony Kurisunkal Xavier",
-  title =        "Formal {\em versus} informal: {Insights} into the
-                 credit transactions of small-scale fishers along the
-                 south west coast of {India}",
+  title =        "Formal \latinname{versus} informal: {Insights} into
+                 the credit transactions of small-scale fishers along
+                 the south west coast of {India}",
   journal =      j-MAR-POLICY,
   volume =       "103",
   number =       "??",
@@ -66966,7 +66971,7 @@
 
 @Article{Holzer:2019:DHO,
   author =       "Jorge Holzer and Kristen Byler",
-  title =        "{{\em Deepwater Horizon\/} Oceanic Fish Restoration
+  title =        "{\vessel{Deepwater Horizon} Oceanic Fish Restoration
                  Project}: an application of market mechanisms for
                  conservation",
   journal =      j-MAR-POLICY,
@@ -67212,7 +67217,8 @@
 
 @Article{Smith:2019:MPF,
   author =       "Hance D. Smith and Azmath Jaleel",
-  title =        "{{\em Marine policy}}: the first four decades",
+  title =        "{{\booktitle{Marine policy}}}: the first four
+                 decades",
   journal =      j-MAR-POLICY,
   volume =       "108",
   number =       "??",

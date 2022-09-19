@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:33:26 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:27:23 MDT",
 %%%     filename        = "fishres2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "02970 65995 253950 2751694",
+%%%     checksum        = "45576 65999 253957 2751934",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -38,7 +38,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/fisheries-research
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2007 (   1)    2012 ( 225)    2017 ( 287)
@@ -95,6 +95,7 @@
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}     \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
@@ -102,7 +103,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -1354,8 +1356,8 @@
 
 @Article{Volpedo:2010:EPL,
   author =       "Alejandra V. Volpedo and Daniela V. Fuchs",
-  title =        "Ecomorphological patterns of the {\em lapilli} of
-                 Paranoplatense Siluriforms ({South America})",
+  title =        "Ecomorphological patterns of the \latinname{lapilli}
+                 of {Paranoplatense Siluriforms} ({South America})",
   journal =      j-FISH-RES,
   volume =       "102",
   number =       "1--2",
@@ -8598,9 +8600,9 @@
 @Article{Guillotreau:2011:FTA,
   author =       "Patrice Guillotreau and Fr{\'e}d{\'e}ric
                  Salladarr{\'e} and Patrice Dewals and Laurent Dagorn",
-  title =        "Fishing tuna around Fish Aggregating Devices ({FADs})
-                 {\em vs.} free swimming schools: Skipper decision and
-                 other determining factors",
+  title =        "Fishing tuna around {Fish Aggregating Devices (FADs)}
+                 \latinname{vs.} free swimming schools: Skipper decision
+                 and other determining factors",
   journal =      j-FISH-RES,
   volume =       "109",
   number =       "2--3",
@@ -14666,9 +14668,10 @@
 @Article{Castro:2012:IMB,
   author =       "J. Castro and M. Mar{\'\i}n and N. P{\'e}rez and G. J.
                  Pierce and A. Punz{\'o}n",
-  title =        "Identification of {\em m{\'e}tiers} based on economic
-                 and biological data: the {Spanish} bottom otter trawl
-                 fleet operating in non-{Iberian} {European} waters",
+  title =        "Identification of {\em m{\'e}tiers\/} based on
+                 economic and biological data: the {Spanish} bottom
+                 otter trawl fleet operating in non-{Iberian} {European}
+                 waters",
   journal =      j-FISH-RES,
   volume =       "125--126",
   number =       "??",
@@ -23423,7 +23426,7 @@
 
 @Article{Peraltilla:2014:SMS,
   author =       "Salvador Peraltilla and Sophie Bertrand",
-  title =        "{{\em In situ\/}} measurements of the speed of
+  title =        "\latinname{In situ} measurements of the speed of
                  {Peruvian} anchovy schools",
   journal =      j-FISH-RES,
   volume =       "149",
@@ -24801,8 +24804,8 @@
 
 @Article{Robertis:2014:STS,
   author =       "Alex De Robertis and Kevin Taylor",
-  title =        "{{\em In situ\/}} target strength measurements of the
-                 scyphomedusa \bioname{Chrysaora melanaster}",
+  title =        "\latinname{In situ} target strength measurements of
+                 the scyphomedusa \bioname{Chrysaora melanaster}",
   journal =      j-FISH-RES,
   volume =       "153",
   number =       "??",
@@ -32564,7 +32567,7 @@
 @Article{Broadhurst:2015:TVN,
   author =       "Matt K. Broadhurst and David J. Sterling and Russell
                  B. Millar",
-  title =        "Traditional {\em vs.} novel ground gears: Maximising
+  title =        "Traditional \latinname{vs.} novel ground gears: Maximising
                  the environmental performance of penaeid trawls",
   journal =      j-FISH-RES,
   volume =       "167",
@@ -33607,8 +33610,9 @@
 @Article{Hofmann:2015:ASH,
   author =       "Thorben Hofmann and Michael J. Raupach and Pedro
                  Martinez Arb{\'\i}zu and Thomas Knebelsberger",
-  title =        "An application of {\em in situ} hybridization for the
-                 identification of commercially important fish species",
+  title =        "An application of \latinname{in situ} hybridization
+                 for the identification of commercially important fish
+                 species",
   journal =      j-FISH-RES,
   volume =       "170",
   number =       "??",
@@ -44929,9 +44933,9 @@
 @Article{Zare:2017:SAT,
   author =       "Parviz Zare and Svetlana M. Kasatkina and Sergey V.
                  Shibaev and Hassan Fazli",
-  title =        "{{\em In situ\/}} acoustic target strength of anchovy
-                 kilka (\bioname{Clupeonella engrauliformis}) in the
-                 {Caspian Sea (Iran)}",
+  title =        "\latinname{In situ} acoustic target strength of
+                 anchovy kilka (\bioname{Clupeonella engrauliformis}) in
+                 the {Caspian Sea (Iran)}",
   journal =      j-FISH-RES,
   volume =       "186 (part 1)",
   number =       "??",
@@ -46046,8 +46050,8 @@
                  Gargouri and Ahmed Fendri",
   title =        "The effects of storage on quality and nutritional
                  aspects of farmed and wild sea bass
-                 (\bioname{Dicentrachus labrax}) muscle: {{\em In
-                 vitro\/}} oils digestibility evaluation",
+                 (\bioname{Dicentrachus labrax}) muscle: \latinname{In
+                 vitro} oils digestibility evaluation",
   journal =      j-FISH-RES,
   volume =       "188",
   number =       "??",
@@ -46323,8 +46327,8 @@
                  Kocovsky and Song S. Qian and Dave M. Warner and
                  Richard T. Kraus and Christopher S. Vandergoot",
   title =        "Sparse targets in hydroacoustic surveys: Balancing
-                 quantity and quality of {\em in situ} target strength
-                 data",
+                 quantity and quality of \latinname{in situ} target
+                 strength data",
   journal =      j-FISH-RES,
   volume =       "188",
   number =       "??",
@@ -47398,7 +47402,7 @@
 @Article{Herdter:2017:DDH,
   author =       "Elizabeth S. Herdter and Don P. Chambers and
                  Christopher D. Stallings and Steven A. Murawski",
-  title =        "Did the {{\em Deepwater Horizon\/}} oil spill affect
+  title =        "Did the \vessel{Deepwater Horizon} oil spill affect
                  growth of {Red Snapper} in the {Gulf of Mexico}?",
   journal =      j-FISH-RES,
   volume =       "191",
@@ -56073,7 +56077,7 @@
   author =       "Richard L. O'Driscoll and Simonepietro Canese and
                  Yoann Ladroit and Steve J. Parker and Laura Ghigliotti
                  and Sophie Mormede and Marino Vacchi",
-  title =        "First {\em in situ} estimates of acoustic target
+  title =        "First \latinname{in situ} estimates of acoustic target
                  strength of {Antarctic} toothfish
                  (\bioname{Dissostichus mawsoni})",
   journal =      j-FISH-RES,

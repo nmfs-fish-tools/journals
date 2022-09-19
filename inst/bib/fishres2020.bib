@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.10",
-%%%     date            = "25 August 2022",
-%%%     time            = "14:01:53 MDT",
+%%%     version         = "1.11",
+%%%     date            = "16 September 2022",
+%%%     time            = "13:01:56 MDT",
 %%%     filename        = "fishres2020.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "63549 22227 87474 939046",
+%%%     checksum        = "04310 22228 87482 939134",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -38,7 +38,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/fisheries-research
 %%%
-%%%                        At version 1.10, the COMPLETE year coverage
+%%%                        At version 1.11, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2019 (   2)    2021 ( 315)
@@ -92,6 +92,7 @@
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}     \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
@@ -17680,9 +17681,9 @@
 @Article{Rautureau:2022:STD,
   author =       "Cl{\'e}ment Rautureau and Chlo{\'e} Goulon and Jean
                  Guillard",
-  title =        "{{\em In situ}} {TS} detections using two generations
-                 of echo-sounder, {EK60} and {EK80}: the continuity of
-                 fishery acoustic data in lakes",
+  title =        "\latinname{In situ} {TS} detections using two
+                 generations of echo-sounder, {EK60} and {EK80}: the
+                 continuity of fishery acoustic data in lakes",
   journal =      j-FISH-RES,
   volume =       "249",
   number =       "??",
@@ -19047,8 +19048,8 @@
 @Article{Naz:2022:DGS,
   author =       "Sumra Naz and Khalid Abbas",
   title =        "Delineating the genetic status of wild
-                 \bioname{yprinus carpio} as influenced by anthropogenic
-                 interventions",
+                 \bioname{Cyprinus carpio} as influenced by
+                 anthropogenic interventions",
   journal =      j-FISH-RES,
   volume =       "251",
   number =       "??",
@@ -20378,7 +20379,7 @@
 @Article{Zhu:2022:TLB,
   author =       "Jiuyang Zhu and Guoping Zhu",
   title =        "Trophic linkage between mackerel icefish
-                 (\bioname{hampsocephalus gunnari}) and {Antarctic}
+                 (\bioname{Champsocephalus gunnari}) and {Antarctic}
                  krill (\bioname{Euphausia superba}) at {South
                  Georgia}",
   journal =      j-FISH-RES,

@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "09 September 2022",
-%%%     time            = "16:43:30 MDT",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:19:54 MDT",
 %%%     filename        = "ecolmodell2000.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "17227 92673 356304 3906754",
+%%%     checksum        = "18921 92674 356309 3906834",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/ecological-modelling
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2000 ( 254)    2004 ( 406)    2008 ( 414)
@@ -92,6 +92,7 @@
     "\ifx \undefined \degree       \def \degree   {$^o$}             \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}    \fi" #
     "\ifx \undefined \k            \let \k = \c                      \fi" #
+    "\ifx \undefined \latinname    \def \latinname #1{{{\em #1\/}}}  \fi" #
     "\ifx \undefined \mathbb       \def \mathbb #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc  #1{{\accent'27#1}}   \fi" #
@@ -36162,7 +36163,7 @@
 @Article{Maud:2004:REH,
   author =       "Sholto Maud and Dino Cevolatti",
   title =        "Realising the Enlightenment: {H. T. Odum}'s Energy
-                 Systems Language {\em qua\/} {G. W. v Leibniz}'s
+                 Systems Language \latinname{qua} {G. W. v Leibniz}'s
                  \booktitle{Characteristica Universalis}",
   journal =      j-ECOL-MODELL,
   volume =       "178",
@@ -70881,7 +70882,7 @@
 
 @Article{Raghu:2007:PRB,
   author =       "S. Raghu and K. Dhileepan and J. C. Scanlan",
-  title =        "Predicting risk and benefit {\em a priori\/} in
+  title =        "Predicting risk and benefit \latinname{a priori} in
                  biological control of invasive plant species: a systems
                  modelling approach",
   journal =      j-ECOL-MODELL,
@@ -89453,9 +89454,9 @@
 @Article{Lee:2009:NFI,
   author =       "Eun Jung Lee and Meejeong Kim and Young Kim and
                  Kang-Kun Lee",
-  title =        "Numerical and field investigation of enhanced {\em in
-                 situ\/} denitrification in a shallow-zone well-to-well
-                 recirculation system",
+  title =        "Numerical and field investigation of enhanced
+                 \latinname{in situ} denitrification in a shallow-zone
+                 well-to-well recirculation system",
   journal =      j-ECOL-MODELL,
   volume =       "220",
   number =       "19",
@@ -91688,8 +91689,8 @@
 @Article{Monte:2009:MAD,
   author =       "Luigi Monte",
   title =        "A methodological approach to develop ``{\em
-                 contaminant migration\/} --- {\em population
-                 effects\/}'' models",
+                 contaminant migration --- population effects\/}''
+                 models",
   journal =      j-ECOL-MODELL,
   volume =       "220",
   number =       "23",

@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "26 December 2021",
-%%%     time            = "08:49:59 MST",
+%%%     version         = "1.02",
+%%%     date            = "16 September 2022",
+%%%     time            = "13:29:57 MDT",
 %%%     filename        = "transamfishsoc2000.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "01411 32286 134712 1338532",
+%%%     checksum        = "44363 32286 134710 1338539",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%
 %%%                            https://afspubs.onlinelibrary.wiley.com/journal/15488659
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2000 ( 114)    2004 ( 137)    2008 ( 157)
@@ -103,7 +103,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -138,7 +139,6 @@
 %%%     overlapping page ranges [130(2) 350--350] [130(3) 347--358]
 %%%     page gap of   7 between [131(1) 176--185] [131(2) 193--202]
 %%%     page gap of   7 between [132(1) 174--175] [132(2) 183--195]
-%%%     identical page ranges [132(2) 406--407] [132(2) 406--407]
 %%%     identical page ranges [132(2) 406--407] [132(2) 406--407]
 %%%     overlapping page ranges [133(1) 231--234] [133(1) 232--233]
 %%%     page gap of   9 between [133(1) 235--235] [133(2) 245--251]
@@ -2081,8 +2081,8 @@
   author =       "Alex C. Wertheimer and Ron A. Heintz and John F.
                  Thedinga and Jacek M. Maselko and Stanley D. Rice",
   title =        "Straying of Adult Pink Salmon from their Natal Stream
-                 following Embryonic Exposure to Weathered {{\em Exxon
-                 Valdez\/}} Crude Oil",
+                 following Embryonic Exposure to Weathered \vessel{Exxon
+                 Valdez} Crude Oil",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "129",
   number =       "4",
@@ -2541,7 +2541,7 @@
                  Brannian and James E. Seeb",
   title =        "Genetic Diversity of Sockeye Salmon of {Cook Inlet,
                  Alaska}, and Its Application to Management of
-                 Populations Affected by the {{\em Exxon Valdez\/}} Oil
+                 Populations Affected by the \vessel{Exxon Valdez} Oil
                  Spill",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "129",
@@ -10007,7 +10007,7 @@
 @Article{Baltz:2003:TSP,
   author =       "Donald M. Baltz and Robert F. Jones",
   title =        "Temporal and Spatial Patterns of Microhabitat Use by
-                 Fishes and {Decapod} Crustaceans in a {Louisiana
+                 Fishes and Decapod Crustaceans in a {Louisiana
                  Estuary}",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "132",
@@ -13130,7 +13130,7 @@
   author =       "Mark G. Carls and Stanley D. Rice and Gary D. Marty
                  and Diane K. Naydan",
   title =        "Pink Salmon Spawning Habitat is Recovering a Decade
-                 after the {{\em Exxon Valdez\/}} Oil Spill",
+                 after the \vessel{Exxon Valdez} Oil Spill",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "133",
   number =       "4",
@@ -25764,7 +25764,7 @@
 @Article{Minello:2008:PPE,
   author =       "Thomas J. Minello and Geoffrey A. Matthews and Philip
                  A. Caldwell and Lawrence P. Rozas",
-  title =        "Population and Production Estimates for {Decapod}
+  title =        "Population and Production Estimates for Decapod
                  Crustaceans in Wetlands of {Galveston Bay, Texas}",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "137",

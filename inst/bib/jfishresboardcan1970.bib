@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.00",
-%%%     date            = "25 November 2021",
-%%%     time            = "11:36:14 MST",
+%%%     version         = "1.01",
+%%%     date            = "16 September 2022",
+%%%     time            = "12:57:59 MDT",
 %%%     filename        = "jfishresboardcan1970.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "26621 76399 307358 3104887",
+%%%     checksum        = "43248 76400 307364 3104962",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -67,7 +67,7 @@
 %%%                        but, as of late 2021, there is no coverage
 %%%                        (yet) of journal family issues before 1938.
 %%%
-%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        At version 1.01, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1970 ( 269)    1974 ( 262)    1978 ( 257)
@@ -133,7 +133,8 @@
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
-    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
+    "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
+    "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
 }
 
 %%% ====================================================================
@@ -3471,7 +3472,7 @@
 @Article{Lund:1970:STL,
   author =       "William A. {Lund, Jr.} and Russell C. {Lockwood,
                  Jr.}",
-  title =        "Sonic Tag for Large {Decapod} Crustaceans",
+  title =        "Sonic Tag for Large Decapod Crustaceans",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "27",
   number =       "6",
@@ -12932,10 +12933,10 @@
 
 @Article{Hart:1971:NDR,
   author =       "Josephine F. L. Hart",
-  title =        "New Distribution Records of Reptant {Decapod}
-                 Crustacea, Including Descriptions of Three New Species
-                 of \bioname{Pagurus}, from the Waters Adjacent to
-                 {British Columbia}",
+  title =        "New Distribution Records of Reptant Decapod Crustacea,
+                 Including Descriptions of Three New Species of
+                 \bioname{Pagurus}, from the Waters Adjacent to {British
+                 Columbia}",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "28",
   number =       "10",
@@ -67079,8 +67080,8 @@
 @Article{Southward:1978:RRS,
   author =       "A. J. Southward and Eve C. Southward",
   title =        "Recolonization of Rocky Shores in {Cornwall} After Use
-                 of Toxic Dispersants to Clean Up the {{\em Torrey
-                 Canyon\/}} Spill",
+                 of Toxic Dispersants to Clean Up the \vessel{Torrey
+                 Canyon} Spill",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "35",
   number =       "5",
@@ -67129,7 +67130,7 @@
 
 @Article{Sanders:1978:FOS,
   author =       "Howard L. Sanders",
-  title =        "{{\em Florida\/}} Oil Spill Impact on the {Buzzards
+  title =        "\vessel{Florida} Oil Spill Impact on the {Buzzards
                  Bay} Benthic Fauna: {West Falmouth}",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "35",
@@ -67209,7 +67210,7 @@
                  Edward E. DeNike",
   title =        "Observations of a Cold-Water Intertidal Community
                  After 5 Years of a Low-Level, Persistent Oil Spill from
-                 the {{\em General M. C. Meigs}}",
+                 the \vessel{General M. C. Meigs}",
   journal =      j-J-FISH-RES-BOARD-CAN,
   volume =       "35",
   number =       "5",

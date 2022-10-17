@@ -41,7 +41,7 @@ For details see the
 [documentation for biblabel](https://www.math.utah.edu/~beebe/software/biblabel/biblabel.html).
 
 In short,
-keys are creating by pasting the following three strings together with colons.
+keys are created by pasting the following three strings together with colons.
 1. The first authors last name without apostrophes, etc.
 1. The four-digit year the reference was published.
 1. Captial letters representing the first letter of the first three important

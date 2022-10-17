@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.00",
-%%%     date            = "12 November 2021",
-%%%     time            = "06:28:45 MDT",
+%%%     version         = "1.01",
+%%%     date            = "13 October 2022",
+%%%     time            = "09:07:49 MDT",
 %%%     filename        = "ecolmodell1990.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "41137 45477 171000 1895003",
+%%%     checksum        = "25962 45479 171016 1895164",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -39,7 +39,7 @@
 %%%
 %%%                            https://www.sciencedirect.com/journal/ecological-modelling
 %%%
-%%%                        At version 1.00, the COMPLETE year coverage
+%%%                        At version 1.01, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1990 (  55)    1994 (  98)    1998 ( 208)
@@ -91,6 +91,7 @@
     "\ifx \undefined \circled      \def \circled #1{(#1)}            \fi" #
     "\ifx \undefined \degree       \def \degree   {$^o$}             \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}    \fi" #
+    "\ifx \undefined \geoname      \def \geoname   #1{{#1}}          \fi" #
     "\ifx \undefined \k            \let \k = \c                      \fi" #
     "\ifx \undefined \mathbb       \def \mathbb #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf #1{{\bf #1}}         \fi" #
@@ -98,6 +99,7 @@
     "\ifx \undefined \pkg          \def \pkg       #1{{{\tt #1}}}    \fi" #
     "\ifx \undefined \r            \let \r = \ocirc                  \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}           \fi" #
+    "\ifx \undefined \stormname    \def \stormname #1{{#1}}          \fi" #
     "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}          \fi"
 }
 
@@ -34647,7 +34649,7 @@
 
 @Article{Monte:1998:PLT,
   author =       "Luigi Monte",
-  title =        "Predicting the long term behaviour of $^{90}${Sr} in
+  title =        "Predicting the long term behaviour of {$^{90}$Sr} in
                  lacustrine systems by a collective model",
   journal =      j-ECOL-MODELL,
   volume =       "106",
@@ -41374,7 +41376,7 @@
   author =       "Wendell P. Cropper and Daniel DiResta",
   title =        "Simulation of a {Biscayne Bay, Florida} commercial
                  sponge population: effects of harvesting after
-                 {Hurricane Andrew}",
+                 \stormname{Hurricane Andrew}",
   journal =      j-ECOL-MODELL,
   volume =       "118",
   number =       "1",

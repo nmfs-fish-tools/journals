@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.02",
-%%%     date            = "16 September 2022",
-%%%     time            = "14:40:47 MDT",
+%%%     version         = "1.03",
+%%%     date            = "13 October 2022",
+%%%     time            = "09:42:11 MDT",
 %%%     filename        = "transamfishsoc2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "13662 31436 133050 1309213",
+%%%     checksum        = "53838 31438 133066 1309379",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%
 %%%                            https://afspubs.onlinelibrary.wiley.com/journal/15488659
 %%%
-%%%                        At version 1.02, the COMPLETE year coverage
+%%%                        At version 1.03, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2010 ( 150)    2014 ( 141)    2018 ( 101)
@@ -96,12 +96,14 @@
     "\ifx \undefined \Eth          \def \Eth         {D}                \fi" #
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
+    "\ifx \undefined \geoname      \def \geoname   #1{{#1}}             \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
+    "\ifx \undefined \stormname    \def \stormname #1{{#1}}             \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
     "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
     "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
@@ -3419,8 +3421,8 @@
 
 @Article{vanVrancken:2010:EHK,
   author =       "Jeffrey van Vrancken and Martin O'Connell",
-  title =        "Effects of Hurricane {Katrina} on Freshwater Fish
-                 Assemblages in a Small Coastal Tributary of {Lake
+  title =        "Effects of \stormname{Hurricane Katrina} on Freshwater
+                 Fish Assemblages in a Small Coastal Tributary of {Lake
                  Pontchartrain, Louisiana}",
   journal =      j-TRANS-AM-FISH-SOC,
   volume =       "139",

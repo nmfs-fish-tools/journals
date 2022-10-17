@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.02",
-%%%     date            = "16 September 2022",
-%%%     time            = "14:39:02 MDT",
+%%%     version         = "1.03",
+%%%     date            = "13 October 2022",
+%%%     time            = "09:32:26 MDT",
 %%%     filename        = "namjfishmanag2010.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "12901 31765 135284 1316438",
+%%%     checksum        = "15573 31767 135300 1316604",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%
 %%%                            https://onlinelibrary.wiley.com/journal/15488675/
 %%%
-%%%                        At version 1.02, the COMPLETE year coverage
+%%%                        At version 1.03, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2010 ( 145)    2014 ( 119)    2018 ( 132)
@@ -96,12 +96,14 @@
     "\ifx \undefined \Eth          \def \Eth         {D}                \fi" #
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
+    "\ifx \undefined \geoname      \def \geoname   #1{{#1}}             \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \ocirc        \def \ocirc     #1{{\accent'27#1}}   \fi" #
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
+    "\ifx \undefined \stormname    \def \stormname #1{{#1}}             \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
     "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi" #
     "\ifx \undefined \vessel       \def \vessel    #1{{\em #1\/}}       \fi"
@@ -1223,9 +1225,9 @@
 @Article{Perret:2010:EHK,
   author =       "Alexander J. Perret and Michael D. Kaller and William
                  E. Kelso and D. Allen Rutherford",
-  title =        "Effects of {Hurricanes Katrina and Rita} on Sport Fish
-                 Community Abundance in the {Eastern Atchafalaya River
-                 Basin, Louisiana}",
+  title =        "Effects of \stormname{Hurricanes Katrina and Rita} on
+                 Sport Fish Community Abundance in the {Eastern
+                 Atchafalaya River Basin, Louisiana}",
   journal =      j-N-AM-J-FISH-MANAG,
   volume =       "30",
   number =       "2",

@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.01",
-%%%     date            = "19 September 2022",
-%%%     time            = "07:42:27 MDT",
+%%%     version         = "1.02",
+%%%     date            = "13 October 2022",
+%%%     time            = "09:13:54 MDT",
 %%%     filename        = "jfishbiol2000.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "10932 83836 336065 3285953",
+%%%     checksum        = "07310 83838 336081 3286119",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -46,7 +46,7 @@
 %%%
 %%%                            https://onlinelibrary.wiley.com/journal/10958649
 %%%
-%%%                        At version 1.01, the COMPLETE year coverage
+%%%                        At version 1.02, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             1992 (   1)    1998 (   0)    2004 ( 359)
@@ -103,6 +103,7 @@
     "\ifx \undefined \Eth          \def \Eth         {D}                \fi" #
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
+    "\ifx \undefined \geoname      \def \geoname   #1{{#1}}             \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
     "\ifx \undefined \mathbf       \def \mathbf    #1{{\bf #1}}         \fi" #
@@ -110,6 +111,7 @@
     "\ifx \undefined \pkg          \def \pkg       #1{{{\tt #1}}}       \fi" #
     "\ifx \undefined \r            \let \r = \ocirc                     \fi" #
     "\ifx \undefined \reg          \def \reg {\circled{R}}              \fi" #
+    "\ifx \undefined \stormname    \def \stormname #1{{#1}}             \fi" #
     "\ifx \undefined \Thorn        \def \Thorn       {T}                \fi" #
     "\ifx \undefined \TM           \def \TM {${}^{\sc TM}$}             \fi"
 }
@@ -27634,8 +27636,8 @@
   author =       "M. R. Heupel and C. A. Simpfendorfer and R. E.
                  Hueter",
   title =        "Running before the storm: blacktip sharks respond to
-                 falling barometric pressure associated with {Tropical
-                 Storm Gabrielle}",
+                 falling barometric pressure associated with
+                 \stormname{Tropical Storm Gabrielle}",
   journal =      j-J-FISH-BIOL,
   volume =       "63",
   number =       "5",

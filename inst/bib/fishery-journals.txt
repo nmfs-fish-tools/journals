@@ -23,6 +23,11 @@ fisheries.bib
 fishes.bib
 fishfish.bib
 fishoceanogr.bib
+fishphysiolbiochem1980.bib
+fishphysiolbiochem1990.bib
+fishphysiolbiochem2000.bib
+fishphysiolbiochem2010.bib
+fishphysiolbiochem2020.bib
 fishres1980.bib
 fishres1990.bib
 fishres2000.bib
@@ -77,6 +82,7 @@ mar-ecol-prog-ser2000.bib
 mar-ecol-prog-ser2010.bib
 mar-ecol-prog-ser2020.bib
 marbiolres.bib
+marbiotechnol.bib
 marinresourcecon.bib
 marpolicy1970.bib
 marpolicy1980.bib

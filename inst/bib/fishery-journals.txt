@@ -1,4 +1,5 @@
 aquacfishfish.bib
+aquacultint.bib
 aquatecol.bib
 canjfishaquatsci1980.bib
 canjfishaquatsci1990.bib
@@ -46,6 +47,7 @@ icesjmarsci1990.bib
 icesjmarsci2000.bib
 icesjmarsci2010.bib
 icesjmarsci2020.bib
+intaquatres.bib
 jaquacultresdev.bib
 jfishbiol1960.bib
 jfishbiol1970.bib

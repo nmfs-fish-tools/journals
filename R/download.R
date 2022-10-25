@@ -7,7 +7,7 @@
 #'
 download_bibs <- function(to = getwd()) {
   dir.create(to, recursive = TRUE, showWarnings = FALSE)
-  org <- "kellijohnson-noaa"
+  org <- "nmfs-fish-tools"
   repo <- "journals"
   files <- find_bibs()
   url <- paste0(

@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Get list of .bib files
         run: |
           wget -O fishery-journals.txt http://www.math.utah.edu/~beebe/.fishery-journals/fishery-journals.txt
@@ -29,13 +29,13 @@ jobs:
         if: ${{ !contains(steps.commit-msg.outputs.msg, 'run')}}
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: 'Updates fishery-journals via GitHub action'
+          commit-message: 'Updates journals bib files using download.yml'
           branch: download
-          title: 'Updates fishery-journals via GitHub action'
+          title: 'Updates journals via GitHub action'
           body: |
-           Auto-generated pull request via GitHub action download.yml.
-           * Please rebase and merge, then
-           * Delete the download branch.
+           * Scan files, mainly titles, for errors
+           * Rebase and merge
+           * Delete the download branch
 
 # Notes ----
 

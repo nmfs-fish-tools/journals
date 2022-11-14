@@ -27,7 +27,7 @@ jobs:
           echo "::set-output name=msg::${last_commit_msg}"
       - name: Create Pull Request
         if: ${{ !contains(steps.commit-msg.outputs.msg, 'run')}}
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: 'Updates journals bib files using download.yml'
           branch: download

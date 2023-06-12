@@ -2,9 +2,9 @@
 %%% ====================================================================
 %%%  BibTeX-file{
 %%%     author          = "Nelson H. F. Beebe",
-%%%     version         = "1.06",
-%%%     date            = "30 March 2023",
-%%%     time            = "09:46:47 MST",
+%%%     version         = "1.08",
+%%%     date            = "09 June 2023",
+%%%     time            = "09:01:43 MDT",
 %%%     filename        = "jaquacultresdev.bib",
 %%%     address         = "University of Utah
 %%%                        Department of Mathematics, 110 LCB
@@ -14,7 +14,7 @@
 %%%     telephone       = "+1 801 581 5254",
 %%%     FAX             = "+1 801 581 4148",
 %%%     URL             = "http://www.math.utah.edu/~beebe",
-%%%     checksum        = "44650 15509 61449 735490",
+%%%     checksum        = "20110 15575 61465 738969",
 %%%     email           = "beebe at math.utah.edu, beebe at acm.org,
 %%%                        beebe at computer.org (Internet)",
 %%%     codetable       = "ISO/ASCII",
@@ -41,7 +41,7 @@
 %%%                            https://www.walshmedicalmedia.com/aquaculture-research-development.html
 %%%                            https://www.walshmedicalmedia.com/aquaculture-research-development/archive.html
 %%%
-%%%                        At version 1.06, the COMPLETE year coverage
+%%%                        At version 1.08, the COMPLETE year coverage
 %%%                        looked like this:
 %%%
 %%%                             2010 (   4)    2015 ( 101)    2020 (  40)
@@ -133,6 +133,7 @@
     "\ifx \undefined \Eth          \def \Eth         {D}                \fi" #
     "\ifx \undefined \eth          \def \eth         {d}                \fi" #
     "\ifx \undefined \gene         \def \gene      #1{{{\sf #1}}}       \fi" #
+    "\ifx \undefined \geoname      \def \geoname   #1{{#1}}             \fi" #
     "\ifx \undefined \k            \let \k = \c                         \fi" #
     "\ifx \undefined \latinname      \def \latinname #1{{{\em #1\/}}}   \fi" #
     "\ifx \undefined \mathbb       \def \mathbb    #1{{\bf #1}}         \fi" #
@@ -196,8 +197,8 @@
   author =       "Devivaraprasad Reddy A and G. Jeyasekaran and Jeya
                  Shakila R",
   title =        "Incidence of White Spot Syndrome Virus ({WSSV}) in
-                 {Indian} Farmed Frozen Shrimp Products and Testing for
-                 Viability Through Bio-Inoculation Studies",
+                 \geoname{Indian} Farmed Frozen Shrimp Products and
+                 Testing for Viability Through Bio-Inoculation Studies",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "1",
   number =       "1",
@@ -221,7 +222,7 @@
                  Arias",
   title =        "Evaluation of a Flow-Through Depuration System to
                  Eliminate the Human Pathogen \bioname{Vibrio
-                 Vulnificus} from Oysters",
+                 vulnificus} from Oysters",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "1",
   number =       "2",
@@ -270,8 +271,8 @@
                  Scapigliati",
   title =        "Analysis of the Expression and Modulation of Selected
                  mmunerelated Gene Transcripts in the {DLEC} Cell Line
-                 from {European} Sea Bass (\bioname{Dicentrarchus
-                 labrax} {L.})",
+                 from \geoname{European} Sea Bass
+                 (\bioname{Dicentrarchus labrax} {L.})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "2",
   number =       "1",
@@ -320,8 +321,8 @@
                  and C. Neville and K. Lange and R. Sweeting and S.
                  Jones",
   title =        "The Winter Infection of Sea Lice on Salmon in Farms in
-                 a Coastal Inlet in {British} {Columbia} and Possible
-                 Causes",
+                 a Coastal Inlet in \geoname{British Columbia} and
+                 Possible Causes",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "2",
   number =       "1",
@@ -439,8 +440,8 @@
 @Article{Suloma:2011:AAM,
   author =       "Ashraf Suloma and Hiroshi Y. Ogata",
   title =        "Arachidonic acid is a Major Component in Gonadal Fatty
-                 acids of Tropical Coral Reef fish in the {Philippines}
-                 and {Japan}",
+                 acids of Tropical Coral Reef fish in the
+                 \geoname{Philippines} and \geoname{Japan}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "2",
   number =       "2",
@@ -508,9 +509,9 @@
 @Article{Strand:2011:GEE,
   author =       "{\AA}sa Strand and Carin Magnhagen and Anders
                  Alan{\"a}r{\"a}",
-  title =        "Growth and Energy Expenditures of {Eurasian} Perch
-                 \bioname{Perca fluviatilis} ({Linnaeus}) in Different
-                 Temperatures and of Different Body Sizes",
+  title =        "Growth and Energy Expenditures of \geoname{Eurasian}
+                 Perch \bioname{Perca fluviatilis} ({Linnaeus}) in
+                 Different Temperatures and of Different Body Sizes",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "2",
   number =       "3",
@@ -577,8 +578,9 @@
   author =       "Grace A. Ssanyu and Joseph Rasowo and Elmada Auma and
                  Moses Ndunguru",
   title =        "Evaluation of Plankton Community Structure in Fish
-                 Refugia Acting as Oreochromic niloticus Propagation and
-                 Nursery Units for {Rice/Fish} Trials, {Uganda}",
+                 Refugia Acting as \bioname{Oreochromic niloticus}
+                 Propagation and Nursery Units for Rice\slash Fish
+                 Trials, \geoname{Uganda}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "2",
   number =       "4",
@@ -600,8 +602,8 @@
 @Article{Huynh:2011:EDS,
   author =       "Huy P. V. Huynh and Dayanthi Nugegoda",
   title =        "Effects of Dietary Supplements on Growth Performance
-                 and Phosphorus Waste Production of {Australian}
-                 Catfish, \bioname{Tandanus Tandanus}, Fed with Diets
+                 and Phosphorus Waste Production of \geoname{Australian}
+                 Catfish, \bioname{Tandanus tandanus}, Fed with Diets
                  Containing Canola Meal as Fishmeal Replacement",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "2",
@@ -623,8 +625,8 @@
 
 @Article{Ndi:2012:RDP,
   author =       "Olasumbo L. Ndi and Mary D. Barton",
-  title =        "Resistance Determinants of {Pseudomonas} Species from
-                 Aquaculture in {Australia}",
+  title =        "Resistance Determinants of \bioname{Pseudomonas}
+                 Species from Aquaculture in \geoname{Australia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "1",
@@ -647,9 +649,9 @@
   author =       "Luis O. B. Afonso and Zina Richmond and Alexandra A.
                  Eaves and Jon Richard and Laura M. Hawley and Kyle A.
                  Garver",
-  title =        "Use of Ultraviolet {C} {(UVC)} Radiation to Inactivate
-                 Infectious Hematopoietic Necrosis Virus {(IHNV)} and
-                 Viral Hemorrhagic Septicemia Virus {(VHSV)} in Fish
+  title =        "Use of Ultraviolet {C} ({UVC}) Radiation to Inactivate
+                 Infectious Hematopoietic Necrosis Virus ({IHNV}) and
+                 Viral Hemorrhagic Septicemia Virus ({VHSV}) in Fish
                  Processing Plant Effluent",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
@@ -697,7 +699,8 @@
   author =       "Ambrose Paulraj and Jos{\'e} Vitor Lima-Filho and
                  Kareem Altaff and Silvio Peixoto",
   title =        "Atypical Chytridiomyces Fungal Infection in Cultured
-                 \bioname{Macrobrachium rosenbergii} in {India}",
+                 \bioname{Macrobrachium rosenbergii} in
+                 \geoname{India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "1",
@@ -765,7 +768,8 @@
 @Article{Ogunremi:2012:EAR,
   author =       "J. B. Ogunremi and E. O. Faturoti and O. I. Oladele",
   title =        "Effects of Aquaculture Researchers' Job
-                 Characteristics on Linkage Activities in {Nigeria}",
+                 Characteristics on Linkage Activities in
+                 \geoname{Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "2",
@@ -787,8 +791,8 @@
 @Article{Plaipetch:2012:UYF,
   author =       "Pichet Plaipetch and Amararatne Yakupitiyage",
   title =        "Use of Yeast-Fermented Canola Meal to Replace Fishmeal
-                 in the Diet of {Asian} Sea Bass \bioname{Lates
-                 Calcarifer} ({Bloch}, 1790)",
+                 in the Diet of \geoname{Asian} Sea Bass \bioname{Lates
+                 calcarifer} ({Bloch}, 1790)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "2",
@@ -811,7 +815,7 @@
   author =       "Nathan R. Jensen and Jon J. Amberg and James A. Luoma
                  and Liza R. Walleser and Mark P. Gaikowski",
   title =        "Assessing Consumption of Bioactive Micro-Particles by
-                 Filter-Feeding {Asian} Carp",
+                 Filter-Feeding \geoname{Asian} Carp",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "2",
@@ -832,7 +836,7 @@
 
 @Article{Ottesen:2012:DLB,
   author =       "O. H. Ottesen and E. Dunaevskaya and J. D'Arcy",
-  title =        "Development of \bioname{Labrus Bergylta} ({Ascanius}
+  title =        "Development of \bioname{Labrus bergylta} ({Ascanius}
                  1767) Larvae from Hatching to Metamorphosis",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
@@ -856,7 +860,7 @@
   author =       "J. A. Su{\'a}rez and G. Gaxiola and R. Posso and G.
                  Garcia and G. Alanis and A. Su{\'a}rez and J. Faillace
                  and G. Cuzon",
-  title =        "Energy Partitioning by \bioname{Litopenaeus Vannamei}
+  title =        "Energy Partitioning by \bioname{Litopenaeus vannamei}
                  ({Boone}, 1931) given Plant Protein Diets",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
@@ -881,8 +885,8 @@
                  and R. Dayal and A. K. Yadav and J. K. Jena",
   title =        "Evaluation of Partial Replacement of Dietary Animal
                  Protein from Plant Protein Blended with Glucosamine on
-                 Growth and Body Indices of {Asian} Catfish
-                 (\bioname{Clarias Batrachus}) Fingerlings",
+                 Growth and Body Indices of \geoname{Asian} Catfish
+                 (\bioname{Clarias batrachus}) Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "3",
@@ -906,9 +910,9 @@
                  Elanchezhiyan and V. Manoharan and N. Silambarasan and
                  K. Balasubramanian and N. Raaman and C. Siveraj",
   title =        "Protective Efficacy of Aqueous Extract of
-                 \bioname{Naringi Crenulata} Leaves against Shampoo
+                 \bioname{Naringi crenulata} Leaves against Shampoo
                  (Endocrine Disruptor) Induced Toxicity in
-                 \bioname{Labeo Rohita}",
+                 \bioname{Labeo rohita}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "3",
@@ -954,7 +958,7 @@
 @Article{Beaven:2012:AMP,
   author =       "Utete Beaven and Victor Muposhi",
   title =        "Aspects of a Monosex Population of
-                 \bioname{Oreochromis Niloticus} Fingerlings Produced
+                 \bioname{Oreochromis niloticus} Fingerlings Produced
                  Using 17-$ \alpha $ Methyl Testosterone Hormone",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
@@ -976,7 +980,7 @@
 
 @Article{Olumuji:2012:IBA,
   author =       "O. K. Olumuji and M. K. Mustapha",
-  title =        "Induced Breeding of {African} Mud Catfish,
+  title =        "Induced Breeding of \geoname{African} Mud Catfish,
                  \bioname{Clarias gariepinus} ({Burchell} 1822), using
                  Different Doses of Normal Saline Diluted Ovaprim",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -1001,9 +1005,9 @@
   author =       "Prem Prakash Srivastava and Sudhir Raizada and Rajesh
                  Dayal and Shipra Chowdhary and Wazir Singh Lakra and
                  Akhilesh Kumar Yadav and Priya Sharma and Jyoti Gupta",
-  title =        "Breeding and Larval Rearing of {Asian} Catfish,
-                 \bioname{Clarias batrachus} ({Linnaeus}, 1758) on Live
-                 and Artificial Feed",
+  title =        "Breeding and Larval Rearing of \geoname{Asian}
+                 Catfish, \bioname{Clarias batrachus} ({Linnaeus}, 1758)
+                 on Live and Artificial Feed",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "4",
@@ -1053,7 +1057,7 @@
                  Carlos Riquelme",
   title =        "Diketopiperazines Produced by an [sic]
                  \bioname{Bacillus} Species Inhibits \bioname{Vibrio
-                 Parahaemolyticus}",
+                 parahaemolyticus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "4",
@@ -1075,9 +1079,9 @@
 @Article{Chambers:2012:CGS,
   author =       "Michael Chambers and Jon Bunker and Win {Watson III}
                  and W. H. Howell",
-  title =        "Comparative Growth and Survival of Juvenile {Atlantic}
-                 Cod (\bioname{Gadus morhua}) Cultured in Copper and
-                 Nylon Net Pens",
+  title =        "Comparative Growth and Survival of Juvenile
+                 \geoname{Atlantic} Cod (\bioname{Gadus morhua})
+                 Cultured in Copper and Nylon Net Pens",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "5",
@@ -1102,7 +1106,7 @@
                  and Joy Krushna Jena",
   title =        "Growth Responses of Animal and Plant Origin Dietary
                  Lipids on the Survival, Growth and Feed Efficiency of
-                 {Asian} Catfish, \bioname{Clarias batrachus}
+                 \geoname{Asian} Catfish, \bioname{Clarias batrachus}
                  ({Linnaeus}, 1758) Grow-out",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
@@ -1175,7 +1179,7 @@
   author =       "Muhammad Mizanur Rahman and Mostafa Shamsuzzaman and
                  Saad Mahmood and Subrata Sarker and Faruk Alam",
   title =        "Economics of Tilapia Culture in Watershed Pond in
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "5",
@@ -1198,7 +1202,7 @@
   author =       "Evgenia Dunaevskaya and Anil B. Amin and Oddvar H.
                  Ottesen",
   title =        "Organogenesis of Ballan Wrasse \bioname{Labrus
-                 Bergylta} ({Ascanius} 1767) Larvae",
+                 bergylta} ({Ascanius} 1767) Larvae",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "5",
@@ -1220,7 +1224,7 @@
 @Article{Mancuso:2012:PEB,
   author =       "Monique Mancuso",
   title =        "Photobacteriosis Exchange between Wild and Farmed Fish
-                 in the {Mediterranean} Area",
+                 in the \geoname{Mediterranean} Area",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "6",
@@ -1265,7 +1269,7 @@
                  Dam Roy and N. K. Chadha and G. Venkateshwarlu",
   title =        "Effect of Feeding Enriched Formulated Diet and Live
                  Feed on Growth, Survival and Fatty Acid Profile of
-                 Deccan Mahseer, \bioname{Tor Khudree} ({Sykes}) First
+                 Deccan Mahseer, \bioname{Tor khudree} ({Sykes}) First
                  Feeding Fry",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
@@ -1312,7 +1316,7 @@
 @Article{Sarkar:2012:ITA,
   author =       "Agniswar Sarkar and Mousumi Saha and Pranab Roy",
   title =        "Identification and Typing of \bioname{Aeromonas
-                 Hydrophila} through {16S} {rDNA-PCR} Fingerprinting",
+                 hydrophila} through {16S} {rDNA-PCR} Fingerprinting",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "6",
@@ -1333,7 +1337,7 @@
 
 @Article{Elkamel:2012:INT,
   author =       "Ahmad A. Elkamel and Gamal M. Mosaad",
-  title =        "Immunomodulation of {Nile} Tilapia,
+  title =        "Immunomodulation of \geoname{Nile} Tilapia,
                  \bioname{Oreochromis niloticus}, by \bioname{Nigella
                  sativa} and \bioname{Bacillus subtilis}",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -1357,8 +1361,9 @@
 @Article{Sivakamavalli:2012:PII,
   author =       "Jeyachandran Sivakamavalli and Perumal Rajakumaran and
                  Baskaralingam Vaseeharan",
-  title =        "Prophenoloxidase and Immune Indices of {Indian} White
-                 Shrimp Fenneropenaeus Indicus",
+  title =        "Prophenoloxidase and Immune Indices of
+                 \geoname{Indian} White Shrimp \bioname{Fenneropenaeus
+                 indicus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "6",
@@ -1381,7 +1386,7 @@
   author =       "B. M. A. Hasan and B. Guha and S. Datta",
   title =        "Optimization of Feeding Efficiency in Semi-Intensive
                  Farming System for Sustainable and Cost Effective
-                 Production of \bioname{Penaeus Monodon} {Fabricius}",
+                 Production of \bioname{Penaeus monodon} {Fabricius}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "6",
@@ -1402,7 +1407,8 @@
 
 @Article{Ovissipour:2012:SCC,
   author =       "Mahmoudreza Ovissipour and Barbara Rasco",
-  title =        "Sturgeon: Conservation of {Caspian} Sea Stocks",
+  title =        "Sturgeon: Conservation of \geoname{Caspian Sea}
+                 Stocks",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "7",
@@ -1450,9 +1456,9 @@
   author =       "Magdy M. Gaber and Magdy M. Elhalfawy and Amal M.
                  Ramadan",
   title =        "Utilization of Cottonseed Meal Supplemented with Iron
-                 for Detoxification of Gossypol in {Nile} Tilapia,
-                 Broodstock and their Impact on the Hatchability of
-                 their Progenies",
+                 for Detoxification of Gossypol in \geoname{Nile}
+                 Tilapia, Broodstock and their Impact on the
+                 Hatchability of their Progenies",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "7",
@@ -1476,7 +1482,7 @@
                  M. Nour and M. A. Zaki and T. M. Srour",
   title =        "Effects of Stocking Density and Water Exchange Rates
                  on Growth Performance of Tiger Shrimp, \bioname{Penaeus
-                 Semisulcatus} Cultured in Earthen Ponds",
+                 semisulcatus} Cultured in Earthen Ponds",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "7",
@@ -1500,7 +1506,7 @@
                  Sanchez and A. Navarrete",
   title =        "Nitrogen Flow in a Recirculating Operation of
                  \bioname{Litopenaeus vannamei} Maturation in
-                 {Ecuador}",
+                 \geoname{Ecuador}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "8",
@@ -1522,8 +1528,9 @@
 @Article{Bag:2012:AWP,
   author =       "Mukti Pada Bag and Subhash Chandra Mahapatra and
                  Pavuluri Srinivasa Rao",
-  title =        "Aquatic Weed as Potential Feed for {Mozambique}
-                 tilapia, \bioname{Oreochromis mossambicus}",
+  title =        "Aquatic Weed as Potential Feed for
+                 \geoname{Mozambique} tilapia, \bioname{Oreochromis
+                 mossambicus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "3",
   number =       "8",
@@ -1546,7 +1553,7 @@
   author =       "A. S. Kefi and J. Kang'ombe and D. Kassam and C.
                  Katongo",
   title =        "Growth, Reproduction and Sex Ratios in
-                 \bioname{Oreochromis Andersonii} ({Castelnau}, 1861)
+                 \bioname{Oreochromis andersonii} ({Castelnau}, 1861)
                  Fed with Varying Levels of $ 17 \alpha $-Methyl
                  Testosterone",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -1621,7 +1628,7 @@
   author =       "Mahboubeh Hosseinzadeh and Mohammad Reza Imanpoor and
                  Ali Shabani and Hamed Nekoubin",
   title =        "Seasonal Changes in Serum Calcium and $ 17 \beta
-                 $-Estradiol Levels in {Persian} Sturgeon,
+                 $-Estradiol Levels in \geoname{Persian} Sturgeon,
                  \bioname{Acipenser persicus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
@@ -1668,9 +1675,9 @@
 @Article{Varadharajan:2013:FFH,
   author =       "D. Varadharajan and N. Pushparajan",
   title =        "Food and Feeding Habits of Aquaculture Candidate a
-                 Potential Crustacean of {Pacific} White Shrimp
-                 \bioname{Litopenaeus Vannamei}, {South East Coast of
-                 India}",
+                 Potential Crustacean of \geoname{Pacific} White Shrimp
+                 \bioname{Litopenaeus vannamei}, \geoname{South East
+                 Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "1",
@@ -1694,7 +1701,7 @@
                  Yaping Wang and Qun Wang",
   title =        "Isolation and Characterization of Polymorphic
                  Microsatellite Loci in the Redclaw Crayfish,
-                 \bioname{Cherax Quadricarinatus}",
+                 \bioname{Cherax quadricarinatus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "1",
@@ -1763,7 +1770,7 @@
                  Veeratayya Sidweerayya Korikanthimath",
   title =        "Evaluation of Different Animal Protein Sources in
                  Formulating the Diets for Blue Gourami,
-                 \bioname{Trichogaster Trichopterus} Fingerlings",
+                 \bioname{Trichogaster trichopterus} Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "2",
@@ -1908,7 +1915,7 @@
   title =        "Effect of Different Levels of Dietary Calcium and
                  Potassium on Growth Indices, Biochemical composition
                  and Some Whole Body Minerals in Rainbow Trout
-                 (\bioname{Oncorhynchus Mykiss}) Fingerlings",
+                 (\bioname{Oncorhynchus mykiss}) Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "3",
@@ -1952,8 +1959,9 @@
 
 @Article{Keivanloo:2013:FSV,
   author =       "Saeide Keivanloo and Mohammad Sudagar",
-  title =        "Feasibility Studies on Vitrification of {Persian}
-                 Sturgeon (\bioname{Acipenser persicus}) Embryos",
+  title =        "Feasibility Studies on Vitrification of
+                 \geoname{Persian} Sturgeon (\bioname{Acipenser
+                 persicus}) Embryos",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "3",
@@ -1976,8 +1984,8 @@
   author =       "Saeed Bbalali and Seyed Abbas Hoseini and Rasool
                  Ghorbani and Hamideh Kordi",
   title =        "Relationships between Nutrients and Chlorophyll $a$
-                 Concentration in the {International Alma Gol Wetland,
-                 Iran}",
+                 Concentration in the \geoname{International Alma Gol
+                 Wetland, Iran}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "3",
@@ -2053,7 +2061,7 @@
   author =       "O. M. Akinpelu and A. A. Ayeloja and F. O. A. George
                  and G. L. Adebisi and W. A. Jimoh and S. D. Idowu",
   title =        "Gender Analysis of Processing Activities among
-                 Commercial Catfish Processors within {Ibadan
+                 Commercial Catfish Processors within \geoname{Ibadan
                  Metropolis, Oyo State South-Western Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
@@ -2076,10 +2084,10 @@
 @Article{Aramli:2013:CSS,
   author =       "Mohammad Sadegh Aramli and Mohammad Reza Kalbassi and
                  Rajab Mohammad Nazari",
-  title =        "Comparative Study of Sex Steroid Levels of {Persian}
-                 Sturgeon, \bioname{Acipenser persicus} Males in
-                 Responding Negative and Positive to {LHRH-A$_2$}
-                 Hormone",
+  title =        "Comparative Study of Sex Steroid Levels of
+                 \geoname{Persian} Sturgeon, \bioname{Acipenser
+                 persicus} Males in Responding Negative and Positive to
+                 {LHRH-A$_2$} Hormone",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "3",
@@ -2122,8 +2130,9 @@
 @Article{Srilatha:2013:DFF,
   author =       "G. Srilatha and P. Mayavu and D. Varadharajan and K.
                  Chamundeeswari",
-  title =        "Distribution of Fin-fish Eggs and Larvae from Point
-                 {Calimere and Muthupettai, South East Coast of India}",
+  title =        "Distribution of Fin-fish Eggs and Larvae from
+                 \geoname{Point Calimere and Muthupettai, South East
+                 Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "4",
@@ -2171,8 +2180,9 @@
                  Pourdehghani",
   title =        "Effect of $ 17 \alpha $, $ 20 \beta
                  $-Dihydroxyprogesterone on \latinname{in vitro} Oocyte
-                 Maturation in {Persian} Sturgeon (\bioname{Acipenser
-                 persicus}) and Sterlet (\bioname{Acipenser ruthenus})",
+                 Maturation in \geoname{Persian} Sturgeon
+                 (\bioname{Acipenser persicus}) and Sterlet
+                 (\bioname{Acipenser ruthenus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "4",
@@ -2195,8 +2205,9 @@
   author =       "J. Manoharan and A. Gopalakrishnan and D. Varadharajan
                  and C. Udayakumar and S. Priyadharsini",
   title =        "Length--Weight Relationship of Crescent Perch
-                 \bioname{Terapon Jarbua} ({Forsskal}) from
-                 {Parangipettai Coast, South East Coast of India}",
+                 \bioname{Terapon jarbua} ({Forsskal}) from
+                 \geoname{Parangipettai Coast, South East Coast of
+                 India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "4",
@@ -2265,8 +2276,8 @@
   author =       "S. Priyadharsini and A. Subramaniyan and J. Manoharan
                  and D. Varadharajan",
   title =        "Food and Feeding Habits of Red Lionfish
-                 \bioname{Pterois volitans} from {Cuddalore Coast, South
-                 East Coast of India}",
+                 \bioname{Pterois volitans} from \geoname{Cuddalore
+                 Coast, South East Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "4",
@@ -2310,7 +2321,7 @@
 
 @Article{Dhara:2013:CBA,
   author =       "Kishore Dhara and Nimai Chandra Saha",
-  title =        "Controlled Breeding of {Asian} Catfish
+  title =        "Controlled Breeding of \geoname{Asian} Catfish
                  \bioname{Clarias batrachus} using Pituitary Gland
                  Extracts and Ovaprim at different Temperatures, Latency
                  Periods and their Early Development",
@@ -2433,7 +2444,7 @@
                  Carella and Paola Maiolino and Gionata De Vico",
   title =        "First Episode of Shell Disease Syndrome in
                  \bioname{Carcinus aestuarii} ({Crustacea: Decapoda:
-                 Portunidae}) in the {Volturno River}",
+                 Portunidae}) in the \geoname{Volturno River}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "5",
@@ -2455,8 +2466,8 @@
 @Article{Khalafalla:2013:NVD,
   author =       "Malik M. Khalafalla",
   title =        "Nutritive Value of Diets Containing {Digeston-1} as a
-                 Feed Additive for {Nile} Tilapia (\bioname{Oreochromis
-                 niloticus}) Fingerlings",
+                 Feed Additive for \geoname{Nile} Tilapia
+                 (\bioname{Oreochromis niloticus}) Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "5",
@@ -2481,7 +2492,7 @@
   title =        "The Effect of Dietary Inclusion of \bioname{Jatropha
                  curcas} Kernel Meal on Growth Performance, Feed
                  Utilization Efficiency and Survival Rate of Juvenile
-                 {Nile} tilapia",
+                 \geoname{Nile} tilapia",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "5",
@@ -2552,8 +2563,8 @@
   author =       "D. Varadharajan and P. Soundarapandian",
   title =        "Science of Advance in Aqua Farming Study of Food and
                  Feeding Habits of Jumbo Tiger Shrimp, \bioname{Penaeus
-                 monodon} ({Fabricius}, 1798) from {Parangipettai, South
-                 East Coast of India}",
+                 monodon} ({Fabricius}, 1798) from
+                 \geoname{Parangipettai, South East Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "6",
@@ -2577,7 +2588,7 @@
                  Wannanee Santaweesuk",
   title =        "Effects of Dietary Partial Replacement of Tuna Oil by
                  Corn Oil in Formulated Diets for Growth Performance and
-                 Proximate Composition of Juvenile Spotted {Babylon}
+                 Proximate Composition of Juvenile Spotted Babylon
                  \bioname{Babylonia areolata} under Hatchery
                  Conditions",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -2603,8 +2614,8 @@
                  Varadharajan and D. Varadharajan and T.
                  Balasubramanian",
   title =        "Incidental Catch and New Distributional Records of
-                 Asteroids by Bottom Trawling Activities from {Southeast
-                 Coast of India}",
+                 Asteroids by Bottom Trawling Activities from
+                 \geoname{Southeast Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "6",
@@ -2627,8 +2638,8 @@
   author =       "B. Thilagavathi and D. Varadharajan and A. Babu and J.
                  Manoharan and S. Vijayalakshmi and T. Balasubramanian",
   title =        "Distribution and Diversity of Macrobenthos in
-                 Different Mangrove Ecosystems of {Tamil Nadu Coast,
-                 India}",
+                 Different Mangrove Ecosystems of \geoname{Tamil Nadu
+                 Coast, India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "6",
@@ -2675,8 +2686,8 @@
   author =       "S. Priyadharsini and J. Manoharan and D. Varadharajan
                  and A. Subramaniyan",
   title =        "Reproductive Biology and Histological Study of Red
-                 Lionfish \bioname{Pterois Volitans} from {Cuddalore,
-                 South East Coast of India}",
+                 Lionfish \bioname{Pterois volitans} from
+                 \geoname{Cuddalore, South East Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "4",
   number =       "6",
@@ -2744,8 +2755,8 @@
 
 @Article{Bolarinwa:2014:LWR,
   author =       "Josef Bamidele Bolarinwa and Q. Popoola",
-  title =        "Length-Weight Relationships of Some Economic Fishes of
-                 {Ibeshe Waterside, Lagos Lagoon, Nigeria}",
+  title =        "Length--Weight Relationships of Some Economic Fishes
+                 of \geoname{Ibeshe Waterside, Lagos Lagoon, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "1",
@@ -2865,9 +2876,9 @@
 @Article{Langeland:2014:DEA,
   author =       "Markus Langeland and Jan Erik Lindberg and
                  Torbj{\"o}rn Lundh",
-  title =        "Digestive Enzyme Activity in {Eurasian} Perch
-                 (\bioname{Perca Fluviatilis}) and {Arctic} Charr
-                 (\bioname{Salvelinus Alpinus})",
+  title =        "Digestive Enzyme Activity in \geoname{Eurasian} Perch
+                 (\bioname{Perca fluviatilis}) and \geoname{Arctic}
+                 Charr (\bioname{Salvelinus alpinus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "1",
@@ -2890,9 +2901,10 @@
   author =       "Rani Abro and Torbj{\"o}rn Lundh and Jan Erik
                  Lindberg",
   title =        "Effect of Dietary Starch Inclusion Rate on
-                 Digestibility and Amylase Activity in {Arctic} charr
-                 (\bioname{Salvelinus alpinus}) and {Eurasian} perch
-                 (\bioname{Perca fluviatilis})",
+                 Digestibility and Amylase Activity in \geoname{Arctic}
+                 charr (\bioname{Salvelinus alpinus}) and
+                 \geoname{Eurasian} perch (\bioname{Perca
+                 fluviatilis})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "1",
@@ -2914,7 +2926,7 @@
 @Article{Sudhakar:2014:MSP,
   author =       "S. Sudhakar and P. Soundarapandian and D.
                  Varadharajan",
-  title =        "Mass Seed Production of \bioname{Macrobrachium Idae}
+  title =        "Mass Seed Production of \bioname{Macrobrachium idae}
                  ({Heller}, 1862)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -2959,8 +2971,8 @@
   author =       "K. Thirunavukkarasu and P. Soundarapandian and D.
                  Varadharajan and B. Gunalan",
   title =        "Phytoplankton Composition and Community Structure of
-                 {Kottakudi and Nari Backwaters, South East of Tamil
-                 Nadu}",
+                 \geoname{Kottakudi and Nari Backwaters, South East of
+                 Tamil Nadu}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "2",
@@ -2982,7 +2994,7 @@
 @Article{Luin:2014:SMG,
   author =       "Marianne Luin and Ching Fui Fui and Shigeharu Senoo",
   title =        "Sexual Maturation and Gonad Development in Tiger
-                 Grouper (\bioname{Epinephelus Fuscoguttatus}) $ \times
+                 Grouper (\bioname{Epinephelus fuscoguttatus}) $ \times
                  $ Giant Grouper (\bioname{E. Lanceolatus}) Hybrid",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -3007,7 +3019,8 @@
                  P. A. AndiRezki",
   title =        "Land Suitability Analysis of Tiger Shrimp Aquaculture
                  (\bioname{Penaeusmonodon}. {Fab.}) in the Coastal Area
-                 of {Labakkang District South Sulawesi --- Indonesia}",
+                 of \geoname{Labakkang District South Sulawesi ---
+                 Indonesia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "2",
@@ -3054,7 +3067,8 @@
   author =       "T. Bottari and B. Busalacchi and A. Profeta and M.
                  Mancuso and D. Giordano and P. Rinelli",
   title =        "Elasmobranch Distribution and Assemblages in the
-                 {Southern Tyrrhenian Sea (Central Mediterranean)}",
+                 \geoname{Southern Tyrrhenian Sea (Central
+                 Mediterranean)}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "2",
@@ -3077,8 +3091,8 @@
   author =       "D. Varadharajan and P. Soundarapandian",
   title =        "Proximate Composition and Mineral Contents of
                  Freshwater Crab \bioname{Spiralothelphusa hydrodroma}
-                 ({Herbst}, 1794) from {Parangipettai, South East Coast
-                 of India}",
+                 ({Herbst}, 1794) from \geoname{Parangipettai, South
+                 East Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "2",
@@ -3125,8 +3139,8 @@
   author =       "Nisreen E. Mahmoud and Mohga F. M. Badawy and M. M.
                  Fahmy",
   title =        "Investigations on Mass Mortalities among
-                 \bioname{Oreochromis niloticus} at {Mariotteya Stream,
-                 Egypt}: Parasitic Infestation and Environmental
+                 \bioname{Oreochromis niloticus} at \geoname{Mariotteya
+                 Stream, Egypt}: Parasitic Infestation and Environmental
                  Pollution Impacts",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -3198,8 +3212,9 @@
 @Article{Ronald:2014:ESD,
   author =       "Ntanzi Ronald and Bwanika Gladys and Eriku Gasper",
   title =        "The Effects of Stocking Density on the Growth and
-                 Survival of {Nile} Tilapia (\bioname{Oreochromis
-                 niloticus}) Fry at Son Fish Farm, {Uganda}",
+                 Survival of \geoname{Nile} Tilapia
+                 (\bioname{Oreochromis niloticus}) Fry at \geoname{Son
+                 Fish Farm, Uganda}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "2",
@@ -3314,8 +3329,8 @@
   author =       "Heather J. Wotton and Sara L. Purcell and Jennifer M.
                  Covello and Ben F. Koop and Mark D. Fast",
   title =        "Comparison of Host Selection and Gene Expression of
-                 Adult \bioname{Lepeophtheirus Salmonis} and
-                 \bioname{Salmo Salar} During a Cohabitation of
+                 Adult \bioname{Lepeophtheirus salmonis} and
+                 \bioname{Salmo salar} During a Cohabitation of
                  Initially Infected and Uninfected Fish",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -3339,9 +3354,10 @@
   author =       "Sarah Al Jufaili and Vladimir Machkevskyi and Sami Al
                  Sulaimi and Redha Bait Faraj and Nashwa Al Mazrooei",
   title =        "Biological and Ecological Features of
-                 \bioname{Poecilancistrum} {Sp}. Plerocercoid ({Cestoda:
-                 Trypanorhyncha}) Infection of {Arabian} Sea Meager
-                 \bioname{Argyrosomus heinii} ({Steindachner}, 1907)",
+                 \bioname{Poecilancistrum} Sp. Plerocercoid ({Cestoda:
+                 Trypanorhyncha}) Infection of \geoname{Arabian Sea}
+                 Meager \bioname{Argyrosomus heinii} ({Steindachner},
+                 1907)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "3",
@@ -3387,7 +3403,7 @@
   author =       "Gang Ren and Wen-Ying Shen and Wei-Fen Li and Yao-rong
                  Zhu",
   title =        "Molecular Characterization and Expression Pattern of a
-                 Liver-Expressed Antimicrobial Peptide 2 {(LEAP-2)} Gene
+                 Liver-Expressed Antimicrobial Peptide 2 ({LEAP-2}) Gene
                  in Yellow Catfish (\bioname{Pelteobagrus fulvidraco})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -3413,8 +3429,8 @@
                  Johan Buyse and Frans Ollevier",
   title =        "Fermentation of Arabinoxylan-Oligosaccharides,
                  Oligofructose and their Monomeric Sugars by Hindgut
-                 Bacteria from {Siberian} Sturgeon and {African} Catfish
-                 in Batch Culture in vitro",
+                 Bacteria from \geoname{Siberian} Sturgeon and
+                 \geoname{African} Catfish in Batch Culture in vitro",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "3",
@@ -3458,9 +3474,10 @@
 
 @Article{Yadollahvand:2014:HCI,
   author =       "Reza Yadollahvand and Haji Gholi Kami",
-  title =        "Habitat Changes and its Impacts on the {Caspian} Pond
-                 Turtle (\bioname{Mauremys caspica}) Population in the
-                 {Golestan and Mazandaran Provinces of Iran}",
+  title =        "Habitat Changes and its Impacts on the
+                 \geoname{Caspian} Pond Turtle (\bioname{Mauremys
+                 caspica}) Population in the \geoname{Golestan and
+                 Mazandaran Provinces of Iran}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "3",
@@ -3482,10 +3499,11 @@
 @Article{Amare:2014:PIP,
   author =       "A. Amare and A. Alemayehu and A. Aylate",
   title =        "Prevalence of Internal Parasitic Helminthes Infected
-                 \bioname{Oreochromis niloticus} ({Nile} Tilapia),
-                 \bioname{Clarias gariepinus} ({African} Catfish) and
-                 \bioname{Cyprinus carpio} (Common Carp) in {Lake Lugo
-                 (Hayke), Northeast Ethiopia}",
+                 \bioname{Oreochromis niloticus} (\geoname{Nile}
+                 Tilapia), \bioname{Clarias gariepinus}
+                 (\geoname{African} Catfish) and \bioname{Cyprinus
+                 carpio} (Common Carp) in \geoname{Lake Lugo (Hayke),
+                 Northeast Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "3",
@@ -3530,7 +3548,7 @@
 @Article{Workagegn:2014:GPN,
   author =       "Kassaye Balkew Workagegn and Elias Dadebo Ababboa and
                  Girma Tilahun Yimer and Tigist Ashagre Amare",
-  title =        "Growth Performance of the {Nile} Tilapia
+  title =        "Growth Performance of the \geoname{Nile} Tilapia
                  (\bioname{Oreochromis niloticus} {L.}) Fed Different
                  Types of Diets Formulated from Varieties of Feed
                  Ingredients",
@@ -3607,7 +3625,7 @@
                  \alpha $}, {HNF-3$ \beta $}, and {C/EBP$ \beta $}
                  Contribute to the Growth Hormone-Induced Transcription
                  of the Progranulin a Gene in Zebrafish (\bioname{Danio
-                 Rerio})",
+                 rerio})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "4",
@@ -3680,7 +3698,7 @@
   author =       "Jamal K. Al-Faragi",
   title =        "The Efficacy of Prebiotic ($ \beta $-Glucan) as a Feed
                  Additive against Toxicity of Aflatoxin {B1} in Common
-                 Carp, \bioname{Cyprinus Carpio} {L.}",
+                 Carp, \bioname{Cyprinus carpio} {L.}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "4",
@@ -3704,8 +3722,8 @@
                  Ayyaru Gopalakrishnan",
   title =        "Effect of Mineral Deposition on Shrimp
                  \bioname{Litopenaeus vannamei} in High Alkaline Water
-                 of {Pennar River, Andhra Pradesh of Southeast Coast of
-                 India}",
+                 of \geoname{Pennar River, Andhra Pradesh of Southeast
+                 Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "4",
@@ -3726,7 +3744,7 @@
 
 @Article{Eissa:2014:COB,
   author =       "Alaa Eldin Eissa and Mohamed Faisal",
-  title =        "Clinical Outbreaks of Bacterial Kidney Disease {(BKD)}
+  title =        "Clinical Outbreaks of Bacterial Kidney Disease ({BKD})
                  in Hatchery-Raised Brook Trout (\bioname{Salvelinus
                  fontinalis}) ({Mitchill}, 1814): Lessons Learned",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -3821,8 +3839,8 @@
 @Article{Wani:2014:FRA,
   author =       "M. A. Wani and S. P. S. Dutta",
   title =        "First Record of an Anomalous \bioname{Catla catla}
-                 ({Ham}. {Buch}) in Fresh Water Fish Ponds of {Gurdaspur
-                 District, Punjab (India)}",
+                 ({Ham}. {Buch}) in Fresh Water Fish Ponds of
+                 \geoname{Gurdaspur District, Punjab (India)}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "4",
@@ -3868,7 +3886,8 @@
                  Chand and A. Choudhury",
   title =        "Median Lethal Salinity ({MLS$_{96h}$}) of Two Small
                  Indigenous Fish Species \bioname{Amblypharyngodon mola}
-                 and \bioname{Pethia ticto} from {Indian Sundarban}",
+                 and \bioname{Pethia ticto} from \geoname{Indian
+                 Sundarban}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -3915,7 +3934,7 @@
                  Shao Yang Hu",
   title =        "{Prolactin I} Microsatellite as Genetic Markers for
                  Characterization of Five \bioname{Oreochromis} Tilapia
-                 Species and Two \bioname{Oreochromis Niloticus}
+                 Species and Two \bioname{Oreochromis niloticus}
                  Strains",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -3937,8 +3956,8 @@
 
 @Article{Omobepade:2014:TEA,
   author =       "B. P. Omobepade and O. T. Adebayo and T. T. Amos",
-  title =        "Technical Efficiency of Aquaculturists in {Ekiti
-                 State, Nigeria}",
+  title =        "Technical Efficiency of Aquaculturists in
+                 \geoname{Ekiti State, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4006,8 +4025,8 @@
 
 @Article{Gunarto:2014:CMC,
   author =       "Gunarto and Andi Parenrengi",
-  title =        "Crablet of Mangrove Crab, {Scylla} olivacea Rearing at
-                 the Different Salinity Regimes",
+  title =        "Crablet of Mangrove Crab, \bioname{Scylla olivacea}
+                 Rearing at the Different Salinity Regimes",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4030,7 +4049,8 @@
   author =       "Nhan Thai Hua and Harry Ako",
   title =        "Reproductive Biology and Effect of Arachidonic Acid
                  Level in Broodstock Diet on Final Maturation of the
-                 {Hawaiian} Limpet \bioname{Cellana sandwicensis}",
+                 \geoname{Hawaiian} Limpet \bioname{Cellana
+                 sandwicensis}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4053,7 +4073,7 @@
   author =       "Muhammad Hattah Fattah and Muh. Saenong and Asbar and
                  St Rahbiah Busaeri",
   title =        "Production of Endemic Microcrustacean
-                 \bioname{Phronima Suppa} (\bioname{Phronima} sp) to
+                 \bioname{Phronima suppa} (\bioname{Phronima} sp) to
                  Subtitute \bioname{Artemia salina} in Tiger Prawn
                  Cultivation",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -4079,8 +4099,8 @@
                  Arularasan and S. Munilkumar and A. K. Pal",
   title =        "Heavy Metal Concentration from Biologically Important
                  Edible Species of Bivalves (\bioname{Perna viridis} and
-                 \bioname{Modiolus metcalfei}) from {Vellar Estuary,
-                 South East Coast of India}",
+                 \bioname{Modiolus metcalfei}) from \geoname{Vellar
+                 Estuary, South East Coast of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4101,7 +4121,8 @@
 
 @Article{Kayhan:2014:AOA,
   author =       "Muhammet Hayati Kayhan and Murtaza Olmez",
-  title =        "Aquaculture and Organic Aquaculture in {Turkey}",
+  title =        "Aquaculture and Organic Aquaculture in
+                 \geoname{Turkey}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4126,7 +4147,7 @@
   title =        "The Impact of Water Exchange Rate and Treatment
                  Processes on Water-Borne Hormones in Recirculation
                  Aquaculture Systems Containing Sexually Maturing
-                 {Atlantic} Salmon \bioname{Salmo salar}",
+                 \geoname{Atlantic} Salmon \bioname{Salmo salar}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4149,7 +4170,7 @@
   author =       "Reza Yadollahvand and Behzad Rahnama",
   title =        "The Age Determination of Black Pomfret
                  (\bioname{Parastromateus niger}), based on Otolith
-                 Cross Sections in {Iranian Coast of Oman Sea}",
+                 Cross Sections in \geoname{Iranian Coast of Oman Sea}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "5",
@@ -4244,8 +4265,8 @@
   author =       "K. Mzengereza and O. V. Msiska and F. Kapute and J.
                  Kang'ombe and W. Singini and A. Kamangira",
   title =        "Nutritional Value of Locally Available Plants with
-                 Potential for Diets of \bioname{Tilapia Rendalli} in
-                 Pond Aquaculture in {NkhataBay, Malawi}",
+                 Potential for Diets of \bioname{Tilapia rendalli} in
+                 Pond Aquaculture in \geoname{NkhataBay, Malawi}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "6",
@@ -4270,7 +4291,7 @@
                  S. Izquierdo and J. Roo",
   title =        "Skeletal Development and Mineralization Pattern of the
                  Vertebral Column, Dorsal, Anal and Caudal Fin Complex
-                 in \bioname{Seriola Rivoliana} ({Valenciennes}, 1833)
+                 in \bioname{Seriola rivoliana} ({Valenciennes}, 1833)
                  Larvae",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -4293,8 +4314,9 @@
 @Article{Tessema:2014:APC,
   author =       "A. Tessema and A. Mohammed and T. Birhanu and T.
                  Negu",
-  title =        "Assessment of Physico-chemical Water Quality of {Bira
-                 Dam, Bati Wereda, Amhara Region, Ethiopia}",
+  title =        "Assessment of Physico-chemical Water Quality of
+                 \geoname{Bira Dam, Bati Wereda, Amhara Region,
+                 Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "6",
@@ -4366,7 +4388,7 @@
   author =       "M. Saha and A. Sarkar and B. Bandhophadhyay",
   title =        "Introduction to Establish the Comparative Analysis of
                  {16S} {rRNA} Gene Sequences with {amoA} and {nxrA} for
-                 Nitrifying Bacteria Isolated from {East Kolkata
+                 Nitrifying Bacteria Isolated from \geoname{East Kolkata
                  Wetland}: an {International Ramsar Site}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -4414,7 +4436,7 @@
                  Alves da Costa and Vera Maria Fonseca de Almeida-Val
                  and Maeli Dal-Pai-Silva",
   title =        "Expression of Growth-Related Factors in Skeletal
-                 Muscle of Pirarucu (\bioname{Arapaima Gigas}) during
+                 Muscle of Pirarucu (\bioname{Arapaima gigas}) during
                  Growth",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -4437,7 +4459,8 @@
 @Article{Kasnir:2014:WQP,
   author =       "Muhammad Kasnir and Harlina and Rosmiati",
   title =        "Water Quality Parameter Analysis for the Feasibility
-                 of Shrimp Culture in {Takalar Regency, Indonesia}",
+                 of Shrimp Culture in \geoname{Takalar Regency,
+                 Indonesia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "6",
@@ -4483,8 +4506,8 @@
 @Article{Yang:2014:EMB,
   author =       "Chih-Chiu Yang and Shiu-Nan Chen and Chung-Lun Lu and
                  Sherwin Chen and Kam-Chiu Lai and Wen-Liang Liao",
-  title =        "Effect of Mushroom Beta Glucan {(MBG)} on Immune and
-                 Haemocyte Response in {Pacific} White Shrimp
+  title =        "Effect of Mushroom Beta Glucan ({MBG}) on Immune and
+                 Haemocyte Response in \geoname{Pacific} White Shrimp
                  (\bioname{Litopenaeus vannamei})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -4532,7 +4555,7 @@
   author =       "M. Vishwas Rao and T. T. Ajith Kumar",
   title =        "Captive Breeding and Hatchery Production of Mouth
                  Brooding Jewel Cardinal Perch, \bioname{Pterapogon
-                 Kauderni}, ({Koumanns}, 1933) Using Brackish Water: The
+                 kauderni}, ({Koumanns}, 1933) Using Brackish Water: The
                  Role of Live Prey and Green Water Enrichment in
                  Juvenile Production",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -4556,7 +4579,8 @@
 @Article{Junaidi:2014:LDO,
   author =       "Junaidi and Hafrijal Syandri and Azrita",
   title =        "Loading and Distribution of Organic Materials in
-                 {Maninjau Lake West Sumatra Province-Indonesia}",
+                 \geoname{Maninjau Lake West Sumatra
+                 Province-Indonesia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "7",
@@ -4579,7 +4603,8 @@
   author =       "N. R. Chatterjee and D. Sahoo and C. Chetri",
   title =        "Study on the Monthly Variation in Hydro biological
                  Condition and Its Relation to Fish Production of a
-                 Sewage Fed Bheri System at Suburban {Kolkata}",
+                 Sewage Fed {Bheri System} at \geoname{Suburban
+                 Kolkata}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "7",
@@ -4603,7 +4628,7 @@
                  Varadharajan",
   title =        "Effect of Temperatures on the Embryonic Development,
                  Morphometrics and Survival of \bioname{Macrobrachium
-                 Idella Idella} ({Hilgendorf}, 1898)",
+                 idella Idella} ({Hilgendorf}, 1898)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "7",
@@ -4624,8 +4649,9 @@
 
 @Article{Bailung:2014:SIB,
   author =       "Bhenila Bailung and S. P. Biswas",
-  title =        "Successful Induced Breeding of a {Bagrid} Catfish,
-                 \bioname{Mystus Dibrugarensis} in Captive Condition",
+  title =        "Successful Induced Breeding of a \geoname{Bagrid}
+                 Catfish, \bioname{Mystus dibrugarensis} in Captive
+                 Condition",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
   number =       "7",
@@ -4719,7 +4745,7 @@
   author =       "Jae-Ho Hwang and Nam-Gil Kim and Hee-Chul Woo and
                  Sung-Ju Rha and Seon-Jae Kim and Tai-Sun Shin",
   title =        "Variation in the Chemical Composition of
-                 \bioname{Saccharina Japonica} with Harvest Area and
+                 \bioname{Saccharina japonica} with Harvest Area and
                  Culture Period",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "5",
@@ -4811,7 +4837,7 @@
 @Article{Gupta:2015:RSS,
   author =       "Sandipan Gupta",
   title =        "Review on \bioname{Sperata seenghala} ({Sykes}, 1839),
-                 a Freshwater Catfish of {Indian} Subcontinent",
+                 a Freshwater Catfish of \geoname{Indian Subcontinent}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -4834,8 +4860,9 @@
   author =       "Titik Budiati and Gulam Rusul and Wan Nadiah Wan-
                  Abdullah and Rosma Ahmad and Yahya Mat Arip",
   title =        "Microbiological Quality of Catfish (\bioname{Clarias
-                 Gariepinus}) and Tilapia (\bioname{Tilapia Mossambica})
-                 Obtained from Wet Markets and Ponds in {Malaysia}",
+                 gariepinus}) and Tilapia (\bioname{Tilapia mossambica})
+                 Obtained from Wet Markets and Ponds in
+                 \geoname{Malaysia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -4900,9 +4927,10 @@
 @Article{Sayeda:2015:ESD,
   author =       "M. A. Sayeda and M. Y. Eman and M. K. Amany and B. I.
                  Taghreed and T. A. Wafaa",
-  title =        "Effect of {El-Sail} Drain Wastewater on {Nile} Tilapia
-                 (\bioname{Oreochromis niloticus}) from {River Nile} at
-                 {Aswan, Egypt}",
+  title =        "Effect of \geoname{El-Sail} Drain Wastewater on
+                 \geoname{Nile} Tilapia (\bioname{Oreochromis
+                 niloticus}) from \geoname{River Nile} at
+                 \geoname{Aswan, Egypt}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -4926,7 +4954,7 @@
                  Aruneepong Srisathapom and Pornthep Niamphithak",
   title =        "The Development and Application of Genetic Markers for
                  Giant Freshwater Prawns \bioname{Macrobrachium
-                 Rosenbergii} by Microsatellites",
+                 rosenbergii} by Microsatellites",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -4948,9 +4976,9 @@
 @Article{Sarkar:2015:RFC,
   author =       "Uttam Kumar Sarkar and Jyoti Sharma and Bijoy Kali
                  Mahapatra",
-  title =        "A Review on the Fish Communities in the {Indian}
-                 Reservoirs and Enhancement of Fisheries and Aquatic
-                 Environment",
+  title =        "A Review on the Fish Communities in the
+                 \geoname{Indian} Reservoirs and Enhancement of
+                 Fisheries and Aquatic Environment",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -4973,7 +5001,7 @@
   author =       "Md. Hasan Uddowla and Ah Ran Kim and Won-gyu Park and
                  Hyun-Woo Kim",
   title =        "{cDNAs} Encoding Chitin Synthase from Shrimp
-                 (\bioname{Pandalopsis Japonica}): Molecular
+                 (\bioname{Pandalopsis japonica}): Molecular
                  Characterization and Expression Analysis",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
@@ -4998,7 +5026,7 @@
                  and Abdelhakeem El-Murr",
   title =        "Protective Effects of Selenium and Alpha-Tocopherol
                  against Lead-Induced Hepatic and Renal Toxicity in
-                 \bioname{Oreochromis Niloticus}",
+                 \bioname{Oreochromis niloticus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -5022,7 +5050,7 @@
                  Kurt Buchmann",
   title =        "Dose Dependent Effects of Dietary Immunostimulants on
                  Rainbow Trout Immune Parameters and Susceptibility to
-                 the Parasite \bioname{Ichthyophthirius Multifiliis}",
+                 the Parasite \bioname{Ichthyophthirius multifiliis}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -5069,9 +5097,9 @@
 @Article{Conti:2015:DOO,
   author =       "G. Oliveri Conti and C. Ledda and M. Zuccarello and M.
                  Fiore and R. Fallico and S. Sciacca and M. Ferrante",
-  title =        "Detection of \bioname{Ostreopsis ovata} from {Eastern
-                 Sicily Coast} Using {SEM} Microscopy Coupled to the
-                 \bioname{Vibrio fischeri} Test",
+  title =        "Detection of \bioname{Ostreopsis ovata} from
+                 \geoname{Eastern Sicily Coast} Using {SEM} Microscopy
+                 Coupled to the \bioname{Vibrio fischeri} Test",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "1",
@@ -5118,7 +5146,7 @@
   author =       "Christelle Leung and Pierre Magnan and Bernard
                  Angers",
   title =        "Genetic Evidence for Sympatric Populations of Yellow
-                 Perch (\bioname{Perca flavescens}) in {Lake
+                 Perch (\bioname{Perca flavescens}) in \geoname{Lake
                  Saint-Pierre (Canada)}: the Crucial First Step in
                  Developing a Fishery Management Plan",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -5196,7 +5224,7 @@
                  F. H. F. Costa and R{\'a}dis- Baptista",
   title =        "Low Salinity Facilitates the Replication of Infectious
                  Myonecrosis Virus and Viral Co-Infection in the Shrimp
-                 \bioname{Litopenaeus Vannamei}",
+                 \bioname{Litopenaeus vannamei}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "2",
@@ -5242,7 +5270,7 @@
 @Article{Mude:2015:GCW,
   author =       "Jagadish Naik Mude and Danya Babu Ravuru",
   title =        "Growth of Cultured White Leg Shrimp
-                 \bioname{Litopenaeus Vannamei} ({Boone}, 1931) of
+                 \bioname{Litopenaeus vannamei} ({Boone}, 1931) of
                  Brackish Water Culture System in Winter Season with
                  Artificial Diet",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -5291,8 +5319,8 @@
   author =       "Adeniyi Bashir Tunde and M. P. Kuton and Ayegbokiki
                  Adedayo Oladipo and Lawal Hakeem Olasunkanmi",
   title =        "Economic Analyze of Costs and Return of Fish Farming
-                 in {Saki-East Local Government Area of Oyo State,
-                 Nigeria}",
+                 in \geoname{Saki-East Local Government Area of Oyo
+                 State, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "2",
@@ -5315,7 +5343,7 @@
   author =       "Siti-Ariza Aripin and Orapint Jintasataporn and
                  Ruangvit Yoonpundh",
   title =        "Effects of Exogenous Melatonin in \bioname{Clarias
-                 Macrocephalus} Male Broodstock First Puberty Stage",
+                 macrocephalus} Male Broodstock First Puberty Stage",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "2",
@@ -5338,7 +5366,8 @@
   author =       "Jossy Bekele and Daniel Hussien",
   title =        "Prevalence of Internal Parasites of
                  \bioname{Oreochromis niloticus} and \bioname{Clarias
-                 gariepinus} Fish Species in {Lake Ziway, Ethiopia}",
+                 gariepinus} Fish Species in \geoname{Lake Ziway,
+                 Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "2",
@@ -5360,7 +5389,7 @@
 @Article{Azrita:2015:EPS,
   author =       "Azrita and Yuneidi Basri and Hafrijal Syandri",
   title =        "{EA} Preliminary Study on Domestication of Bluespotted
-                 Snakehead (\bioname{Channa Lucius}, {Channidae}) in
+                 Snakehead (\bioname{Channa lucius}, {Channidae}) in
                  Concrete Tank",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
@@ -5383,7 +5412,7 @@
 @Article{Biswas:2015:CMO,
   author =       "S. P. Biswas and Santosh Kumar Singh A and J. N. Das",
   title =        "Conservation and Management of Ornamental Fish
-                 Resources of {North East India}",
+                 Resources of \geoname{North East India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "3",
@@ -5407,7 +5436,7 @@
                  Nguyen Van Tien and Le Anh Tuan and Vu An Tuan and
                  Truong Ha Phuong",
   title =        "Recent Changes in the Bioeconomic of Finfish
-                 Mariculture in {Vietnam}",
+                 Mariculture in \geoname{Vietnam}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "3",
@@ -5430,7 +5459,7 @@
   author =       "Malik M. Khalafalla and Abd-elaziz M. A. El- Hais",
   title =        "Evaluation of Seaweeds \bioname{Ulva rigida} and
                  \bioname{Pterocladia capillaceaas} Dietary Supplements
-                 in {Nile} Tilapia Fingerlings",
+                 in \geoname{Nile} Tilapia Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "3",
@@ -5452,9 +5481,9 @@
 @Article{Mahdy:2015:AMI,
   author =       "Olfat A. Mahdy and Nadia M. T. Abu El Ezz",
   title =        "Additional Morphological Information on Young Female
-                 \bioname{Caligus Kuwaitensis} ({Copepoda
-                 Siphonostomatoida}) from {Egyptian} Marine Water Fish
-                 (\bioname{Pagrus pagrus})",
+                 \bioname{Caligus kuwaitensis} ({Copepoda
+                 Siphonostomatoida}) from \geoname{Egyptian} Marine
+                 Water Fish (\bioname{Pagrus pagrus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "3",
@@ -5523,10 +5552,10 @@
 @Article{Reshid:2015:SCT,
   author =       "Mohammed Reshid and Marshet Adugna and Yisehak Tsegaye
                  Redda and Nesibu Awol and Awot Teklu",
-  title =        "A Study of Clinostomum (Trematode) and Contracaecum
-                 (Nematode) Parasites Affecting \bioname{Oreochromis
-                 Niloticus} in {Small Abaya Lake, Silite Zone,
-                 Ethiopia}",
+  title =        "A Study of {Clinostomum} (Trematode) and
+                 {Contracaecum} (Nematode) Parasites Affecting
+                 \bioname{Oreochromis niloticus} in \geoname{Small Abaya
+                 Lake, Silite Zone, Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "3",
@@ -5549,7 +5578,7 @@
   author =       "Heppi Iromo and M. {Zairin Junior} and M. Agus
                  Suprayudi and Wasmen Manalu",
   title =        "The Optimum Dose of Thyroxine Hormone Supplementation
-                 in Broodstock Mud Crab (\bioname{Scylla Serrata}) to
+                 in Broodstock Mud Crab (\bioname{Scylla serrata}) to
                  Accelerate Ovarian Maturation",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
@@ -5616,8 +5645,9 @@
 @Article{Ibrahim:2015:EDF,
   author =       "E. B. Ibrahim and A. K. El-Tarabily and A. A. Kassab
                  and M. E. Abdel-Fattah and N. M. Rasheed",
-  title =        "Evaluation of Date Fiber as Feed Ingredient for {Nile}
-                 Tilapia \bioname{Oreochromis niloticus} Fingerlings",
+  title =        "Evaluation of Date Fiber as Feed Ingredient for
+                 \geoname{Nile} Tilapia \bioname{Oreochromis niloticus}
+                 Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "3",
@@ -5639,7 +5669,7 @@
 @Article{Grace:2015:EGM,
   author =       "Olaleye Ibukun Grace",
   title =        "Effects of Grasshopper Meal in the Diet of
-                 \bioname{Clarias Gariepinus} Fingerlings",
+                 \bioname{Clarias gariepinus} Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "4",
@@ -5662,7 +5692,7 @@
   author =       "Mina Eisapour and Seed Jafar Seyfabadi and Behnam
                  Daghooghi",
   title =        "Comparative Radular Morphology in Some Intertidal
-                 Gastropods along {Hormozgan Province, Iran}",
+                 Gastropods along \geoname{Hormozgan Province, Iran}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "4",
@@ -5686,7 +5716,7 @@
   title =        "Use of Tuna-Cooking Liquid Effluent as a Dietary
                  Protein and Lipid Source Replacing Fishmeal in
                  Formulated Diets for Growing Hatchery-Reared Juvenile
-                 Spotted {Babylon} (\bioname{Babylonia areolata})",
+                 Spotted Babylon (\bioname{Babylonia areolata})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "4",
@@ -5709,7 +5739,7 @@
   author =       "Sirusa Kritsanapuntu and Nilnaj Chaitanawisuti",
   title =        "Replacement of Fishmeal by Poultry By-Product Meal in
                  Formulated Diets for Growing Hatchery-Reared Juvenile
-                 Spotted {Babylon} (\bioname{Babylonia areolata})",
+                 Spotted Babylon (\bioname{Babylonia areolata})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "4",
@@ -5755,7 +5785,8 @@
   author =       "Innifa Hasan and Mrigendra Mohan Goswami",
   title =        "Genetic Variation among Cat Fish (\bioname{Mystus
                  vittatus}) Population Assessed by Randomly Amplified
-                 Polymorphic {(RAPD)} Markers from {Assam, India}",
+                 Polymorphic ({RAPD}) Markers from \geoname{Assam,
+                 India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "4",
@@ -5778,7 +5809,7 @@
   author =       "Govintharaj Yogeshwari and Chandrasekar Jagruthi and
                  Jesu Arockiaraj and Ramasamy Harikrishnan",
   title =        "Poly {D, L}-lactide-co-glycolic Acid
-                 {(PLGA)-encapsulated} {CpG}-oligonucleotide {(ODN)} on
+                 ({PLGA})-encapsulated {CpG}-oligonucleotide ({ODN}) on
                  Immune Response in \bioname{Cyprinus carpio} against
                  \bioname{Aeromonas hydrophila}",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -5849,7 +5880,7 @@
 @Article{Kusumaningrum:2015:CEC,
   author =       "Indah Kusumaningrum",
   title =        "Coast Environment Conservation by Home Scale Grouper
-                 Culture in {Pecaron--Situbondo}",
+                 Culture in \geoname{Pecaron--Situbondo}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "4",
@@ -5916,9 +5947,9 @@
 
 @Article{Geremew:2015:DSC,
   author =       "Akewake Geremew and Abebe Getahun and Krishen Rana",
-  title =        "Digestibility of Soybean Cake, {Niger} Seed Cake and
-                 Linseed Cake in Juvenile {Nile} Tilapia,
-                 \bioname{Oreochromis niloticus} {L.}",
+  title =        "Digestibility of Soybean Cake, \geoname{Niger} Seed
+                 Cake and Linseed Cake in Juvenile \geoname{Nile}
+                 Tilapia, \bioname{Oreochromis niloticus} {L.}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "5",
@@ -5942,7 +5973,7 @@
                  Bakaneva and N. M. Bakanev and J. V. Sergeeva and A. A.
                  Bakhareva and J. N. Grozesku and V. I. Egorova",
   title =        "The Effect of Lipid Composition in Diets on Ovicell
-                 Generating of the {Russian} Sturgeon Females",
+                 Generating of the \geoname{Russian} Sturgeon Females",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "5",
@@ -6038,8 +6069,8 @@
                  Miliou",
   title =        "Effect of Temperature and Seasonality Principal
                  Epizootiological Risk Factor on Vibriosis and
-                 Photobacteriosis Outbreaks for {European} Sea Bass in
-                 {Greece} (1998--2013)",
+                 Photobacteriosis Outbreaks for \geoname{European} Sea
+                 Bass in \geoname{Greece} (1998--2013)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "5",
@@ -6061,9 +6092,9 @@
 @Article{Ramirez:2015:MME,
   author =       "Besay Ram{\'\i}rez and Leonor Ortega and Daniel
                  Montero and Fernando Tuya and Ricardo Haroun",
-  title =        "Monitoring a Massive Escape of {European} Sea Bass
-                 (\bioname{Dicentrarchus Labrax}) at an Oceanic Island:
-                 Potential Species Establishment",
+  title =        "Monitoring a Massive Escape of \geoname{European} Sea
+                 Bass (\bioname{Dicentrarchus labrax}) at an Oceanic
+                 Island: Potential Species Establishment",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "5",
@@ -6086,9 +6117,10 @@
   author =       "Mali Hartviksen and Jose L. Gonzalez Vecino and Anu
                  Kettunen and Reidar Myklebust and Kari Ruohonen and
                  Simon Wadsworth and Einar Ring{\o}",
-  title =        "Probiotic and Pathogen Ex-vivo Exposure of {Atlantic}
-                 Salmon (\bioname{Salmo Salar} {L.}) Intestine from Fish
-                 Fed Four Different Protein Sources",
+  title =        "Probiotic and Pathogen Ex-vivo Exposure of
+                 \geoname{Atlantic} Salmon (\bioname{Salmo salar} {L.})
+                 Intestine from Fish Fed Four Different Protein
+                 Sources",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "5",
@@ -6109,8 +6141,8 @@
 
 @Article{Saka:2015:GDF,
   author =       "Babatunde Akeem Saka and Olanike kudirat Adeyemo",
-  title =        "Gonad Development in the Female {Nigerian}
-                 \bioname{Clarias Gariepinus} {Burchell} 1822",
+  title =        "Gonad Development in the Female \geoname{Nigerian}
+                 \bioname{Clarias gariepinus} {Burchell} 1822",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "6",
@@ -6132,7 +6164,7 @@
 @Article{Drawany:2015:BSR,
   author =       "El- Drawany",
   title =        "On the Biology of \bioname{Siganus rivulatus} Inhabits
-                 {Bitter Lakes in Egypt}",
+                 \geoname{Bitter Lakes in Egypt}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "6",
@@ -6182,7 +6214,7 @@
                  Ronaldos Tamanini and Laurival Ant{\^o}nio Vilas-
                  Boas",
   title =        "Microbiological Evaluation of Water and Fillets in the
-                 Production Chain of {Nile} Tilapia
+                 Production Chain of \geoname{Nile} Tilapia
                  (\bioname{Oreochromis niloticus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
@@ -6205,8 +6237,8 @@
 @Article{Mokhtar:2015:CSO,
   author =       "Doaa M. Mokhtar",
   title =        "Comparative Structural Organization of Skin in
-                 Red-Tail Shark (\bioname{Epalzeorhynchos Bicolor}) and
-                 Guppy (\bioname{Poecilia Reticulata})",
+                 Red-Tail Shark (\bioname{Epalzeorhynchos bicolor}) and
+                 Guppy (\bioname{Poecilia reticulata})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "6",
@@ -6230,9 +6262,10 @@
                  M. Kenawy and A. Seida",
   title =        "\bioname{Caligus elongatus} and
                  \bioname{Photobacterium damselae} subsp piscicida
-                 Concomitant Infections Affecting Broodstock {European}
-                 Seabass, \bioname{Dicentrarchus labrax}, with Special
-                 Reference to Histopathological Responses",
+                 Concomitant Infections Affecting Broodstock
+                 \geoname{European} Seabass, \bioname{Dicentrarchus
+                 labrax}, with Special Reference to Histopathological
+                 Responses",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "7",
@@ -6278,8 +6311,8 @@
 @Article{El-Drawany:2015:GFF,
   author =       "M. A. El-Drawany and W. G. Elnagar",
   title =        "Growth, Food and Feeding Habits of \bioname{Bagrus
-                 bayad} and \bioname{Bagrus docmac} Inhibiting {Muess
-                 Channel, Sharkia Province, Egypt}",
+                 bayad} and \bioname{Bagrus docmac} Inhibiting
+                 \geoname{Muess Channel, Sharkia Province, Egypt}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "7",
@@ -6324,8 +6357,8 @@
 @Article{Owhonda:2015:WSV,
   author =       "K. N. Owhonda",
   title =        "Wet Season Variations of some Physicochemical
-                 Parameters of the Brackish Water farm, {Buguma, Niger
-                 Delta, Nigeria}",
+                 Parameters of the Brackish Water farm, \geoname{Buguma,
+                 Niger Delta, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "7",
@@ -6348,7 +6381,7 @@
   author =       "Md. Robiul Islam and Mamnur Rashid M and Md. Hashmi
                  Sakib and Most. Waheda Rahman Ansary",
   title =        "Serological Studies of \bioname{Aeromonas hydrophila}
-                 in {Bangladesh}",
+                 in \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "7",
@@ -6370,7 +6403,7 @@
 @Article{Adam:2015:SEE,
   author =       "Bownik Adam and Stepniewska Zofia",
   title =        "Subchronic Effects of Ectoine on Survival, Growth and
-                 Physiological Parameters of \bioname{Daphnia Magna}",
+                 Physiological Parameters of \bioname{Daphnia magna}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "8",
@@ -6393,7 +6426,7 @@
   author =       "Malik M. Khalafalla and B. El-Sayed",
   title =        "Biological Treatment of Broad Bean Hulls and its
                  Evaluation through Tilapia Fingerlings
-                 (\bioname{Oreochromis Niloticus}) Feeding",
+                 (\bioname{Oreochromis niloticus}) Feeding",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "8",
@@ -6440,7 +6473,8 @@
                  {Costa de Lima} and Jos{\'e} Renato {de Oliveira
                  C{\'e}sar} and Francisco Hiran {Farias Costa}",
   title =        "Technical and Environmental Analysis of Shrimp Farming
-                 in the {Coreau River Estuary, Ceara State, Brazil}",
+                 in the \geoname{Coreau River Estuary, Ceara State,
+                 Brazil}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "8",
@@ -6462,7 +6496,7 @@
 @Article{Reddy:2015:CRA,
   author =       "P. Sreenivasula Reddy and M. Srilatha",
   title =        "13-Cis-Retinoic Acid-Induced Hyperglycemia in the
-                 Fresh Water Edible Crab, \bioname{Oziothelphusa Senex
+                 Fresh Water Edible Crab, \bioname{Oziothelphusa senex
                  Senex} is mediated by Triggering Release of
                  Hyperglycemic Hormone from Eyestalks",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -6490,7 +6524,8 @@
   title =        "Effects of Stocking Density on Growth, Body
                  Composition, Yield and Economic Returns of Monosex
                  Tilapia (\bioname{Oreochromis niloticus} {L.}) under
-                 Cage Culture System in {Kaptai Lake of Bangladesh}",
+                 Cage Culture System in \geoname{Kaptai Lake of
+                 Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "8",
@@ -6512,8 +6547,8 @@
 @Article{ElShafei:2015:SHM,
   author =       "Hussien M. {El Shafei}",
   title =        "Some Heavy Metals Concentration in Water, Muscles and
-                 Gills of \bioname{Tilapia Niloticus} as Biological
-                 Indicator of {Manzala Lake} Pollution",
+                 Gills of \bioname{Tilapia niloticus} as Biological
+                 Indicator of \geoname{Manzala Lake} Pollution",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "9",
@@ -6562,7 +6597,7 @@
   author =       "A. D. Om and S. Sharif and S. Jasmani and Y. Y. Sung
                  and A. A. Bolong",
   title =        "Molecular Characteristic of Giant Grouper
-                 (\bioname{Epinephelus Lanceolatus}) {Vitellogenin}",
+                 (\bioname{Epinephelus lanceolatus}) {Vitellogenin}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "9",
@@ -6607,9 +6642,9 @@
 @Article{Miah:2015:PSC,
   author =       "Md. Nasir Uddin Miah and Md. Mostafa Shamsuzzaman and
                  Ahmed Harun-Al-Rashid and Partho Protim Barman",
-  title =        "Present Status of Coastal Fisheries in {Sitakunda
-                 Coast} with Special Reference on Climate Change and
-                 Fish Catch",
+  title =        "Present Status of Coastal Fisheries in
+                 \geoname{Sitakunda Coast} with Special Reference on
+                 Climate Change and Fish Catch",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "9",
@@ -6634,7 +6669,7 @@
                  Altr{\~a}o and Carolina Galdino Gumiero Ribeiro and
                  Laurival Ant{\^o}nio Vilas-Boas",
   title =        "\bioname{Streptococcus iniae}: an Unusual Important
-                 Pathogen Fish in {Brazil}",
+                 Pathogen Fish in \geoname{Brazil}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "9",
@@ -6682,8 +6717,8 @@
   author =       "R. Karthik and K. Ramalingam and D. Yuvaraj and M. C.
                  Vanitha and R. Muthezhilan",
   title =        "Attenuation of Negative Impacts by Micro Algae and
-                 Enriched \bioname{Artemia Salina} on \bioname{Penaeus
-                 Monodon} and \bioname{Litopenaeus Vannamei} Larval
+                 Enriched \bioname{Artemia salina} on \bioname{Penaeus
+                 monodon} and \bioname{Litopenaeus vannamei} Larval
                  Culture",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
@@ -6706,8 +6741,8 @@
 @Article{Chanda:2015:TRF,
   author =       "Angsuman Chanda",
   title =        "A Taxonomic Research on the First Record of the Genus
-                 \bioname{Miyadiella Kubo}, 1949 by {Kunju} from
-                 {Indian} Water",
+                 \bioname{Miyadiella kubo}, 1949 by {Kunju} from
+                 \geoname{Indian} Water",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "10",
@@ -6732,7 +6767,7 @@
                  Arredondo-Figueroa",
   title =        "Total and Partial Substitution of Dietary Fish Oil
                  with Palm Oil to Juvenile Crayfish,
-                 \bioname{Procambarus Llamasi}",
+                 \bioname{Procambarus llamasi}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "10",
@@ -6801,7 +6836,7 @@
   author =       "M. M. Shamsuzzaman and A. H. A. Rashid and M. A. A.
                  Mamun and S. K. Mazumder and M. A. Haque",
   title =        "Present Status of Marine Puffer Fishes in
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "10",
@@ -6874,8 +6909,8 @@
                  and M. D. Mateus and A. Per{\'a}n and A. Belmonte and
                  V. Aliaga and R. Neves",
   title =        "A Modelling Approach to Estimate the Environmental and
-                 Productive Carrying Capacity for a {Mediterranean}
-                 Coastal Marine Culture Park",
+                 Productive Carrying Capacity for a
+                 \geoname{Mediterranean} Coastal Marine Culture Park",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "11",
@@ -6921,7 +6956,7 @@
 @Article{Mancuso:2015:SSP,
   author =       "Monique Mancuso",
   title =        "\bioname{Scorpaena scrofa}: a Promising Aquaculture
-                 Candidate for {Sicilian} Aquaculture",
+                 Candidate for \geoname{Sicilian} Aquaculture",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "11",
@@ -7115,8 +7150,8 @@
 @Article{Varadharajan:2015:BAP,
   author =       "D. Varadharajan and P. Soundarapandian",
   title =        "Biodiversity and Abundance of Phytoplankton from
-                 {Muthupettai Mangrove Region, South East Coast of
-                 India}",
+                 \geoname{Muthupettai Mangrove Region, South East Coast
+                 of India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "6",
   number =       "12",
@@ -7207,8 +7242,8 @@
 @Article{Asefa:2016:LST,
   author =       "Wondimagegne Asefa and Tarekegn Beranu",
   title =        "Levels of Some Trace Metals in Fishes Tissues, Water
-                 and Sediment at {Tendaho Water Reservoir, Afar Region,
-                 Ethiopia}",
+                 and Sediment at \geoname{Tendaho Water Reservoir, Afar
+                 Region, Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "1",
@@ -7255,8 +7290,9 @@
   author =       "A. M. M. Yones and A. A. Metwalli",
   title =        "Effects of Fish Meal Substitution with Poultry
                  By-product Meal on Growth Performance, Nutrients
-                 Utilization and Blood Contents of Juvenile {Nile}
-                 Tilapia (\bioname{Oreochromis niloticus})",
+                 Utilization and Blood Contents of Juvenile
+                 \geoname{Nile} Tilapia (\bioname{Oreochromis
+                 niloticus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "1",
@@ -7301,7 +7337,8 @@
 @Article{Syandri:2016:SSF,
   author =       "H. Syandri and Elfiondri and Junaidi and Azrita",
   title =        "Social Status of the Fish-farmers of
-                 Floating-net-cages in {Lake Maninjau, Indonesia}",
+                 Floating-net-cages in \geoname{Lake Maninjau,
+                 Indonesia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "1",
@@ -7325,7 +7362,8 @@
                  A. Baloch and S. Tabasum and K. H. Lashari and M. A.
                  Qureshi",
   title =        "Reproductive Biology of \bioname{Glossogobius giuris}
-                 ({Hamilton}), in {Manchar Lake Sindh, Pakistan}",
+                 ({Hamilton}), in \geoname{Manchar Lake Sindh,
+                 Pakistan}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "1",
@@ -7439,7 +7477,7 @@
   author =       "Qays Mohammed Sadeq and Swapan Kumar Bhattacharya and
                  Wan Ismail",
   title =        "Conceptual Fracture Modelling For Carbonate Reservoir
-                 in {Bai Hassan Oil Field Northern Iraq}",
+                 in \geoname{Bai Hassan Oil Field Northern Iraq}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "2",
@@ -7510,7 +7548,7 @@
 @Article{Gupta:2016:PPH,
   author =       "Sandipan Gupta",
   title =        "\bioname{Pangasius pangasius} ({Hamilton}, 1822), a
-                 Threatened Fish of {Indian} Subcontinent",
+                 Threatened Fish of \geoname{Indian} Subcontinent",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "2",
@@ -7554,8 +7592,9 @@
 @Article{Dutta:2016:RAS,
   author =       "S. P. S. Dutta",
   title =        "Record of an Abnormal \bioname{Schizothoraichthys
-                 esocinus} ({Heckel}) from the {Himalayan River Chenab
-                 Draining Jammu Region of the J\&K State, India}",
+                 esocinus} ({Heckel}) from the \geoname{Himalayan River
+                 Chenab Draining Jammu Region of the J\&K State,
+                 India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "2",
@@ -7600,7 +7639,7 @@
 @Article{Bogdan:2016:TSS,
   author =       "Ana-Maria Bogdan and Suren Kulshreshtha",
   title =        "Temporal and Spatial Scale Community Level Water Use
-                 in {Saskatchewan}",
+                 in \geoname{Saskatchewan}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "2",
@@ -7670,7 +7709,7 @@
   title =        "Antigenic Characterisation of \bioname{Tenacibaculum
                  maritimum} Isolates from Sea Bass
                  (\bioname{Dicentrarchus labrax}, {L.}) Farmed on the
-                 {Aegean Sea Coasts of Turkey}",
+                 \geoname{Aegean Sea Coasts of Turkey}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "2",
@@ -7716,7 +7755,7 @@
 @Article{Valdez:2016:ADF,
   author =       "A. S. M. Valdez and T. R. Castillo",
   title =        "Abundance and Distribution of Freshwater Eels in
-                 {Pangi River, Maitum, Sarangani Province}",
+                 \geoname{Pangi River, Maitum, Sarangani Province}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "2",
@@ -7762,7 +7801,8 @@
 @Article{Nguyen:2016:ABP,
   author =       "Nguyen and Thi Thanh Thuy and Quang Thanh",
   title =        "An Analysis of Brand Personality on Brand Loyalty in
-                 Frozen Seafood Supermarkets in {Ho Chi Minh City}",
+                 Frozen Seafood Supermarkets in \geoname{Ho Chi Minh
+                 City}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "3",
@@ -7787,8 +7827,8 @@
                  Mustafa",
   title =        "Feeding Common Carp Fish (\bioname{Cyprinus carpio})
                  on Natural Foods (Algae, Phytoplankton, Zooplankton and
-                 Others) on {Tigris River in Mosul Dam\slash Duhok,
-                 Kurdistan Region of Iraq}",
+                 Others) on \geoname{Tigris River in Mosul Dam\slash
+                 Duhok, Kurdistan Region of Iraq}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "3",
@@ -7835,10 +7875,10 @@
 @Article{Li:2016:EDD,
   author =       "Weifeng Li and Xiaoyi Wu and Senda Lu and Shuntian
                  Jiang and Yuan Luo and Mingjuan Wu and Jun Wang",
-  title =        "Effects of Different Dietary {Carbohydrate/Lipid}
+  title =        "Effects of Different Dietary Carbohydrate\slash Lipid
                  Ratios on Growth, Feed Utilization and Body Composition
                  of Early Giant Grouper \bioname{Epinephelus
-                 Lanceolatus} Juveniles",
+                 lanceolatus} Juveniles",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "3",
@@ -7859,9 +7899,10 @@
 
 @Article{Sayed:2016:OSI,
   author =       "Alaa El-Din H. Sayed and Nasser S. Abou Khalil",
-  title =        "Oxidative Stress Induction in Monosex {Nile} Tilapia
-                 (\bioname{Oreochromis niloticus}, {Linnaeus}, 1758): a
-                 Field Study on the Side Effects of Methyltestosterone",
+  title =        "Oxidative Stress Induction in Monosex \geoname{Nile}
+                 Tilapia (\bioname{Oreochromis niloticus}, {Linnaeus},
+                 1758): a Field Study on the Side Effects of
+                 Methyltestosterone",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "3",
@@ -7886,7 +7927,7 @@
   title =        "Morphometric Parameters and Allometric Growth in
                  Paradise Threadfin \bioname{Polynemus paradiseus}
                  ({Linnaeus}, 1758) from a Coastal River of
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "3",
@@ -7932,7 +7973,7 @@
   author =       "Jeffrey A. Guy and D. A. Stephen and Smith",
   title =        "Effects of Meal Frequency on Growth Performance and
                  Feed Efficiency of Two year-Old Mulloway
-                 (\bioname{Argyrosomus Japonicus}; Pisces:
+                 (\bioname{Argyrosomus japonicus}; Pisces:
                  \bioname{Sciaenidae}) Reared in Tanks",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -7957,7 +7998,7 @@
                  and M. S. Arun Kumar and Mohamed Saquib Naveed and
                  Mehrajuddin War and K. Altaff",
   title =        "Impact of Formulated Diets on the Growth and Survival
-                 of Ornamental Fish \bioname{Pterophyllum Scalare}
+                 of Ornamental Fish \bioname{Pterophyllum scalare}
                  (Angel Fish)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8006,7 +8047,7 @@
   author =       "Rubia Banu and Annie Christianus",
   title =        "Giant Freshwater Prawn \bioname{Macrobrachium
                  rosenbergii} Farming: a Review on its Current Status
-                 and Prospective in {Malaysia}",
+                 and Prospective in \geoname{Malaysia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "4",
@@ -8029,7 +8070,7 @@
   author =       "Neelima Hosamani and Ramachandra Reddy Pamuru and
                  Sreenivasula Reddy Pamanji",
   title =        "Natural and Induced (Eyestalk Ablation) Molt Cycle in
-                 Freshwater Rice Field Crab \bioname{Oziothelphusa Senex
+                 Freshwater Rice Field Crab \bioname{Oziothelphusa senex
                  Senex}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8081,8 +8122,8 @@
 @Article{Beruat:2016:SSC,
   author =       "Agmy Beruat and A. N. Bambang and Ambaryanto",
   title =        "Status of Seagrass Community in Coastal Area in the
-                 {Kei Besar District of North-East, South-East Maluku
-                 Regency}",
+                 \geoname{Kei Besar District of North-East, South-East
+                 Maluku Regency}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "5",
@@ -8106,7 +8147,7 @@
                  Ramy M. Shourbela",
   title =        "Enhancement of Antioxidant Activity, Non-specific
                  Immunity and Growth Performance of \bioname{Nile
-                 Tilapia}, \bioname{Oreochromis Niloticus} by Dietary
+                 tilapia}, \bioname{Oreochromis niloticus} by Dietary
                  Fructooligosaccharide",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8179,8 +8220,8 @@
                  Alexanyan and Anahit Tovmasyan and Mahsa Daryadar and
                  Bella Stepanian",
   title =        "Productivity, Biochemical Indices and Antioxidant
-                 Activity of Peppermint (\bioname{Mentha Piperita} {L.})
-                 and Basil (\bioname{Ocimum Basilicum} {L.}) in
+                 Activity of Peppermint (\bioname{Mentha piperita} {L.})
+                 and Basil (\bioname{Ocimum basilicum} {L.}) in
                  Conditions of Hydroponics",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8228,9 +8269,9 @@
   author =       "Ferdaous Jaafar Kefi and Anwar Mleiki and Jihen
                  Ma{\^a}toug B{\'e}jaoui and Najoua Trigui El Menif",
   title =        "Seasonal Variations of Trace Metal Concentrations in
-                 the Soft Tissue of \bioname{Lithophaga Lithophaga}
-                 Collected from the {Bizerte Bay (Northern Tunisia,
-                 Mediterranean Sea)}",
+                 the Soft Tissue of \bioname{Lithophaga lithophaga}
+                 Collected from the \geoname{Bizerte Bay (Northern
+                 Tunisia, Mediterranean Sea)}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "6",
@@ -8299,7 +8340,7 @@
   title =        "Effects of Dietary Supplementation of
                  \bioname{Spirulina platensis} and Garlic on the Growth
                  Performance and Expression Levels of Immune-related
-                 Genes in {Nile} tilapia (\bioname{Oreochromis
+                 Genes in \geoname{Nile} tilapia (\bioname{Oreochromis
                  niloticus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8323,9 +8364,9 @@
   author =       "Jihen Ma{\^a}toug B{\'e}jaoui and Ferdaous Jaafar Kefi
                  and Anwar Mleiki and Najoua Trigui El Menif",
   title =        "Foot Abnormalities in \bioname{Venericardia antiquata}
-                 and \bioname{Venus verrucosa} from the {Bizerte Lagoon
-                 Complex (Northern Tunisia)}: Hydrodynamics and Sediment
-                 Texture Inductions",
+                 and \bioname{Venus verrucosa} from the \geoname{Bizerte
+                 Lagoon Complex (Northern Tunisia)}: Hydrodynamics and
+                 Sediment Texture Inductions",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "7",
@@ -8401,8 +8442,8 @@
   title =        "The Effect of Dietary Carotenoids of Different Forms:
                  Microemulsified and Non-microemulsified on the Growth
                  Performance, Pigmentation and Hematological Parameters
-                 in Hybrid Catfish (\bioname{Clarias Macrocephalus} $
-                 \times $ \bioname{Clarias Gariepinus})",
+                 in Hybrid Catfish (\bioname{Clarias macrocephalus} $
+                 \times $ \bioname{Clarias gariepinus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "7",
@@ -8424,7 +8465,7 @@
 @Article{Kumary:2016:CEB,
   author =       "KS Anila Kumary",
   title =        "Comparative Ecology of Backwater and Mangrove
-                 Environments of {Kayamkulam Lake, Kerala}",
+                 Environments of \geoname{Kayamkulam Lake, Kerala}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "8",
@@ -8445,7 +8486,7 @@
 
 @Article{Nakkina:2016:SGR,
   author =       "Mounika Nakkina",
-  title =        "Study of Growth Rate in {Nile} Tilapia
+  title =        "Study of Growth Rate in \geoname{Nile} Tilapia
                  (\bioname{Oreochromis niloticus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8469,9 +8510,9 @@
   author =       "Sebastian S. Mosha and Jeremiah Kang'ombe and Wilson
                  Jere and Nazael Madalla",
   title =        "Effect of Organic and Inorganic Fertilizers on Natural
-                 Food Composition and Performance of {African} Catfish
-                 (\bioname{Clarias gariepinus}) Fry Produced Under
-                 Artificial Propagation",
+                 Food Composition and Performance of \geoname{African}
+                 Catfish (\bioname{Clarias gariepinus}) Fry Produced
+                 Under Artificial Propagation",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "8",
@@ -8492,7 +8533,7 @@
 
 @Article{Tsygankov:2016:KIP,
   author =       "Vasiliy Yu Tsygankov",
-  title =        "The {Kuril Islands} as a Potential Region for
+  title =        "The \geoname{Kuril Islands} as a Potential Region for
                  Aquaculture: Organochlorine Pesticides in Pink and Chum
                  Salmon",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -8614,8 +8655,9 @@
                  and C. Z. Li",
   title =        "Pilot Test of Elemental Fingerprint in Otolith Core as
                  a Natural Biological Tag to Discriminate among
-                 \bioname{Gymnocypris przewalskii} Stocks in {Lake
-                 Qinghai in Qinghai-Tibet Plateau, China}",
+                 \bioname{Gymnocypris przewalskii} Stocks in
+                 \geoname{Lake Qinghai in Qinghai-Tibet Plateau,
+                 China}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "9",
@@ -8661,7 +8703,8 @@
 @Article{Hasan:2016:ICC,
   author =       "Mehedi Mahmudul Hasan and Shuva Bhowmik",
   title =        "Impact of Climate Change on the Socio-Economics of
-                 Aquaculture in the {District of Noakhali, Bangladesh}",
+                 Aquaculture in the \geoname{District of Noakhali,
+                 Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "9",
@@ -8709,8 +8752,9 @@
   author =       "Atle Mortensen and Oyvind J. Hansen and Velmurugu
                  Puvanendran",
   title =        "Evaluation of Three External Marking Methods of Farmed
-                 {Atlantic} Salmon for the Future Use of Differentiating
-                 it From Wild {Atlantic} Salmon",
+                 \geoname{Atlantic} Salmon for the Future Use of
+                 Differentiating it From Wild \geoname{Atlantic}
+                 Salmon",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "10",
@@ -8783,8 +8827,8 @@
   author =       "Nawfel Mosbahi and Jean-Philippe Pezy and Jean-Claude
                  Dauvin and Lassad Neifar",
   title =        "Immediate Effect of Clam Harvesting on Intertidal
-                 Benthic Communities in the Mudflat Zones of {Kneiss
-                 Islands (Central Mediterranean Sea)}",
+                 Benthic Communities in the Mudflat Zones of
+                 \geoname{Kneiss Islands (Central Mediterranean Sea)}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "11",
@@ -8832,8 +8876,8 @@
   author =       "Lin Yang and Ting-Ting Lin and Dong Zhang and Xin
                  Liu",
   title =        "Time Course Effect of Low Salinity on the Plasma
-                 Osmotic Pressure, Ion Concentrations and
-                 {Na+/K+-ATPase} Activity in the Gill of Juvenile Lined
+                 Osmotic Pressure, Ion Concentrations and {Na$^+$ \slash
+                 K$^+$-ATPase} Activity in the Gill of Juvenile Lined
                  Seahorse, \bioname{Hippocampus erectus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
@@ -8910,7 +8954,8 @@
   title =        "The Applicability of Activated Carbon, Natural
                  Zeolites, and Probiotics ({EM\reg}) and Its Effects on
                  Ammonia Removal Efficiency and Fry Performance of
-                 {European} Seabass \bioname{Dicentrarchus labrax}",
+                 \geoname{European} Seabass \bioname{Dicentrarchus
+                 labrax}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "11",
@@ -8953,7 +8998,7 @@
 
 @Article{Akinwole:2016:GPA,
   author =       "A. O. Akinwole and A. B. Dauda and O. A. Ololade",
-  title =        "Growth Performance of {African} Catfish
+  title =        "Growth Performance of \geoname{African} Catfish
                  (\bioname{Clarias gariepinus}) Juveniles Reared in
                  Wastewater Treated with Alum and \bioname{Moringa
                  oleifera} Seed",
@@ -8980,7 +9025,7 @@
                  R. Chaklader and R. Kleindienst",
   title =        "Barramundi, \bioname{Lates calcarifer} ({Bloch},
                  1790): a New Dimension to the Fish Farming in Coastal
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "12",
@@ -9003,7 +9048,8 @@
   author =       "Elsayed A. Khallaf and M. Galal and M. N. Mohammad
                  Authman and R. A. Zaid",
   title =        "A Comparative Study on the Water Quality of Two
-                 {Nilotic} Canals in the {Delta of Egypt}",
+                 \geoname{Nilotic} Canals in the \geoname{Delta of
+                 Egypt}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "12",
@@ -9027,7 +9073,8 @@
                  Yan and Shaoping Weng and Jianguo He Jianguo He and
                  Zhijian Huang",
   title =        "Characterization of Prokaryotic and Eukaryotic
-                 Microbial Community in {Pacific} White Shrimp Ponds",
+                 Microbial Community in \geoname{Pacific} White Shrimp
+                 Ponds",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "7",
   number =       "12",
@@ -9072,7 +9119,7 @@
 
 @Article{Alkobaby:2017:ATC,
   author =       "Akram I. Alkobaby and Rasha K. Abd El-Wahed",
-  title =        "The Acute Toxicity of Copper to {Nile} Tilapia
+  title =        "The Acute Toxicity of Copper to \geoname{Nile} Tilapia
                  (\bioname{Oreochromis niloticus}) Fingerlings and its
                  Effects on Gill and Liver Histology",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -9166,7 +9213,7 @@
                  Ajani and Oluwabusayo Israel Okeleye and Benjamin Uzezi
                  Akpoilih and Adeniyi Adewale Ogunjobi",
   title =        "Biological Treatments of Fish Farm Effluent and its
-                 Reuse in the Culture of {Nile} Tilapia
+                 Reuse in the Culture of \geoname{Nile} Tilapia
                  (\bioname{Oreochromis niloticus})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
@@ -9218,7 +9265,7 @@
                  Hossain Khan and Yahia Mahmud",
   title =        "On-board Breeding Trial of Hilsa (\bioname{Tenualosa
                  ilisha}, {Ham}. 1822) and Testing of Larval Rearing in
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "2",
@@ -9241,7 +9288,7 @@
   author =       "Asaad M. R. Al-Taee and Najem R. Khamees and Nadia A.
                  H. Al-Shammari",
   title =        "\bioname{Vibrio} Species Isolated from Farmed Fish in
-                 {Basra City in Iraq}",
+                 \geoname{Basra City in Iraq}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "2",
@@ -9362,9 +9409,9 @@
                  Adriano {Carvalho Costa} and Luciano {Vilela Paiva} and
                  Fabr{\'\i}cio {Lelis da Silva} and Luis David {Solis
                  Murgas}",
-  title =        "Sulfated Polysaccharides in Diets for {Nile} tilapia
-                 (\bioname{Oreochromis niloticus}) in the Initial Growth
-                 Phase",
+  title =        "Sulfated Polysaccharides in Diets for \geoname{Nile}
+                 tilapia (\bioname{Oreochromis niloticus}) in the
+                 Initial Growth Phase",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "4",
@@ -9386,8 +9433,8 @@
 @Article{A:2017:NAI,
   author =       "Ignacio Agudo-Padr{\'o}n A",
   title =        "New Additions to Inventory of Marine Mollusc Species
-                 from {Santa Catarina State\slash SC, Central Southern
-                 Brazil}",
+                 from \geoname{Santa Catarina State\slash SC, Central
+                 Southern Brazil}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "4",
@@ -9409,9 +9456,10 @@
 @Article{Alemayehu:2017:EFF,
   author =       "Tewodros Abate Alemayehu and Ababe Getahun",
   title =        "Effect of Feeding Frequency on Growth Performance and
-                 Survival of {Nile} Tilapia (\bioname{Oreochromis
-                 niloticus} {L.} 1758) in a Cage Culture System in {Lake
-                 Hora-Arsedi, Ethiopia}",
+                 Survival of \geoname{Nile} Tilapia
+                 (\bioname{Oreochromis niloticus} {L.} 1758) in a Cage
+                 Culture System in \geoname{Lake Hora-Arsedi,
+                 Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "4",
@@ -9508,7 +9556,8 @@
                  Tayfa Ahmed and Flura and Md. Monjurul Hasan and Masud
                  Hossain Khan and Yahia Mahmud",
   title =        "Gill Net Selectivity of Hilsa (\bioname{Tenualosa
-                 ilisha}) in the {Meghna River Estuary of Bangladesh}",
+                 ilisha}) in the \geoname{Meghna River Estuary of
+                 Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "4",
@@ -9552,10 +9601,10 @@
 @Article{Nyunja:2017:SSD,
   author =       "Cynthia Nyunja and Joyce Maina and Joshua Amimo and
                  Felix Kibegwa and David Harper and Joseph Jung'a",
-  title =        "Stock Structure Delineation of the {African} Catfish
-                 (\bioname{Clarius gariepinus}) in Selected Populations
-                 in {Kenya} Using Mitochondrial {DNA} ({Dloop})
-                 Variability",
+  title =        "Stock Structure Delineation of the \geoname{African}
+                 Catfish (\bioname{Clarius gariepinus}) in Selected
+                 Populations in \geoname \geoname{Kenya} Using
+                 Mitochondrial {DNA} ({Dloop}) Variability",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "5",
@@ -9601,8 +9650,8 @@
 @Article{El-Feky:2017:EZE,
   author =       "Mohamed M. M. El-Feky",
   title =        "Effect of Zooplankton and Environmental Parameters on
-                 {African} Catfish \bioname{Clarias gariepinus}
-                 ({Burchell}, 1822) in {Egypt}",
+                 \geoname{African} Catfish \bioname{Clarias gariepinus}
+                 ({Burchell}, 1822) in \geoname{Egypt}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "5",
@@ -9654,7 +9703,7 @@
   title =        "Impact Assessment of Twenty-Two Days Fishing Ban in
                  the Major Spawning Grounds of \bioname{Tenualosa
                  ilisha} ({Hamilton}, 1822) on its Spawning Success in
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "6",
@@ -9699,8 +9748,9 @@
 
 @Article{Jalal:2017:EIS,
   author =       "Valiallahi Jalal",
-  title =        "Environmental Impact of Shrimp Culture at {Gwatr}
-                 Culture Site in {Chabahar, Sistan-Baluchestan Province}",
+  title =        "Environmental Impact of Shrimp Culture at
+                 \geoname{Gwatr} Culture Site in \geoname{Chabahar,
+                 Sistan-Baluchestan Province}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "6",
@@ -9745,8 +9795,8 @@
   author =       "Tahani El Ayari and Anwar Mleiki and Najoua Trigui El
                  Menif",
   title =        "Genitalia Malformations in \bioname{Stramonita
-                 haemastoma} ({Gastropoda: Muricidae}) from {Atlantic}
-                 and {Mediterranean Coast}",
+                 haemastoma} ({Gastropoda: Muricidae}) from
+                 \geoname{Atlantic} and \geoname{Mediterranean Coast}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "6",
@@ -9792,7 +9842,7 @@
 @Article{Plamoottil:2017:TNM,
   author =       "Mathews Plamoottil",
   title =        "Taxonomic Notes on \bioname{Mystus} Species of
-                 {Northern Kerala}",
+                 \geoname{Northern Kerala}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "6",
@@ -9862,9 +9912,9 @@
 @Article{Mekkawy:2017:CMS,
   author =       "W. Mekkawy and B. K. Barman and A. H. M. Kohinoor and
                  J. A. H. Benzie",
-  title =        "Characterization of Mono-sex {Nile} tilapia
+  title =        "Characterization of Mono-sex \geoname{Nile} tilapia
                  (\bioname{Oreochromis niloticus}) Hatcheries in
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "7",
@@ -9886,8 +9936,8 @@
 @Article{El-Barbary:2017:PGC,
   author =       "Manal I. El-Barbary and Ahmed M. Hal",
   title =        "Phenotypic and Genotypic Characterization of Some
-                 {Pseudomonas} sp. Associated with Burkholderia cepacia
-                 Isolated from Various Infected Fishes",
+                 {Pseudomonas} sp. Associated with \bioname{Burkholderia
+                 cepacia} Isolated from Various Infected Fishes",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "7",
@@ -9955,7 +10005,7 @@
 @Article{Oedjoe:2017:CNC,
   author =       "Marcelien Dj Ratoe Oedjoe",
   title =        "Composition of Nutritional Content of Sea Cucumbers
-                 ({Holothuroidea}) in {Mania Waters, Sabu Raijua
+                 ({Holothuroidea}) in \geoname{Mania Waters, Sabu Raijua
                  Regency, East Nusa Tenggara}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
@@ -10002,7 +10052,7 @@
   author =       "Nasim Bashirichelkasari and Reza
                  Yadollahvandmiandoab",
   title =        "\bioname{Placobdella costata} an Ectoparasite for
-                 \bioname{Mauremys caspica} in {North of Iran}",
+                 \bioname{Mauremys caspica} in \geoname{North of Iran}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "9",
@@ -10025,7 +10075,7 @@
   author =       "El-Sayed G. Khater and Samir A. Ali and Waheed E.
                  Mohamed",
   title =        "Effect of Water Temperature on Masculinization and
-                 Growth of {Nile} Tilapia Fish",
+                 Growth of \geoname{Nile} Tilapia Fish",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "9",
@@ -10047,8 +10097,8 @@
 @Article{Ogundiran:2017:NCH,
   author =       "M. A. Ogundiran",
   title =        "Nutritional Compositions and Heavy Metal Accumulation
-                 Potentials of Selected Fish Species from {Ijede River,
-                 Lagos, Nigeria}",
+                 Potentials of Selected Fish Species from \geoname{Ijede
+                 River, Lagos, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "9",
@@ -10070,7 +10120,7 @@
 @Article{Pathmanandakumar:2017:ECM,
   author =       "Vyddiyaratnam Pathmanandakumar",
   title =        "The Effectiveness of Co-management Practices: The Case
-                 of Small-scale Fisheries in {Sri Lanka}",
+                 of Small-scale Fisheries in \geoname{Sri Lanka}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "9",
@@ -10138,8 +10188,8 @@
 
 @Article{Olanrewaju:2017:PCS,
   author =       "A. N. Olanrewaju and E. K. Ajani and O. K. Kareem",
-  title =        "Physico-Chemical Status of {Eleyele Reservoir, Ibadan,
-                 Nigeria}",
+  title =        "Physico-Chemical Status of \geoname{Eleyele Reservoir,
+                 Ibadan, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "9",
@@ -10186,8 +10236,8 @@
 @Article{Wan:2017:SDS,
   author =       "Yu Wan and Jia He and Yang Bai",
   title =        "Spatial Distribution of Sediment Bacterial Communities
-                 in Eutrophicated {Meiliang Bay}: Correlation with
-                 Environmental Factors",
+                 in Eutrophicated \geoname{Meiliang Bay}: Correlation
+                 with Environmental Factors",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "10",
@@ -10211,7 +10261,7 @@
                  Hasan and Md. Solaiman Hossain and Muhammad Mizanur
                  Rahman and Md. Ahsanul Islam",
   title =        "Production in Small Scale Aquaculture Farm: a Success
-                 Story from {Bangladesh}",
+                 Story from \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "10",
@@ -10259,9 +10309,10 @@
   author =       "R. S. Al-Ngada and A. M. Abdelwahab and S. M.
                  El-Bahr",
   title =        "Effect of Dietary Supplementation of Green Tea
-                 (\bioname{Camellia Sinensis}) on Growth, Body
-                 Composition and Serum Biochemistry of the {Asian}
-                 Seabass, \bioname{Lates calcarifer} Fingerlings",
+                 (\bioname{Camellia sinensis}) on Growth, Body
+                 Composition and Serum Biochemistry of the
+                 \geoname{Asian} Seabass, \bioname{Lates calcarifer}
+                 Fingerlings",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "11",
@@ -10285,7 +10336,7 @@
                  and Yi Qiao and Wenjun Shi and Hui Li and Libao Wang",
   title =        "Multiple Pathogens Prevalent in Shrimp
                  \bioname{Penaeus vannamei} Cultured from Greenhouse
-                 Ponds in {Jiangsu Province of China}",
+                 Ponds in \geoname{Jiangsu Province of China}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "8",
   number =       "12",
@@ -10333,8 +10384,8 @@
 @Article{Worku:2018:IWH,
   author =       "Melese Worku and Samuel Sahile",
   title =        "Impact of Water Hyacinth, \bioname{Eichhornia
-                 crassipes} ({Martius}) ({Pontederiaceae}) in {Lake Tana
-                 Ethiopia}: a Review",
+                 crassipes} ({Martius}) ({Pontederiaceae}) in
+                 \geoname{Lake Tana Ethiopia}: a Review",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "1",
@@ -10408,8 +10459,9 @@
                  Kumar and Ferisca Putri",
   title =        "Effect of Red Seaweed \bioname{Kappaphycus alvarezii}
                  on Growth, Survival, and Disease Resistance of
-                 {Pacific} White Shrimp \bioname{Litopenaeus vannamei}
-                 Against \bioname{Vibrio harveyi} in the Nursery Phase",
+                 \geoname{Pacific} White Shrimp \bioname{Litopenaeus
+                 vannamei} Against \bioname{Vibrio harveyi} in the
+                 Nursery Phase",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "2",
@@ -10478,9 +10530,9 @@
 @Article{Moshaand:2018:EDC,
   author =       "Sebastian S. Moshaand and Frank T. Mlingi",
   title =        "Effects of Different Catfish Pituitary Gland Extract
-                 Dosages on Eggs and Hatchlings Quantity of {African}
-                 Catfish, \bioname{Clarias gariepinus} at a Constant
-                 Latency Period",
+                 Dosages on Eggs and Hatchlings Quantity of
+                 \geoname{African} Catfish, \bioname{Clarias gariepinus}
+                 at a Constant Latency Period",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "3",
@@ -10503,7 +10555,7 @@
   author =       "Yeyes Mulyadi and Kriyo Sambodho and Nur Syahroni and
                  Muhammad Zikra and Winda Amalia Herdianti",
   title =        "Development of Eco-friendly Aquaculture Design for
-                 Lobster Cultivation in {Indonesia}",
+                 Lobster Cultivation in \geoname{Indonesia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "3",
@@ -10525,9 +10577,9 @@
 @Article{Mosha:2018:RCS,
   author =       "Sebastian S. Mosha",
   title =        "Recent Comparative Studies on the Performance and
-                 Survival Rate of {African} Catfish (\bioname{Clarias
-                 gariepinus}) Larval Produced under Natural and
-                 Synthetics Hormones: a Review",
+                 Survival Rate of \geoname{African} Catfish
+                 (\bioname{Clarias gariepinus}) Larval Produced under
+                 Natural and Synthetics Hormones: a Review",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "3",
@@ -10601,7 +10653,8 @@
 @Article{Al-Sheraa:2018:MQT,
   author =       "Amal S. Al-Sheraa",
   title =        "Microbial Quality of three Imported Fresh Locally
-                 Produced Marine Fishes in {Al-Faw City, Basrah, Iraq}",
+                 Produced Marine Fishes in \geoname{Al-Faw City, Basrah,
+                 Iraq}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "4",
@@ -10622,9 +10675,9 @@
 
 @Article{Phiri:2018:TET,
   author =       "Francis Phiri and Xinhua Yuan",
-  title =        "Technical Efficiency of Tilapia Production in {Malawi}
-                 And {China}: Application of Stochastic Frontier
-                 Production Approach",
+  title =        "Technical Efficiency of Tilapia Production in
+                 \geoname{Malawi} and \geoname{China}: Application of
+                 Stochastic Frontier Production Approach",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "4",
@@ -10671,7 +10724,8 @@
                  Tchoumboue Joseph",
   title =        "Effect of Season on \bioname{Myxosporean} Infections
                  in \bioname{Oreochromis niloticus} {Linnaeus}, 1758
-                 ({Cichlidae}) at {MAPE Dam in Adamawa, Cameroon}",
+                 ({Cichlidae}) at \geoname{MAPE Dam in Adamawa,
+                 Cameroon}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "5",
@@ -10715,7 +10769,7 @@
 @Article{Phiri:2018:EPT,
   author =       "Francis Phiri and Xinhua Yuan",
   title =        "Economic Profitability of Tilapia Production in
-                 {Malawi} and {China}",
+                 \geoname{Malawi} and \geoname{China}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "5",
@@ -10738,8 +10792,8 @@
   author =       "Roldan T. Echem and Herbert M. Barba and Guangyao Li
                  and Fang Peng and Nikka Joy C. Buenaventura",
   title =        "Endoparasites in \bioname{Chanos chanos} ({Forsskal},
-                 1775) from the wetlands of {Zamboanga City, Western
-                 Mindanao, Philippines}",
+                 1775) from the wetlands of \geoname{Zamboanga City,
+                 Western Mindanao, Philippines}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "5",
@@ -10765,7 +10819,7 @@
   title =        "Comparative Bacteriological Analysis of Giant
                  Freshwater Prawn (\bioname{Macrobrachium rosenbergii})
                  Cultured in South-Western Coastal Areas of
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "6",
@@ -10811,7 +10865,7 @@
   author =       "Rui A. Gon{\c{c}}alves and Sofia Engrola and
                  Cl{\'a}udia Arag{\~a}o and Simon Mackenzie and Gerlinde
                  Bichl and Tibor Czabany and Dian Schatzmayr",
-  title =        "Fate of [$^3$H]-Deoxynivalenol in Rainbow Trout
+  title =        "Fate of [$^3${H}]-Deoxynivalenol in Rainbow Trout
                  (\bioname{Oncorhynchus mykiss}) Juveniles: Tissue
                  Distribution and Excretion",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -10835,8 +10889,9 @@
 @Article{Rana:2018:HFR,
   author =       "Muhammad Enayet Ullah Rana and Abdus Salam and K. M.
                  Shahriar Nazrul and Md. Monjurul Hasan",
-  title =        "Hilsa Fishers of {Ramgati, Lakshmipur, Bangladesh}: an
-                 Overview of Socio-Economic and Livelihood Context",
+  title =        "Hilsa Fishers of \geoname{Ramgati, Lakshmipur,
+                 Bangladesh}: an Overview of Socio-Economic and
+                 Livelihood Context",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "7",
@@ -10858,7 +10913,7 @@
 @Article{Ram:2018:CRP,
   author =       "E. J. Ram",
   title =        "Cleaning Regime for \bioname{Pinctada margaritifera}
-                 ({Linneaus}, 1758) in {Savusavu Bay, Fiji}",
+                 ({Linneaus}, 1758) in \geoname{Savusavu Bay, Fiji}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "7",
@@ -10974,7 +11029,7 @@
                  and Luming Wang and Baoguo Li and Xiaoliang Xing",
   title =        "Quality Differences of Large Yellow Croaker
                  (\bioname{Pseudosciaena crocea}) Cultured in Deep-Water
-                 Sea Cages of Two {China} Regions",
+                 Sea Cages of Two \geoname{China} Regions",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "9",
@@ -10996,7 +11051,8 @@
 @Article{Emeish:2018:AIA,
   author =       "Walaa F. A. Emeish and Hams M. A. Mohamed and Ahmad A.
                  Elkamel",
-  title =        "Aeromonas Infections in {African} Sharptooth Catfish",
+  title =        "Aeromonas Infections in \geoname{African} Sharptooth
+                 Catfish",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "9",
@@ -11023,7 +11079,7 @@
   title =        "Dietary Supplementation of Spirulina,
                  \bioname{Arthrospira platensis}, With Plant Protein
                  Sources and their Effects on Growth, Feed Utilization
-                 and Histological Changes in {Nile} Tilapia,
+                 and Histological Changes in \geoname{Nile} Tilapia,
                  \bioname{Oreochromis niloticus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
@@ -11046,9 +11102,9 @@
 @Article{Elkhodary:2018:NVE,
   author =       "Gihan M. Elkhodary and Nahla E. Omran and Amal A.
                  Hassan and Salwa A. El- Saidy and Mohamed H. Mona",
-  title =        "Nutritional Value of the {Egyptian} Freshwater Bivalve
-                 \bioname{Spathopsis rubens} arcuata Under the Effect of
-                 Depuration",
+  title =        "Nutritional Value of the \geoname{Egyptian} Freshwater
+                 Bivalve \bioname{Spathopsis rubens arcuata} Under the
+                 Effect of Depuration",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "10",
@@ -11071,8 +11127,8 @@
   author =       "N. Eirna-Liza and Hasliza Abu Hassim and Chong Chou
                  Min and Fadhil Syukri and Murni Karim",
   title =        "The Duration of Protection Conferred by Garlic on
-                 {African} Catfish (\bioname{Clarias gariepinus})
-                 Against \bioname{Aeromonas hydrophila}",
+                 \geoname{African} Catfish (\bioname{Clarias
+                 gariepinus}) Against \bioname{Aeromonas hydrophila}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "10",
@@ -11121,8 +11177,8 @@
                  Oladunjoye Rasheed",
   title =        "Length--Weight Relationship, Abundance and Sex Ratio
                  of the Giant River Prawn \bioname{Macrobrachium
-                 vollenhovenii} ({Herklots}, 1857) From {River Osun,
-                 Southwestern Nigeria}",
+                 vollenhovenii} ({Herklots}, 1857) From \geoname{River
+                 Osun, Southwestern Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "10",
@@ -11191,9 +11247,9 @@
 @Article{Pramono:2018:LWR,
   author =       "Taufik Budhi Pramono and Diana Arfiati and Maheno Sri
                  and Uun Yanuhar",
-  title =        "Length-Weight Relationship and Condition Factor
+  title =        "Length--Weight Relationship and Condition Factor
                  Senggaringan Fish (\bioname{Mystus singaringan}) from
-                 {Klawing River, Central Java, Indonesia}",
+                 \geoname{Klawing River, Central Java, Indonesia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "9",
   number =       "12",
@@ -11263,7 +11319,7 @@
   author =       "Budi Rianto Wahidi and Uun Yanuhar and Mohamad Fadjar
                  and Sri Andayani",
   title =        "Comparison between Single-Round {PCR} Assay and {IHC}
-                 for Detection of Koi Herpes-Virus {(KHV)} in
+                 for Detection of Koi Herpes-Virus ({KHV}) in
                  \bioname{Oreochromis niloticus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
@@ -11287,8 +11343,8 @@
                  M. Said and Ibrahim H. Ibrahim and Esam A. Abdel-
                  karim",
   title =        "Effects of Cadmium Chloride and Glyphosate on
-                 Antioxidants as Biochemical Biomarkers in {Nile}
-                 Tilapia",
+                 Antioxidants as Biochemical Biomarkers in
+                 \geoname{Nile} Tilapia",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "1",
@@ -11334,8 +11390,9 @@
   author =       "Zinia Rahman and Al Mamun and Istiyak Ahmad and
                  Ibrahim Rashid",
   title =        "Influence of Probiotics on the Growth Performance of
-                 Sex Reversed {Nile} Tilapia (\bioname{Oreochromis
-                 niloticus}, {Linnaeus}, 1758) Fry",
+                 Sex Reversed \geoname{Nile} Tilapia
+                 (\bioname{Oreochromis niloticus}, {Linnaeus}, 1758)
+                 Fry",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "2",
@@ -11356,9 +11413,10 @@
 @Article{Agbeko:2019:TSD,
   author =       "Etornyo Agbeko and Daniel Adjei-Boateng and Nelson W.
                  Agbo and Thomas K. Agyemang",
-  title =        "Trophic Status and Development of Aquaculture
-                 Management Areas {(AMAs)} For the two Major Reservoirs:
-                 {Tono} and {Vea}, in the {Upper East Region of Ghana}",
+  title =        "Trophic Status and Development of {Aquaculture
+                 Management Areas (AMAs)} For the two Major Reservoirs:
+                 \geoname{Tono} and \geoname{Vea}, in the \geoname{Upper
+                 East Region of Ghana}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "2",
@@ -11425,7 +11483,7 @@
                  Jolezya Hasimuna and Lloyd Haninga Haambiya and
                  Bornwell Seemani",
   title =        "A Review of the Science and Technology Developments in
-                 {Zambia}'s Aquaculture Industry",
+                 \geoname{Zambia}'s Aquaculture Industry",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "4",
@@ -11447,7 +11505,7 @@
   author =       "Joy Oluwatomi Jiboye and Christopher Ogolo Ikporukpo
                  and Charles Olufisayo Olatubara",
   title =        "Impact of Environmental Degradation on Livelihoods in
-                 the Coastal Areas of {South West, Nigeria}",
+                 the Coastal Areas of \geoname{South West Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "4",
@@ -11471,7 +11529,7 @@
                  Hubert and J. Tchoumboue",
   title =        "Effects of the Type of Fertilizer on the Taxonomic
                  Composition and Zooplankton Distribution in Ponds of
-                 {Batie in Western Cameroon}",
+                 \geoname{Batie in Western Cameroon}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "5",
@@ -11493,7 +11551,7 @@
   author =       "Joy Oluwatomi Jiboye and Christopher Ogolo Ikporukpo
                  and Charles Olufisayo Olatubara",
   title =        "Impact of Environmental Degradation on Livelihoods in
-                 the Coastal Areas of {South West Nigeria}",
+                 the Coastal Areas of \geoname{South West Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "6",
@@ -11514,8 +11572,8 @@
 @Article{Ogundiran:2019:CSN,
   author =       "M. A. Ogundiran and T. A. Ayandiran",
   title =        "Comparative Studies on the Nutritional Fitness of some
-                 Selected Cichlids Sampled from {OBA Reservoir, South
-                 Western Nigeria}",
+                 Selected Cichlids Sampled from \geoname{OBA Reservoir,
+                 South Western Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "7",
@@ -11581,7 +11639,8 @@
 
 @Article{Ram:2019:PMF,
   author =       "E. J. Ram and A. Kalla",
-  title =        "\bioname{Pinctada margaritifera} Farming in {Fiji}",
+  title =        "\bioname{Pinctada margaritifera} Farming in
+                 \geoname{Fiji}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "9",
@@ -11602,9 +11661,9 @@
 @Article{Wright:2019:CPT,
   author =       "Samuel James Wright",
   title =        "Customer Perceptions towards Aquatic Pets and how that
-                 Influences {Farming/Catching}, Trading and Caring for
-                 these Animals in the Aquatic Trade Industry from both
-                 Fish Farms and Wild Caught Populations",
+                 Influences Farming\slash Catching, Trading and Caring
+                 for these Animals in the Aquatic Trade Industry from
+                 both Fish Farms and Wild Caught Populations",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
   number =       "10",
@@ -11627,7 +11686,7 @@
                  Srinoy Chumkam",
   title =        "Effects of Dietary Zinc Amino Acid Complex and Zinc
                  Sulfate on Growth Performance, Digestive Enzyme
-                 Activity and Immune Response in {Asian} Seabass
+                 Activity and Immune Response in \geoname{Asian} Seabass
                  (\bioname{Lates calcarifer})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
@@ -11650,7 +11709,7 @@
 @Article{Tanjung:2019:SRE,
   author =       "Livia Rossila Tanjung",
   title =        "Survival Rate and Early Development of Giant Gourami
-                 {Padang} Strain \bioname{Osphronemus gouramy}
+                 \geoname{Padang} Strain \bioname{Osphronemus gouramy}
                  ({Perciformes: Osphronemidae})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "10",
@@ -11696,7 +11755,7 @@
   author =       "P. K. Sahoo and A. Paul and M. K. Sahoo and S.
                  Pattanayak and P. Rajesh Kumar and B. K. Das",
   title =        "Incidences of Infectious Diseases in Freshwater
-                 Aquaculture Farms of {Eastern India}: a Passive
+                 Aquaculture Farms of \geoname{Eastern India}: a Passive
                  Surveillance based Study from 2014--2018",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
@@ -11766,10 +11825,10 @@
 @Article{Abiyu:2020:PIN,
   author =       "Muluken Abiyu and Gebrekrustos Mekonnen and Kidanu
                  Hailay",
-  title =        "Prevalence of Internal Nematode Parasites of {Nile}
-                 Tilapia (\bioname{Oreochromis niloticus}) Fish Species
-                 caught from Southwestern Part of {Lake Tana, Central
-                 Gondar, Ethiopia}",
+  title =        "Prevalence of Internal Nematode Parasites of
+                 \geoname{Nile} Tilapia (\bioname{Oreochromis
+                 niloticus}) Fish Species caught from Southwestern Part
+                 of \geoname{Lake Tana, Central Gondar, Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "3",
@@ -11813,8 +11872,9 @@
 @Article{Hasimuna:2020:AHM,
   author =       "Oliver J. Hasimuna and Sahya Maulu and Joseph
                  Mphande",
-  title =        "Aquaculture Health Management Practices in {Zambia}:
-                 Status, Challenges and Proposed Biosecurity Measures",
+  title =        "Aquaculture Health Management Practices in
+                 \geoname{Zambia}: Status, Challenges and Proposed
+                 Biosecurity Measures",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "4",
@@ -11905,7 +11965,7 @@
   title =        "Effect of Partial or Total Replacement of Fish Meal by
                  Plant Protein Sources on Productive Performance of
                  Gilthead Sea Bream (\bioname{Sparus aurata} {L.}) Fry
-                 under the Water Environment of {Qaroun Lake}",
+                 under the Water Environment of \geoname{Qaroun Lake}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "5",
@@ -11927,7 +11987,8 @@
   author =       "Kumari Shachi and Sanjeev Kumar and N. K. Dubey and
                  Usha Dubey",
   title =        "Qualitative Plankton Diversity of Two Carp Culture
-                 Ageing Ponds of {LNMU} Campus Darbhanga, {India}",
+                 Ageing Ponds of \geoname{LNMU Campus Darbhanga,
+                 India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "5",
@@ -11972,7 +12033,7 @@
   author =       "Zia Hoseini",
   title =        "Shrimp Aquaculture's Development Perspectives
                  Reviewing on Improving Strategies and Management Plans
-                 in {Ecuadorian} Shrimp Industry",
+                 in \geoname{Ecuadorian} Shrimp Industry",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "6",
@@ -12020,7 +12081,7 @@
                  Islam and Saidur Rahman and Khandaker Jafor Ahmed and
                  Shamsul Haque Prodhan",
   title =        "Analyzing Livelihood Sustainability of Climate
-                 Vulnerable Fishers: Insight from {Bangladesh}",
+                 Vulnerable Fishers: Insight from \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "6",
@@ -12046,7 +12107,7 @@
   title =        "Novobiocin: The Most Sensitive Antibiotic against
                  \bioname{Vibrionaceae} Isolated from \bioname{Pinctada
                  margaritifera} (Black-Lipped Pearl Oyster) in the
-                 {South of Iran}",
+                 \geoname{South of Iran}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "7",
@@ -12088,8 +12149,8 @@
 
 @Article{Deomedes:2020:APP,
   author =       "Lameck Deomedes",
-  title =        "Assessment of Pond Productivity in {African} Catfish
-                 Farms",
+  title =        "Assessment of Pond Productivity in \geoname{African}
+                 Catfish Farms",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "7",
@@ -12114,8 +12175,9 @@
                  Maghdalena Putri Nugrahani",
   title =        "Comparison of Plankton Abundance, Water Condition,
                  Organism Growth Performance of Vaname Shrimp
-                 (\bioname{Litopenaeus Vannameiei}) on Intensive and
-                 Extensive Culture Systems in {Banyuwangi District}",
+                 (\bioname{Litopenaeus vannameiei}) on Intensive and
+                 Extensive Culture Systems in \geoname{Banyuwangi
+                 District}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "7",
@@ -12137,10 +12199,10 @@
   author =       "Sheena M. Tagarao and Chennie L. Solania and Joycelyn
                  C. Jumawan and Shirlamaine G. Masangcay and Laurence B.
                  Calagui",
-  title =        "Length-Weight Relationship ({LWR}), Gonadosomatic
+  title =        "Length--Weight Relationship ({LWR}), Gonadosomatic
                  Index ({GSI}) and Fecundity of \bioname{Johnius
-                 borneensis} ({Bleeker}, 1850) from {Lower Agusan River
-                 basin, Butuan City, Philippines}",
+                 borneensis} ({Bleeker}, 1850) from \geoname{Lower
+                 Agusan River basin, Butuan City, Philippines}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "7",
@@ -12162,7 +12224,7 @@
   author =       "Harlina Harlina and Andi Gusti Tantu and Rosmiati
                  Rosmiati and Kamarudin Kamaruddin",
   title =        "The Application of Asterales (\bioname{Chromolaena
-                 odorata} {L}). Leaves on the Feed for Disease
+                 odorata} {L.}) Leaves on the Feed for Disease
                  Prevention in Tiger Shrimp Cultivation
                  (\bioname{Penaeus monodon} {Fabricius}) in Pond",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -12186,7 +12248,7 @@
   author =       "H. Malini and A. Kalarani and V. Vinodha and R. M.
                  Inbaraj",
   title =        "Presence of Neurosteroids and Expression of
-                 Neuropeptides in the Brain of {Indian} Salmon,
+                 Neuropeptides in the Brain of \geoname{Indian} Salmon,
                  \bioname{Eleutheronema tetradactylum}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
@@ -12209,7 +12271,7 @@
   author =       "Babagana Zanna and Abba I. Tijjani and Mohammed Musa",
   title =        "Aquaculture: a Tool for Community Sustainable
                  Development under the Background of Cultural and
-                 Economic Consideration in {Nigeria}",
+                 Economic Consideration in \geoname{Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "8",
@@ -12230,8 +12292,8 @@
 @Article{Adeli:2020:CPF,
   author =       "Afshin Adeli and Masoomeh Hassannejad",
   title =        "Consumption Preferences of Fishery Products among the
-                 Young People of the {Iran} (Case Study: {Gorgan
-                 City})",
+                 Young People of the \geoname{Iran} (Case Study:
+                 \geoname{Gorgan City})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "8",
@@ -12252,8 +12314,8 @@
 @Article{Reyes:2020:GPS,
   author =       "Guillermo Galindo Reyes",
   title =        "Genotoxicity by {PAHs} in Shrimp (\bioname{Litopenaeus
-                 Vannamei}) and its Impact on the Aquaculture of two
-                 Coastal Ecosystems of the {Gulf of California,
+                 vannamei}) and its Impact on the Aquaculture of two
+                 Coastal Ecosystems of the \geoname{Gulf of California,
                  Mexico}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
@@ -12278,8 +12340,8 @@
                  Egunjobi",
   title =        "Length--Weight Relationship, Condition Factor and
                  Natural Diet of \bioname{Hyperopisus bebe occidentalis}
-                 and \bioname{Brycinus macrolepidotus} in {Ikere Gorge,
-                 South-West, Nigeria}",
+                 and \bioname{Brycinus macrolepidotus} in \geoname{Ikere
+                 Gorge, South-West, Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "9",
@@ -12326,7 +12388,7 @@
                  Mirera",
   title =        "Impact of Aquaculture and Mariculture Information
                  Dissemination to the Local Coastal Communities in
-                 {Kenya}",
+                 \geoname \geoname{Kenya}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "9",
@@ -12372,7 +12434,7 @@
   author =       "G. S. Ahamed and M. T. Alam and M. A. Hussain and S.
                  Sultana",
   title =        "Socio Economics and Livelihoods of Beel Fishermen:
-                 Cases from {North-Western Bangladesh}",
+                 Cases from \geoname{North-Western Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "9",
@@ -12393,11 +12455,11 @@
 @Article{Thiruvengadam:2020:DSW,
   author =       "Vaitheeswaran Thiruvengadam",
   title =        "Deep Sea Water Decapod, \bioname{Munidopsis} Species
-                 ({Crustacea: Decapoda: Munidopsidae}) off {Thoothukudi
-                 Coast of Gulf of Mannar} Collected in 2019--2020:
-                 Primary Documentation of 53 Species, {India}
-                 (08{\degree} {31.912'N} 78{\degree} {25.327'E}) ({318
-                 M})",
+                 ({Crustacea: Decapoda: Munidopsidae}) off
+                 \geoname{Thoothukudi Coast of Gulf of Mannar} Collected
+                 in 2019--2020: Primary Documentation of 53 Species,
+                 \geoname{India} (08{\degree} {31.912'N} 78{\degree}
+                 {25.327'E}) ({318 M})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "10",
@@ -12420,7 +12482,7 @@
   author =       "C. Prithi and V. Vinodha and A. Kalarani and R. M.
                  Inbaraj",
   title =        "Study of Endocrine Factors Influencing the
-                 Reproductive Stages of {Indian} Salmon,
+                 Reproductive Stages of \geoname{Indian} Salmon,
                  \bioname{Eleutheronema tetradactylum}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
@@ -12443,8 +12505,8 @@
   author =       "O. A. Egbal and B. A. El-Nouman and B. M. Siham and M.
                  A. Mona",
   title =        "Partial Replacement of Plant Protein by Fish meal in
-                 the Diets of {Nile} Tilapia, \bioname{Oreochromis
-                 niloticus} ({Linnaeus}, 1758)",
+                 the Diets of \geoname{Nile} Tilapia,
+                 \bioname{Oreochromis niloticus} ({Linnaeus}, 1758)",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "10",
@@ -12464,9 +12526,9 @@
 
 @Article{Bedassa:2020:DSH,
   author =       "Wakessa Miheretu Bedassa",
-  title =        "Determination of some Heavy Metals in {Nile} Tilapia
-                 (\bioname{Oreochromis niloticus}) Fish Species in the
-                 Water of {Lake Hawassa}: Review",
+  title =        "Determination of some Heavy Metals in \geoname{Nile}
+                 Tilapia (\bioname{Oreochromis niloticus}) Fish Species
+                 in the Water of \geoname{Lake Hawassa}: Review",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "10",
@@ -12556,7 +12618,8 @@
                  J. Kilonzo and O. Ochola and S. Ndirangu and M. S. Zamu
                  and G. Athoni and J. Luyesi",
   title =        "Social Economic Survey and Feasibility Study to
-                 Initiate Cage Fish Farming in {Kenyan} Coastal Creeks",
+                 Initiate Cage Fish Farming in \geoname \geoname{Kenyan}
+                 Coastal Creeks",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "11",
@@ -12579,7 +12642,7 @@
                  Hossain and Abdulla-Al-Asif and Md. Robiul Hasan",
   title =        "Categorization and distribution of aqua-chemicals used
                  in coastal farming of south-eastern part of
-                 {Bangladesh}",
+                 \geoname{Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "11",
@@ -12601,9 +12664,9 @@
   author =       "J. Sivakumar and P. Harinath Reddy and S. Surya
                  Bhaskar Rao",
   title =        "Basic Deviations of Water Quality Parameters of Shrimp
-                 (\bioname{L. vannamei}) Culture Ponds at {Kongodu,
-                 Mogalipalem, and Gorripudi areas of East Godavari
-                 District, Andhra Pradesh, India}",
+                 (\bioname{L. vannamei}) Culture Ponds at
+                 \geoname{Kongodu, Mogalipalem, and Gorripudi areas of
+                 East Godavari District, Andhra Pradesh, India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "11",
   number =       "12",
@@ -12647,7 +12710,7 @@
   author =       "Berhanu Sime and Shimelis Tesfaye",
   title =        "Stability Performance of Bread Wheat
                  (\bioname{Triticum aestivum} {L.}) Genotype for Yield
-                 and Yield Components in {Oromia, Ethiopia}",
+                 and Yield Components in \geoname{Oromia, Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "1",
@@ -12668,9 +12731,9 @@
 @Article{Athman:2021:FCS,
   author =       "S. H. Athman and G. M. Hole and C. Magori and S.
                  Ndirangu and M. S. Zamu",
-  title =        "Fish Cage Site Selection at {Kibuyuni in Kwale County,
-                 Kenya}: Tidal variations, Waves Height, Current Speed
-                 and Direction Status",
+  title =        "Fish Cage Site Selection at \geoname{Kibuyuni in Kwale
+                 County, Kenya}: Tidal variations, Waves Height, Current
+                 Speed and Direction Status",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "1",
@@ -12714,7 +12777,8 @@
 @Article{Sine:2021:SSF,
   author =       "Sehanu Sine",
   title =        "Small-Scale Fisheries Will Provide Sustainable
-                 Benefits To The Fishing Communities In {Sri Lanka}?",
+                 Benefits To The Fishing Communities In \geoname{Sri
+                 Lanka}?",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "2",
@@ -12860,8 +12924,9 @@
 
 @Article{Workagegn:2021:ASIa,
   author =       "Kassaye Belkew Workagegn",
-  title =        "Aeromonas Septicemia Infection in Cultured {Nile}
-                 Tilapia, \bioname{Oreochromis niloticus} {L.}",
+  title =        "Aeromonas Septicemia Infection in Cultured
+                 \geoname{Nile} Tilapia, \bioname{Oreochromis niloticus}
+                 {L.}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "3",
@@ -12925,8 +12990,8 @@
 @Article{Mathew:2021:IPS,
   author =       "Anu Mathew",
   title =        "Identification of Protease Synthesizing
-                 \bioname{Micrococcus Yunnanensis} from the Gut of Mud
-                 Crab \bioname{Scylla Serrata}",
+                 \bioname{Micrococcus yunnanensis} from the Gut of Mud
+                 Crab \bioname{Scylla serrata}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "4",
@@ -12971,8 +13036,8 @@
                  Sazzad and Mahmudul Hasan Mithun and K. M. Nadim Haider
                  and Md Tariqul Alam",
   title =        "Understanding Livelihood Characteristics and
-                 Vulnerabilities of Small-scale Fishers in {Coastal
-                 Bangladesh}",
+                 Vulnerabilities of Small-scale Fishers in
+                 \geoname{Coastal Bangladesh}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "4",
@@ -13016,8 +13081,8 @@
 @Article{Workagegn:2021:ASIb,
   author =       "Kassaye Balkew Workagegn and Bekele Lema and P.
                  Natarajan and L. Prabadevi",
-  title =        "Aeromonas Spp. Infection in Farmed {Nile} Tilapia,
-                 \bioname{Oreochromis Niloticus}",
+  title =        "Aeromonas Spp. Infection in Farmed \geoname{Nile}
+                 Tilapia, \bioname{Oreochromis niloticus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "4",
@@ -13185,8 +13250,8 @@
 @Article{Chari:2021:DZS,
   author =       "T. Jagadeeshwara Chari and B. Srishylam and A. V.
                  Rajashekhar",
-  title =        "Diversity of Zooplankton in {Shanigaram Reservoir,
-                 Siddipet District, Telangana, India}",
+  title =        "Diversity of Zooplankton in \geoname{Shanigaram
+                 Reservoir, Siddipet District, Telangana, India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "6",
@@ -13206,7 +13271,7 @@
 
 @Article{Gutema:2021:GRN,
   author =       "B. Gutema and A. Yimer and F. Hailemichael",
-  title =        "Growth Response of {Nile} Tilapia
+  title =        "Growth Response of \geoname{Nile} Tilapia
                  (\bioname{Oreochromis niloticus}) Fries Fed on
                  Silage-based Diets",
   journal =      j-J-AQUACULT-RES-DEV,
@@ -13229,7 +13294,7 @@
 @Article{Bernard:2021:PAT,
   author =       "Kiweewa Bernard",
   title =        "Performance of Aquaponics Technologies in the
-                 {Albertine Region, Western Uganda}",
+                 \geoname{Albertine Region, Western Uganda}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "6",
@@ -13302,7 +13367,7 @@
                  Natarajan Pavanasam",
   title =        "Effects of Partial Replacement of Fishmeal by Locally
                  Available Ingredients on Growth Performance and Feed
-                 Utilization Efficiency of {Nile} Tilapia,
+                 Utilization Efficiency of \geoname{Nile} Tilapia,
                  \bioname{Oreochromis niloticus}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
@@ -13416,7 +13481,7 @@
   author =       "Begonesh Bekele and P. Natarajan and Kassaye Balkew
                  Workagegn and Devika Pillai",
   title =        "Hematological and Histopathological Changes in
-                 Artificially Infected {Nile} tilapia with
+                 Artificially Infected \geoname{Nile} tilapia with
                  \bioname{vibrio} species",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
@@ -13439,7 +13504,7 @@
 @Article{Ajay:2021:DCS,
   author =       "V. S. Ajay and Amrutha Krishnan R",
   title =        "Design Characteristics and Specifications of Gill Net
-                 Operated Along the Lower Stretches of {Vembanad
+                 Operated Along the Lower Stretches of \geoname{Vembanad
                  Wetlands, Kerala, India}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
@@ -13463,7 +13528,7 @@
   author =       "Tekalign Tuluka and Ketema Bekele and Kumilachew
                  Alamerie",
   title =        "Determinants of Fish Market Supply in the Case of
-                 {Lake Hawassa, Sidama National Regional State,
+                 \geoname{Lake Hawassa, Sidama National Regional State,
                  Ethiopia}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
@@ -13487,7 +13552,8 @@
   author =       "Ogundiran Mathew Akinloye and Fawole Olubanjo Olatunde
                  and Ajala Olumuyiwa Olasunmibo",
   title =        "Histological Aberrations in Selected Organs of two
-                 {Clariids} Species obtained from {Asa River, Nigeria}",
+                 {Clariids} Species obtained from \geoname{Asa River,
+                 Nigeria}",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "8",
@@ -13616,7 +13682,7 @@
   author =       "Anu Mathew and Imelda Joseph and V. Susmitha",
   title =        "Isolation and Characterization of Siderophore and
                  {HCN} Producing \bioname{Pseudomonas aeruginosa} from
-                 {Indian} Pompano \bioname{Trachinotus mookalee}
+                 \geoname{Indian} Pompano \bioname{Trachinotus mookalee}
                  {Cuvier}, 1832",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
@@ -13663,8 +13729,8 @@
 
 @Article{Kotha:2021:FHM,
   author =       "Rakshitha Kotha",
-  title =        "Facultative, Highly Migratory Activity of {American}
-                 Eel",
+  title =        "Facultative, Highly Migratory Activity of
+                 \geoname{American} Eel",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "12",
   number =       "10",
@@ -14011,9 +14077,9 @@
   author =       "Tahani El Ayari and Lazhar Mhadhbi and Najoua Trigui
                  {El Menif}",
   title =        "Abdominal Swelling and Skeletal Deformity in Gilthead
-                 Sea Bream (\bioname{Sparus aurata}) and {European} Sea
-                 Bass, (\bioname{Dicentrarchus labrax}) Developed under
-                 Rearing Conditions",
+                 Sea Bream (\bioname{Sparus aurata}) and
+                 \geoname{European} Sea Bass, (\bioname{Dicentrarchus
+                 labrax}) Developed under Rearing Conditions",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "13",
   number =       "2",
@@ -14097,10 +14163,10 @@
 
 @Article{Gebru:2022:NBE,
   author =       "Teklay Gebru",
-  title =        "Evaluation of Productivity and Profitability of {Nile}
-                 Tilapia (\bioname{O. niloticus}) with Beetroot
-                 (\bioname{Beta vulgaris}) and Carrot (\bioname{Daucus
-                 carota})",
+  title =        "Evaluation of Productivity and Profitability of
+                 \geoname{Nile} Tilapia (\bioname{O. niloticus}) with
+                 Beetroot (\bioname{Beta vulgaris}) and Carrot
+                 (\bioname{Daucus carota})",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "13",
   number =       "2",
@@ -14251,8 +14317,8 @@
 
 @Article{Huston:2022:EFA,
   author =       "Arthur Huston",
-  title =        "Efficacy of Freshwater Aquaculture in {India} and
-                 Future Goals",
+  title =        "Efficacy of Freshwater Aquaculture in \geoname{India}
+                 and Future Goals",
   journal =      j-J-AQUACULT-RES-DEV,
   volume =       "13",
   number =       "4",

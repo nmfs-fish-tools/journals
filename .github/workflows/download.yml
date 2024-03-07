@@ -26,7 +26,7 @@ jobs:
           last_commit_msg=$(git log -1 --pretty=%B)
       - name: Create Pull Request
         if: ${{ !contains(steps.commit-msg.outputs.msg, 'run')}}
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: 'Updates journals bib files using download.yml'
           branch: download
